@@ -16,7 +16,7 @@
                             <th>เบอร์โทร</th>
                             <th>ที่อยู่</th>
                             <th>วันที่บันทึก</th>
-                            <th>จำนวน</th>
+                            <!-- <th>จำนวน</th> -->
                             <th>แก้ไข</th>
                             <th>ลบข้อมูล</th>
 
@@ -37,7 +37,7 @@
                                 <td> <?php echo $rs->m_tel; ?> </td>
                                 <td> <?php echo $rs->m_ads; ?> </td>
                                 <td> <?php echo $rs->m_datesave; ?> </td>
-                                <td> <?php echo $rs->count; ?> </td>
+                                <!-- <td> <?php echo $rs->count; ?> </td> -->
                                 <td><a href="<?php echo site_url('insertdata/edit/') . $rs->m_id; ?>">edit</td>
                                 <td><a href="<?php echo site_url('insertdata/del/') . $rs->m_id; ?>" onclick="return confirm('ยืนยัน')">delete</td>
                             </tr>
