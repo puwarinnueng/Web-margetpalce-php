@@ -1,0 +1,40 @@
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-7">
+          <h4 style="text-align:left;"> ลงชื่อเข้าใช้</h4>
+              <br>
+              <form action="<?php echo site_url('register/showlogin');?>" method="post" class="form-hoizontal">
+                 <div class="form-group row">
+                     <div class="col-sm-2 control-label">Username</div>
+                     <div class="col-sm-7">
+                         <input type="text" name="username" required class="form-control"
+                         placeholder="ชื่อผู้ใช้">
+                     </div>
+                 </div> 
+
+
+                 <div class="form-group row">
+                     <div class="col-sm-2 control-label">Password</div>
+                     <div class="col-sm-5">
+                         <input type="password" name="password" required class="form-control"
+                         placeholder="รหัสผ่าน">
+                     </div>
+                 </div>
+                 
+                
+
+                 <div class="form-group row">
+                     <div class="col-sm-2 control-label"></div>
+                     <div class="col-sm-5">
+                        <button type="submit" class="btn btn-primary">ตกลง</button>
+                     </div>
+                 </div> 
+
+            </form>
+       </div>
+    </div>
+  </div>
+
+
+
