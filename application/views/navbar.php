@@ -9,12 +9,12 @@
 
     }
     /* ลองเทสนะครับ */
+    /*test*/
 
     .row1 {
       padding-top: 15px;
       padding-right: 50px;
     }
-    /*test again*/
 
     .row2 {
       padding-bottom: 0px;
