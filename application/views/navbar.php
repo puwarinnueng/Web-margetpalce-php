@@ -6,6 +6,7 @@
     #flipkart-navbar {
       background-color: #2874f0;
       color: #FFFFFF;
+      
     }
 
     .row1 {
