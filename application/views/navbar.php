@@ -9,9 +9,10 @@
 
     }
     /* ลองเทสนะครับ */
+    /* Au Changed */
 
     .row1 {
-      padding-top: 15px;
+      padding-top: 35 px;
       padding-right: 50px;
     }
 
