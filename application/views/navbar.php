@@ -9,7 +9,7 @@
     }
 
     .row1 {
-      padding-top: 15px;
+      padding-top: 20px;
       padding-right: 50px;
     }
 
