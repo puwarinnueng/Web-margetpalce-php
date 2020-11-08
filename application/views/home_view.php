@@ -422,7 +422,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       </div>
     </div>
 
-
+<!--
     <div class="container ft">
       <div class="row">
         <div class="col-xs-12 col-md-12">
@@ -431,7 +431,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 
