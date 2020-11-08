@@ -8,15 +8,8 @@
       color: #FFFFFF;
 
     }
-    /* ลองเทสนะครับ */
-    /* Au Changed */
-
     .row1 {
-<<<<<<< HEAD
-      padding-top: 30px;
-=======
-      padding-top: 35 px;
->>>>>>> 07ed6983e10697e94f1edbd7706c974de1f0ee59
+      padding-top: 15px;
       padding-right: 50px;
     }
     /*test again*/
