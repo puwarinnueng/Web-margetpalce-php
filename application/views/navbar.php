@@ -309,21 +309,20 @@
         <ul class="largenav pull-right">
           <li class="cart-button2 upper-links dropdown"><a class="links" href="http://clashhacks.in/">หมวดหมู่สินค้า☰</a>
             <ul class="dropdown-menu">
-              <li class="profile-li"><a class="profile-links" href="http://yazilife.com/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://hacksociety.tech/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
+              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
+              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
+              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
+              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
+              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
+              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
+              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
             </ul>
           </li>
-          <li class="upper-links"><a class="links" href="http://clashhacks.in/">Link 1</a></li>
-          <li class="upper-links"><a class="links" href="https://campusbox.org/">Link 2</a></li>
-          <li class="upper-links"><a class="links" href="http://clashhacks.in/">Link 3</a></li>
-          <li class="upper-links"><a class="links" href="http://clashhacks.in/">Link 4</a></li>
-          <li class="upper-links"><a class="links" href="http://clashhacks.in/">Link 5</a></li>
-          <li class="upper-links"><a class="links" href="http://clashhacks.in/">Link 6</a></li>
+          <li class="upper-links"><a class="links" href="">cpu</a></li>
+          <li class="upper-links"><a class="links" href="">mainboard</a></li>
+          <li class="upper-links"><a class="links" href="">gpu</a></li>
+          <li class="upper-links"><a class="links" href="">ram</a></li>
+          
 
           <li class="upper-links dropdown"><a class="links" href="http://clashhacks.in/">Dropdown</a>
             <ul class="dropdown-menu">
