@@ -17,6 +17,14 @@ class Home extends CI_Controller
         $this->load->view('footer');
     }
 
+    public function group_mb()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('group/mainboard');
+        $this->load->view('js');
+    }
+
     public function asus()
     {
         $this->load->view('navbar');

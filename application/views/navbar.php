@@ -308,7 +308,7 @@
         <ul class="largenav pull-right">
           <li class="cart-button2 upper-links dropdown"><a class="links" href="http://clashhacks.in/">หมวดหมู่สินค้า☰</a>
             <ul class="dropdown-menu">
-              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
+              <li class="profile-li"><a class="profile-links" href="<?php echo site_url('home/group_mb'); ?>">mainboard</a></li>
               <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
               <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
               <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
