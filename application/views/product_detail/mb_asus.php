@@ -16,9 +16,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 </head>
 
-<body style="text-align:center;">
+<body style="text-align:left;">
   <br>
-  <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="20%">
+  <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="10%" align="center" margin-left="100">
   <br>
   <h3>รายละเอียด product deatil</h3>
   <br>
