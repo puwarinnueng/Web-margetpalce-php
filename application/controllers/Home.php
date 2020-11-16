@@ -10,7 +10,7 @@ class Home extends CI_Controller
 
 
 
-        $this->load->view('navbar');
+        $this->load->view('navbar2');
         $this->load->view('css');
         $this->load->view('home_view');
         $this->load->view('js');
