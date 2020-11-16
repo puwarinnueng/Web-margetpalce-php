@@ -73,7 +73,7 @@
           <div class="dropdown-group">
             <button class="dropbtn"><i class="fa fa-bars" id="hamburger"></i>หมวดหมู่สินค้า </button>
             <div class="dropdown-content-group">
-              <a href="#">Mainborad</a>
+              <a href="<?php echo site_url('home/asus'); ?>">Mainborad</a>
               <a href="#">Graphic card</a>
               <a href="#">RAM</a>
               <a href="#">CPU</a>
@@ -83,7 +83,7 @@
 
         <div class="col-md-2">
           <div class="dropdown-group">
-            <button class="dropbtn"><i class="fa fa-home" id="hamburger"></i>หน้าแรก </button>
+            <a href="<?php echo site_url(); ?>" class="dropbtn"><i class="fa fa-home" id="hamburger"></i>หน้าแรก </a>
             <!-- <div class="dropdown-content-group">
               <a href="#">Mainborad</a>
               <a href="#">Graphic card</a>
@@ -93,11 +93,11 @@
           </div>
         </div>
 
-        <div class="col-md-2">
+        <div class="col-md-3">
           <div class="dropdown-group">
-            <button class="dropbtn"><i class="fa fa-caret-down" id="dropdown_icon"></i> เงื่อนไขการบริการ </button>
+            <a class="dropbtn"><i class="fa fa-caret-down" id="dropdown_icon"></i> เงื่อนไขการบริการ </a>
             <div class="dropdown-content-group">
-              <a href="#">Mainborad</a>
+              <a href="<?php echo site_url('home/asus'); ?>">Mainborad</a>
               <a href="#">Graphic card</a>
               <a href="#">RAM</a>
               <a href="#">CPU</a>
@@ -107,7 +107,7 @@
 
         <div class="col-md-2">
           <div class="dropdown-group">
-            <button class="dropbtn"><i class="fa fa-caret-down" id="dropdown_icon"></i> การรับประกัน </button>
+            <a class="dropbtn"><i class="fa fa-caret-down" id="dropdown_icon"></i> การรับประกัน </a>
             <!-- <div class="dropdown-content-group">
               <a href="#">Mainborad</a>
               <a href="#">Graphic card</a>
@@ -119,7 +119,7 @@
 
         <div class="col-md-2">
           <div class="dropdown-group">
-            <button class="dropbtn"><i class="" id="dropdown_icon"></i> เกี่ยวกับเรา </button>
+            <a href="<?php echo site_url(); ?>" class="dropbtn"><i class="" id="dropdown_icon"></i> เกี่ยวกับเรา </a>
             <!-- <div class="dropdown-content-group">
               <a href="#">Mainborad</a>
               <a href="#">Graphic card</a>
