@@ -81,37 +81,29 @@
           </div>
         </div>
 
-
-
-
-
-
-
         <div class="nav-item dropdown active ">
           <div class="bar-list-menu">
             <ul>
 
-            <div>
-              <li class="active"><a href="#home"><i class="fa fa-home" id="home"></i>หน้าแรก</a></li>
-              <li><a href="#news">เงื่อนไขการบริการ<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
-                <ul class="sub-menu1">
-                  <li><a href="#">Mainborad</a></li>
-                  <li><a href="#">Graphic card</a></li>
-                </ul>
-              </li>
-            </div>
+              <div>
+                <li class="active"><a href="#home"><i class="fa fa-home" id="home"></i>หน้าแรก</a></li>
+                <li><a href="#news">เงื่อนไขการบริการ<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
+                  <ul class="sub-menu1">
+                    <li><a href="#">Mainborad</a></li>
+                    <li><a href="#">Graphic card</a></li>
+                  </ul>
+                </li>
+              </div>
 
 
-            <div>
-              <li><a href="#contact">การรับประกัน<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
-                <!-- <ul>
+              <div>
+                <li><a href="#contact">การรับประกัน<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
+                  <!-- <ul>
                   <li><a href="#">Mainborad</a></li>
                   <li><a href="#">Graphic card</a></li>
                 </ul> -->
-                <
-
-              </li>
-              <li><a href="#about">เกี่ยวกับเรา</a></li>
+                </li>
+                <li><a href="#about">เกี่ยวกับเรา</a></li>
             </ul>
           </div>
         </div>
