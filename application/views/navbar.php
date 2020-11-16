@@ -47,12 +47,11 @@
         </div>
 
         <!-- เข้าสู่ระบบ -->
-        <div class="offset-md-1">
+        <div class="col-md-1">
           <div class="dropdown">
             <button class="drop_btn">
               <p class="icon_profile"><i class="fa fa-user" aria-hidden="true"></i></p>
               เข้าสู่ระบบ
-              <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
               <a href="<?php echo site_url('insertdata'); ?>">สมัครสมาชิก</a>
@@ -69,7 +68,7 @@
 
       <!-- หมวดหมู่ -->
       <div class="row row2">
-        <div class="col-md-4">
+        <div class="col-md-4  ">
           <div class="dropdown-group">
             <button class="dropbtn"><i class="fa fa-bars" id="hamburger"></i>หมวดหมู่สินค้า </button>
             <div class="dropdown-content-group">
@@ -94,10 +93,10 @@
               </li>
 
               <li><a href="#contact">การรับประกัน<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
-                <!-- <ul>
+                <ul class="sub-menu2">
                   <li><a href="#">Mainborad</a></li>
                   <li><a href="#">Graphic card</a></li>
-                </ul> -->
+                </ul>
 
               </li>
               <li><a href="#about">เกี่ยวกับเรา</a></li>

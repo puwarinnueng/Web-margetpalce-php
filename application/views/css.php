@@ -293,18 +293,18 @@
     .addtocart {
 
         position: relative;
-        transform: translate(-50%, -50%);
+        /* transform: translate(-50%, -50%); */
 
     }
 
     .add_to_cart {
-        padding: 8px 35px;
+        padding: 0px 10px;
         position: absolute;
         vertical-align: middle;
         color: #fff;
         font-size: 26px;
         display: inline-block;
-
+        
     }
 
     .add_to_cart:hover,
@@ -325,7 +325,6 @@
         background-repeat: no-repeat;
         overflow: hidden;
         outline: none;
-
     }
 
     .drop_btn:hover,
@@ -370,7 +369,7 @@
     }
 
     .icon_profile {
-        font-size: 20px
+        font-size: 18px
     }
 </style>
 
@@ -488,6 +487,7 @@
 /* ----------- submenu----------------- */
     .sub-menu1 {
         display: none;
+        z-index: 3000;
     }
 
     .bar-list-menu ul li:hover .sub-menu1 {
@@ -502,5 +502,24 @@
         background: #ff9d47;
 
     }
+
+    .sub-menu2 {
+        display: none;
+        z-index: 3000;
+    }
+
+    .bar-list-menu ul li:hover .sub-menu2 {
+        display: block;
+        position: absolute;
+        background: #ff9d47;
+        width: 120px;
+    }
+
+     .sub-menu2 li a:hover{
+        color: #003559;
+        background: #ff9d47;
+
+    }
+
 
 </style>
