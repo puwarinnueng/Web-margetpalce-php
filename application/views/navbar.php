@@ -68,7 +68,7 @@
       <!-- ----------------------------------------------------------------------------------- -->
 
       <!-- หมวดหมู่ -->
-      <div class="col-md-12">
+      <div class="col-md-11">
         <div class="col-md-3">
           <div class="dropdown-group">
             <button class="dropbtn"><i class="fa fa-bars" id="hamburger"></i>หมวดหมู่สินค้า </button>
