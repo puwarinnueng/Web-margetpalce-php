@@ -68,41 +68,11 @@
       <!-- ----------------------------------------------------------------------------------- -->
 
       <!-- หมวดหมู่ -->
-      <div class="col-md-11">
-        <div class="col-md-3">
+      <div class="row row2">
+        <div class="col-md-4  ">
           <div class="dropdown-group">
             <button class="dropbtn"><i class="fa fa-bars" id="hamburger"></i>หมวดหมู่สินค้า </button>
             <div class="dropdown-content-group">
-              <a href="<?php echo site_url('home/asus'); ?>">Mainborad</a>
-              <a href="#">Graphic card</a>
-              <a href="#">RAM</a>
-              <a href="#">CPU</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-2">
-          <div class="dropdown-group">
-            <a href="<?php echo site_url(); ?>" class="dropbtn"><i class="fa fa-home" id="hamburger"></i>หน้าแรก </a>
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="dropdown-group">
-            <a class="dropbtn"><i class="fa fa-caret-down" id="dropdown_icon"></i> เงื่อนไขการบริการ </a>
-            <div class="dropdown-content-group">
-              <a href="<?php echo site_url('home/asus'); ?>">Mainborad</a>
-              <a href="#">Graphic card</a>
-              <a href="#">RAM</a>
-              <a href="#">CPU</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-2">
-          <div class="dropdown-group">
-            <a class="dropbtn"><i class="fa fa-caret-down" id="dropdown_icon"></i> การรับประกัน </a>
-            <div class="dropdown-content-group">
               <a href="#">Mainborad</a>
               <a href="#">Graphic card</a>
               <a href="#">RAM</a>
@@ -111,22 +81,17 @@
           </div>
         </div>
 
-        <div class="col-md-2">
-          <div class="dropdown-group">
-            <a href="<?php echo site_url(); ?>" class="dropbtn"><i class="" id="dropdown_icon"></i> เกี่ยวกับเรา </a>
-            <!-- <div class="dropdown-content-group">
-              <a href="#">Mainborad</a>
-              <a href="#">Graphic card</a>
-              <a href="#">RAM</a>
-              <a href="#">CPU</a>
-            </div> -->
-          </div>
-        </div>
 
-        <!-- ของเก่าริน -->
-        <!-- <div class="nav-item dropdown active ">
+
+
+
+
+
+        <div class="nav-item dropdown active ">
           <div class="bar-list-menu">
             <ul>
+
+            <div>
               <li class="active"><a href="#home"><i class="fa fa-home" id="home"></i>หน้าแรก</a></li>
               <li><a href="#news">เงื่อนไขการบริการ<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
                 <ul class="sub-menu1">
@@ -134,13 +99,22 @@
                   <li><a href="#">Graphic card</a></li>
                 </ul>
               </li>
+            </div>
+
+
+            <div>
               <li><a href="#contact">การรับประกัน<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
+                <!-- <ul>
+                  <li><a href="#">Mainborad</a></li>
+                  <li><a href="#">Graphic card</a></li>
+                </ul> -->
+                <
 
               </li>
               <li><a href="#about">เกี่ยวกับเรา</a></li>
             </ul>
           </div>
-        </div> -->
+        </div>
 
       </div>
 
