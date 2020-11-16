@@ -32,6 +32,7 @@ class Home extends CI_Controller
         $this->load->view('css');
         $this->load->view('group/gpu');
         $this->load->view('js');
+        $this->load->view('footer');
     }
 
     public function group_cpu()
@@ -40,6 +41,7 @@ class Home extends CI_Controller
         $this->load->view('css');
         $this->load->view('group/cpu');
         $this->load->view('js');
+        $this->load->view('footer');
     }
 
     public function group_ram()
@@ -48,6 +50,7 @@ class Home extends CI_Controller
         $this->load->view('css');
         $this->load->view('group/ram');
         $this->load->view('js');
+        $this->load->view('footer');
     }
 
     public function asus()
@@ -56,5 +59,6 @@ class Home extends CI_Controller
         $this->load->view('css');
         $this->load->view('product_detail/mb_asus');
         $this->load->view('js');
+        $this->load->view('footer');
     }
 }
