@@ -15,9 +15,9 @@
       <!-- LOGO -->
       <div class="row row1">
         <div class="col-md-3">
-          <!-- <a href="<?php echo base_url(''); ?>">
-            <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="50%">
-          </a> -->
+          <a href="<?php echo base_url(''); ?>">
+            <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="20%">
+          </a>
         </div>
 
         <!-- Search Box -->
@@ -73,10 +73,10 @@
           <div class="dropdown-group">
             <button class="dropbtn"><i class="fa fa-bars" id="hamburger"></i>หมวดหมู่สินค้า </button>
             <div class="dropdown-content-group">
-              <a href="#">Mainborad</a>
-              <a href="#">Graphic card</a>
-              <a href="#">RAM</a>
-              <a href="#">CPU</a>
+              <a href="<?php echo site_url('home/group_mb'); ?>">Mainborad</a>
+              <a href="<?php echo site_url('home/group_gpu'); ?>">Graphic card</a>
+              <a href="<?php echo site_url('home/group_ram'); ?>">RAM</a>
+              <a href="<?php echo site_url('home/group_cpu'); ?>">CPU</a>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@
         <div class="col-md-7">
           <div class="bar-list-menu">
             <ul>
-              <li class="active"><a href="#home"><i class="fa fa-home" id="home"></i>หน้าแรก</a></li>
+              <li class="active"><a href="<?php echo site_url('home'); ?>"><i class="fa fa-home" id="home"></i>หน้าแรก</a></li>
 
               <li><a href="#news">เงื่อนไขการบริการ<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
                 <ul class="sub-menu1">

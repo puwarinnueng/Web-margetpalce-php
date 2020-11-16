@@ -10,7 +10,7 @@ class Home extends CI_Controller
 
 
 
-        $this->load->view('navbar2');
+        $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('home_view');
         $this->load->view('js');
@@ -22,6 +22,30 @@ class Home extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('group/mainboard');
+        $this->load->view('js');
+    }
+
+    public function group_gpu()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('group/gpu');
+        $this->load->view('js');
+    }
+
+    public function group_cpu()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('group/cpu');
+        $this->load->view('js');
+    }
+
+    public function group_ram()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('group/ram');
         $this->load->view('js');
     }
 
