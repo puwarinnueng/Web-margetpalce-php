@@ -93,6 +93,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- social -->
 
     <!-- mainboard -->
+    <br>
+    <br>
     <div class="container">
       <div class="row">
         <div class="col-md-12"><br>
@@ -149,17 +151,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <a href="<?php echo site_url('Welcome/index'); ?>" class="btn btn-primary"> เพิ่มไปที่รถเข็น</a>
           </p>
         </div>
-        <div class="col-md-3">
-          <a href="<?php echo site_url('home/asus'); ?>">
-            LGA1200 Z490 Aorus xteame</a>
-          <br>
-          <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="50%">
-          <p align="center">
-            <a>18,000 บาท</a>
-            <br>
-            <a href="<?php echo site_url('Welcome/index'); ?>" class="btn btn-primary"> เพิ่มไปที่รถเข็น</a>
-          </p>
-        </div>
+      
 
 
       </div>

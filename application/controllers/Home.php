@@ -23,6 +23,7 @@ class Home extends CI_Controller
         $this->load->view('css');
         $this->load->view('group/mainboard');
         $this->load->view('js');
+        $this->load->view('footer');
     }
 
     public function group_gpu()
