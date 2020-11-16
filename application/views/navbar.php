@@ -2,351 +2,112 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    #flipkart-navbar {
-      background-color: #2874f0;
-      color: #FFFFFF;
-
-    }
-
-    .row1 {
-      padding-top: 15px;
-      padding-right: 50px;
-    }
-
-    /*test again*/
-
-    .row2 {
-      padding-bottom: 0px;
-    }
-
-    .flipkart-navbar-input {
-      padding: 11px 16px;
-      border-radius: 2px 0 0 2px;
-      border: 0 none;
-      outline: 0 none;
-      font-size: 15px;
-    }
-
-    .flipkart-navbar-button {
-      background-color: #ffe11b;
-      border: 1px solid #ffe11b;
-      border-radius: 0 2px 2px 0;
-      color: #565656;
-      padding: 10px 0;
-      height: 43px;
-      cursor: pointer;
-    }
-
-    .cart-button {
-      background-color: #2469d9;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
-      padding: 10px 0;
-      text-align: center;
-      height: 41px;
-      border-radius: 2px;
-      font-weight: 500;
-      width: 100px;
-      display: inline-block;
-      color: #FFFFFF;
-      text-decoration: none;
-      color: inherit;
-      border: none;
-      outline: none;
-    }
-
-    .cart-button2 {
-      background-color: black;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
-      padding: 10px 0;
-      text-align: center;
-      height: 25px;
-      border-radius: 2px;
-      font-weight: 500;
-      width: 120px;
-      display: inline-block;
-      color: #FFFFFF;
-      text-decoration: none;
-      color: inherit;
-      border: none;
-      outline: none;
-    }
-
-    .cart-button:hover {
-      text-decoration: none;
-      color: #fff;
-      cursor: pointer;
-    }
-
-    .cart-svg {
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      vertical-align: middle;
-      margin-right: 8px;
-
-    }
-
-    .item-number {
-      border-radius: 3px;
-      background-color: rgba(0, 0, 0, .1);
-      height: 20px;
-      padding: 3px 6px;
-      font-weight: 500;
-      display: inline-block;
-      color: #fff;
-      line-height: 12px;
-      margin-left: 10px;
-    }
-
-    .upper-links {
-      display: inline-block;
-      padding: 0 11px;
-      line-height: 23px;
-      font-family: 'Roboto', sans-serif;
-      letter-spacing: 0;
-      color: inherit;
-      border: none;
-      outline: none;
-      font-size: 12px;
-    }
-
-    .dropdown {
-      position: relative;
-      display: inline-block;
-      margin-bottom: 0px;
-    }
-
-    .dropdown:hover {
-      background-color: #fff;
-    }
-
-    .dropdown:hover .links {
-      color: #000;
-    }
-
-    .dropdown:hover .dropdown-menu {
-      display: block;
-    }
-
-    .dropdown .dropdown-menu {
-      position: absolute;
-      top: 100%;
-      display: none;
-      background-color: #fff;
-      color: #333;
-      left: 0px;
-      border: 0;
-      border-radius: 0;
-      box-shadow: 0 4px 8px -3px #555454;
-      margin: 0;
-      padding: 0px;
-    }
-
-    .links {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .links:hover {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    .profile-links {
-      font-size: 12px;
-      font-family: 'Roboto', sans-serif;
-      border-bottom: 1px solid #e9e9e9;
-      box-sizing: border-box;
-      display: block;
-      padding: 0 11px;
-      line-height: 23px;
-    }
-
-    .profile-li {
-      padding-top: 2px;
-    }
-
-    .largenav {
-      display: none;
-    }
-
-    .smallnav {
-      display: block;
-    }
-
-    .smallsearch {
-      margin-left: 15px;
-      margin-top: 15px;
-    }
-
-    .menu {
-      cursor: pointer;
-    }
-
-    @media screen and (min-width: 768px) {
-      .largenav {
-        display: block;
-      }
-
-      .smallnav {
-        display: none;
-      }
-
-      .smallsearch {
-        margin: 0px;
-      }
-    }
-
-    /*Sidenav*/
-    .sidenav {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #fff;
-      overflow-x: hidden;
-      transition: 0.5s;
-      box-shadow: 0 4px 8px -3px #555454;
-      padding-top: 0px;
-    }
-
-    .sidenav a {
-      padding: 8px 8px 8px 32px;
-      text-decoration: none;
-      font-size: 25px;
-      color: #818181;
-      display: block;
-      transition: 0.3s
-    }
-
-    .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 25px;
-      font-size: 36px;
-      margin-left: 50px;
-      color: #fff;
-    }
-
-    @media screen and (max-height: 450px) {
-      .sidenav a {
-        font-size: 18px;
-      }
-    }
-
-    .sidenav-heading {
-      font-size: 36px;
-      color: #fff;
-    }
-  </style>
-
-
-
-
-
-
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <div id="flipkart-navbar">
     <div class="container">
 
-
+      <!-- LOGO -->
       <div class="row row1">
-        <div class="col-sm-2">
-          <a href="<?php echo base_url(''); ?>">
+        <div class="col-md-3">
+          <!-- <a href="<?php echo base_url(''); ?>">
             <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="50%">
-          </a>
+          </a> -->
         </div>
 
-
-        <div class="flipkart-navbar-search smallsearch col-sm-7 col-xs-11">
-          <div class="row">
-            <input class="flipkart-navbar-input col-xs-11" type="" placeholder="ค้นหาอุปกรณ์ที่คุณตองการ" name="">
-            <button class="flipkart-navbar-button col-xs-1">
-              <svg width="15px" height="15px">
-                <path d="M11.618 9.897l4.224 4.212c.092.09.1.23.02.312l-1.464 1.46c-.08.08-.222.072-.314-.02L9.868 11.66M6.486 10.9c-2.42 0-4.38-1.955-4.38-4.367 0-2.413 1.96-4.37 4.38-4.37s4.38 1.957 4.38 4.37c0 2.412-1.96 4.368-4.38 4.368m0-10.834C2.904.066 0 2.96 0 6.533 0 10.105 2.904 13 6.486 13s6.487-2.895 6.487-6.467c0-3.572-2.905-6.467-6.487-6.467 "></path>
-              </svg>
-            </button>
+        <!-- Search Box -->
+        <div class="col-md-6">
+          <div class="wrapper">
+            <div class="box-Container">
+              <input type="text" class="box-input" placeholder="Search Anything You Want... ">
+              <input type="button" value="Search" class="close-btn">
+              <span><i class="fa fa-search"></i></span>
+            </div>
           </div>
         </div>
 
-        <div class="cart largenav col-sm-2">
-          <a class="cart-button">
-            <svg class="cart-svg " width="16 " height="16 " viewBox="0 0 16 16 ">
-              <path d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86 " fill="#fff "></path>
-            </svg> รถเข็น
-            <span class="item-number ">0</span>
-          </a>
+        <!-- รถเข็น -->
+        <div class="col-md-1">
+          <div class="addtocart">
+            <table>
+              <tr>
+                <td><a href="https://www.google.com/" class="add_to_cart"><i class="fa fa-shopping-cart"></i></a></td>
+              </tr>
+              <tr>
+                <!-- <td><a href="https://www.google.com/" class="add_to_cart_txt">รถเข็น</a></td> -->
+              </tr>
+            </table>
+          </div>
+
         </div>
 
-
-        <ul class="cart largenav col-sm-1">
-          <li class="nav-item dropdown active">
-            <a class="cart-button" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa fa-fw fa-user"></i>
-              เข้าสู่ระบบ☰
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="<?php echo site_url('insertdata'); ?>">สมัครสมาชิก</a>
-              <a class="dropdown-item" href="<?php echo site_url('insertdata/login'); ?>">เข้าสู่ระบบ</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="<?php echo site_url('insertdata/showmember'); ?>">แก้ไขข้อมูล</a>
+        <!-- เข้าสู่ระบบ -->
+        <div class="offset-md-1">
+          <div class="dropdown">
+            <button class="drop_btn">
+              <p class="icon_profile"><i class="fa fa-user" aria-hidden="true"></i></p>
+              เข้าสู่ระบบ
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="<?php echo site_url('insertdata'); ?>">สมัครสมาชิก</a>
+              <a href="<?php echo site_url('insertdata/login'); ?>">เข้าสู่ระบบ</a>
+              <li class="divider"></li>
+              <a href="<?php echo site_url('insertdata/showmember'); ?>">แก้ไขข้อมูล</a>
             </div>
-          </li>
-        </ul>
+          </div>
+
+        </div>
+
       </div>
+      <!-- ----------------------------------------------------------------------------------- -->
 
-
+      <!-- หมวดหมู่ -->
       <div class="row row2">
-        <ul class="largenav pull-right">
-          <li class="cart-button2 upper-links dropdown"><a class="links" href="http://clashhacks.in/">หมวดหมู่สินค้า☰</a>
-            <ul class="dropdown-menu">
-              <li class="profile-li"><a class="profile-links" href="<?php echo site_url('home/group_mb'); ?>">mainboard</a></li>
-              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
-              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
-              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
-              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
-              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
-              <li class="profile-li"><a class="profile-links" href="">สินค้า</a></li>
-            </ul>
-          </li>
-          <li class="upper-links"><a class="links" href="">cpu</a></li>
-          <li class="upper-links"><a class="links" href="">mainboard</a></li>
-          <li class="upper-links"><a class="links" href="">gpu</a></li>
-          <li class="upper-links"><a class="links" href="">ram</a></li>
+        <div class="col-md-4  ">
+          <div class="dropdown-group">
+            <button class="dropbtn"><i class="fa fa-bars" id="hamburger"></i>หมวดหมู่สินค้า </button>
+            <div class="dropdown-content-group">
+              <a href="#">Mainborad</a>
+              <a href="#">Graphic card</a>
+              <a href="#">RAM</a>
+              <a href="#">CPU</a>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-md-7 ">
+          <div class="bar-list-menu">
+            <ul>
+              <li class="active"><a href="#home"><i class="fa fa-home" id="home"></i>หน้าแรก</a></li>
+              <li><a href="#news">เงื่อนไขการบริการ<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
+                <ul class="sub-menu1">
+                  <li><a href="#">Mainborad</a></li>
+                  <li><a href="#">Graphic card</a></li>
+                </ul>
+              </li>
 
-          <li class="upper-links dropdown"><a class="links" href="http://clashhacks.in/">Dropdown</a>
-            <ul class="dropdown-menu">
-              <li class="profile-li"><a class="profile-links" href="http://yazilife.com/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://hacksociety.tech/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
-              <li class="profile-li"><a class="profile-links" href="http://clashhacks.in/">Link</a></li>
+              <li><a href="#contact">การรับประกัน<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
+                <!-- <ul>
+                  <li><a href="#">Mainborad</a></li>
+                  <li><a href="#">Graphic card</a></li>
+                </ul> -->
+
+              </li>
+              <li><a href="#about">เกี่ยวกับเรา</a></li>
             </ul>
-          </li>
-        </ul>
+          </div>
+        </div>
+        
       </div>
+
+
 
 
     </div>
   </div>
-  <!-- <div id="mySidenav" class="sidenav">
-  <div class="container" style="background-color: #2874f0; padding-top: 10px;">
-    <span class="sidenav-heading">Home</span>
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  </div>
-  <a href="http://clashhacks.in/">Link</a>
-  <a href="http://clashhacks.in/">Link</a>
-  <a href="http://clashhacks.in/">Link</a>
-  <a href="http://clashhacks.in/">Link</a>
-</div> -->
