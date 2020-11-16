@@ -84,12 +84,6 @@
         <div class="col-md-2">
           <div class="dropdown-group">
             <a href="<?php echo site_url(); ?>" class="dropbtn"><i class="fa fa-home" id="hamburger"></i>หน้าแรก </a>
-            <!-- <div class="dropdown-content-group">
-              <a href="#">Mainborad</a>
-              <a href="#">Graphic card</a>
-              <a href="#">RAM</a>
-              <a href="#">CPU</a>
-            </div> -->
           </div>
         </div>
 
@@ -108,12 +102,12 @@
         <div class="col-md-2">
           <div class="dropdown-group">
             <a class="dropbtn"><i class="fa fa-caret-down" id="dropdown_icon"></i> การรับประกัน </a>
-            <!-- <div class="dropdown-content-group">
+            <div class="dropdown-content-group">
               <a href="#">Mainborad</a>
               <a href="#">Graphic card</a>
               <a href="#">RAM</a>
               <a href="#">CPU</a>
-            </div> -->
+            </div>
           </div>
         </div>
 
