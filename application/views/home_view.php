@@ -13,6 +13,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
   <meta charset="utf-8">
   <title>com</title>
+  <link rel="stylesheet" href="Home_view.php">
 
 </head>
 
@@ -22,10 +23,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
   <!-- ไหลแล้วไหลเลย -->
-  <marquee direction="left" width="1000px">
+  <!-- <marquee direction="left" width="1000px">
     <FONT COLOR="#990033" size="6"><strong>NRA COMPUTER มีโปรโมชั่นมากมาย เพื่อคุณ ที่นี่ที่เดียว!!</strong>
-  </marquee>
-  <style>
+  </marquee> -->
+  <!-- <style>
     * {
       box-sizing: border-box;
     }
@@ -99,11 +100,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
       }
     }
   </style>
-  </head>
+  </head> -->
 
   <body>
 
-    <div class="slideshow-container">
+    <!-- <div class="slideshow-container">
 
       <div class="mySlides fade">
         <div class="numbertext"> </div>
@@ -137,12 +138,101 @@ defined('BASEPATH') or exit('No direct script access allowed');
           <button class="w3-btn" style="position:absolute;top:52%;left:0" onclick="plusDivs(-1)">❮</button>
           <button class="w3-btn" style="position:absolute;top:52%;right:0" onclick="plusDivs(1)">❯</button>
         </div>
-      </div>
+      </div> -->
 
 
     </div>
 
-    <script>
+
+    <br><br>
+    <!-- image slide -->
+
+    <div id="slider">
+      <input type="radio" name="slider" id="slide1" checked>
+      <input type="radio" name="slider" id="slide2">
+      <input type="radio" name="slider" id="slide3">
+      <input type="radio" name="slider" id="slide4">
+      <div id="slides">
+        <div id="overflow">
+          <div class="inner">
+            <div class="slide slide_1">
+              <div class="slide-content">
+                <img src="<?php echo base_url('img/img1.jpg'); ?>">
+              </div>
+            </div>
+            <div class="slide slide_2">
+              <div class="slide-content">
+                <img src="<?php echo base_url('img/img2.jpg'); ?>">
+              </div>
+            </div>
+            <div class="slide slide_3">
+              <div class="slide-content">
+                <img src="<?php echo base_url('img/img3.jpg'); ?>">
+              </div>
+            </div>
+            <div class="slide slide_4">
+              <div class="slide-content">
+                <img src="<?php echo base_url('img/img4.jpg'); ?>">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="controls">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+      <div id="bullets">
+        <label for="slide1"></label>
+        <label for="slide2"></label>
+        <label for="slide3"></label>
+        <label for="slide4"></label>
+      </div>
+    </div>
+
+
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function() {
+        document.getElementById('slide' + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script>
       var slideIndex = 1;
       showDivs(slideIndex);
 
@@ -222,10 +312,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         }
         x[slideIndex - 1].style.display = "block";
       }
-    </script>
-
-
-
+    </script> -->
 
 
 
@@ -236,7 +323,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <style>
       body {
         margin: 0;
-        
+
         height: 2000px;
       }
 
@@ -295,8 +382,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
         margin-left: 75px;
         font-size: 30px;
       }
+
+      .head-goods {
+        font-family: 'Prompt', sans-serif;
+        margin: 100px 0 10px;
+      }
     </style>
 
+    <!-- social -->
     <div class="icon-bar">
 
       <a href="https://www.facebook.com/puwarin.nueng.92/" class="facebook"><i class="fa fa-facebook"></i></a>
@@ -306,6 +399,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <a href="#" class="fa fa-instagram"></a>
     </div>
     <!-- social -->
+
+    <br>
+    <div class="head-goods">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>สินค้าขายดี</h1>
+        </div>
+      </div>
+    </div>
+    <hr>
 
     <!-- mainboard -->
     <div class="container">
@@ -422,7 +525,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       </div>
     </div>
 
-<!--
+    <!--
     <div class="container ft">
       <div class="row">
         <div class="col-xs-12 col-md-12">
