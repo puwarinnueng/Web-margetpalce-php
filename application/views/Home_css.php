@@ -3,16 +3,17 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 
-<!-- <style>
-    body{
+<style>
+    body {
         margin: 0;
         padding: 0;
         height: 100vh;
-        /* display: ; */
         justify-content: center;
         align-items: center;
+        float: center;
 
     }
+
     .slider {
         width: 800px;
         height: 500px;
@@ -39,7 +40,7 @@
     .slide img {
         width: 800px;
         height: 500px;
-        
+
     }
 
 
@@ -82,8 +83,9 @@
     #radio3:checked~.first {
         margin-left: -40%;
     }
-</style> -->
+</style>
 
+<!-- brandner -->
 <style>
     #slider {
         margin: 0 auto;
@@ -135,7 +137,6 @@
         transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
         width: 400%;
         line-height: 300px;
-        /* height: 300px; */
     }
 
     #slides .slide {
@@ -147,22 +148,6 @@
         height: 100%;
         color: #fff;
     }
-
-    /* #slides .slide_1 {
-        background: #00171F;
-    }
-
-    #slides .slide_2 {
-        background: #003459;
-    }
-
-    #slides .slide_3 {
-        background: #007EA7;
-    }
-
-    #slides .slide_4 {
-        background: #00A8E8;
-    } */
 
     #controls {
         margin: -180px 0 0 0;
@@ -181,7 +166,7 @@
         opacity: .4;
     }
 
-     #controls label:hover {
+    #controls label:hover {
         opacity: 1;
 
     }
@@ -217,13 +202,13 @@
         padding: 5px;
         border-radius: 100%;
         cursor: pointer;
-        transition: 1s; 
+        transition: 1s;
         margin: 0 10px;
 
     }
 
-    #bullets label:hover{
-       background: #40D3DC;
+    #bullets label:hover {
+        background: #40D3DC;
     }
 
     #slide1:checked~#bullets label:nth-child(1),
@@ -252,3 +237,127 @@
         }
     }
 </style>
+
+<!-- เส้นคั่น -->
+<style>
+    hr.style1 {
+        border-top: 2px solid #ff9d47;
+        width: 70%;
+    }
+
+    .Best-sellers {
+        font-size: 26px;
+        color: #003559;
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+
+<!-- list card product -->
+<style>
+    .body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Prompt', sans-serif;
+        display: flex;
+    }
+
+    .card-product{
+        position: relative;
+        width: 220px;
+        height: 300px;
+        background: #20b7d5;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .card-product::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #b9d6f2;
+        clip-path: circle(110px at 80% 20%);
+        transition: 0.5s ease-in-out;
+    }
+
+    .card-product:hover:before{
+        clip-path: circle(250px at 80% -20%);
+    }
+
+    .card-product .imgBx{
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        z-index: 1;
+    }
+
+    .card-product .imgBx img{
+        width: 90%;
+        transition: 0.5s;
+    }
+
+    .card-product:hover .imgBx img{
+        max-width: 70%;
+        top: 0%;
+        transform: translate(0%);
+    }
+
+    .card-product .contentBx{
+        position: relative;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .card-product .contentBx .brand a{
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .card-product .contentBx .brand a:hover{
+        color: #003559;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .card-product .contentBx .price{
+        color: #003559;
+        font-size: 22px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .card-product .contentBx .buy{
+        position: relative;
+        padding: 10px 20px;
+        margin-top: 15px;
+        color: #003559;
+        text-decoration: none;
+        background: #f6f6f6;
+        border-radius: 30px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 200;
+        transition: 0.5s;
+        top: 0px;
+        opacity: 0;
+    }
+
+    .card-product:hover .contentBx .buy{
+        top: 0px;
+        opacity: 1;
+    }
+
+</style>
+
