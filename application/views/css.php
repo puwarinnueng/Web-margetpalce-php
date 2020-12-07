@@ -344,7 +344,7 @@
         background-color: #f9f9f9;
         min-width: 130px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
+        z-index: 20;
         font-size: 12px;
         align-items: center;
     }
@@ -400,7 +400,7 @@
         background-color: #f9f9f9;
         min-width: 200px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
+        z-index: 500;
         font-size: 14px;
         color: #003559;
     }
