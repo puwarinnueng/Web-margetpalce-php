@@ -3,9 +3,8 @@
             <div class="col-md-2"></div>
             <div class="col-md-7">
 
-                <!-- <table width=100% cellpadding="4" cellspacing="1" style="border:1px solid #dcdc77;">
-                   <tr>
-                       <td bgcolor="#dcdc77" style="border-style:solid;border-width:4px;border-color:#dcdc77 gray gray #dcdc77;"> -->
+                <br>
+                <br>
                 <h4 style="text-align:center;"> สมัครสมาชิก</h4>
                 <br>
                 <form action="<?php echo site_url('insertdata/adding'); ?>" method="post" class="form-hoizontal" enctype="multipart/form-data">
