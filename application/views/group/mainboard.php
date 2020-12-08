@@ -22,7 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <div class="head-goods">
-    <h1 class="Best-sellers">MAINBOARD</h1>
+    <h1 class="Best-sellers">MAINBOARD SOCKET 1200</h1>
   </div>
   <hr class="style1">
   <br>
