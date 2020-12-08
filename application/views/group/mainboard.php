@@ -104,7 +104,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <!-- social -->
 
   <div class="head-goods">
-    <h1 class="Best-sellers">Mainboard</h1>
+    <h1 class="Best-sellers">MAINBOARD</h1>
   </div>
   <hr class="style1">
   <br>
@@ -114,12 +114,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/1.png'); ?>">
+            <img src="<?php echo base_url('img/mb1.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 ROG XII Formula</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">18,400.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -128,12 +128,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/1.png'); ?>">
+            <img src="<?php echo base_url('img/mb2.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 MSI GODLIKE</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">25,900.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -142,12 +142,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/1.png'); ?>">
+            <img src="<?php echo base_url('img/mb3.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 AORUS XTREME</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">24,900.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -156,12 +156,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/1.png'); ?>">
+            <img src="<?php echo base_url('img/mb4.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 ASROCK Z490 TAICHI</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">12,600.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>

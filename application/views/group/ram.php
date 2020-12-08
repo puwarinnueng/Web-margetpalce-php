@@ -104,7 +104,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <!-- social -->
 
   <div class="head-goods">
-    <h1 class="Best-sellers">Mainboard</h1>
+    <h1 class="Best-sellers">RAM</h1>
   </div>
   <hr class="style1">
   <br>
