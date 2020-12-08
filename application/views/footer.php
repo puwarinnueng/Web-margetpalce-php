@@ -58,17 +58,17 @@
 
       <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
     </div>
+
   </div>
-
-
 
   <style type="text/css">
     .footer {
-      margin-top: 100px;
-      margin-bottom: 100px;
+      margin-top: 100%;
+      margin-bottom: 100%;
       background-color: #003559;
       color: white;
       font-family: 'Prompt', sans-serif;
+
     }
 
     .footer h6 {
