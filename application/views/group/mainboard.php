@@ -117,7 +117,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/mb1.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 ROG XII Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_asus'); ?>">LGA1200 Z490 ROG XII Formula</a></div>
             <br><br>
             <h2 class="price">18,400.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>

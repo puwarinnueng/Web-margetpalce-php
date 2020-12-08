@@ -55,7 +55,7 @@ class Home extends CI_Controller
         $this->load->view('footer');
     }
 
-    public function asus()
+    public function mb_asus()
     {
         $this->load->view('navbar');
         $this->load->view('css');
