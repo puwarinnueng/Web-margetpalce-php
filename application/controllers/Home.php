@@ -10,6 +10,7 @@ class Home extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('Home_css');
+        $this->load->view('social');
         $this->load->view('home_view');
         $this->load->view('js');
         $this->load->view('footer');
@@ -20,6 +21,7 @@ class Home extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('Home_css');
+        $this->load->view('social');
         $this->load->view('group/mainboard');
         $this->load->view('js');
         $this->load->view('footer');
@@ -30,6 +32,7 @@ class Home extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('Home_css');
+        $this->load->view('social');
         $this->load->view('group/gpu');
         $this->load->view('js');
         $this->load->view('footer');
@@ -40,6 +43,7 @@ class Home extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('Home_css');
+        $this->load->view('social');
         $this->load->view('group/cpu');
         $this->load->view('js');
         $this->load->view('footer');
@@ -50,6 +54,7 @@ class Home extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('Home_css');
+        $this->load->view('social');
         $this->load->view('group/ram');
         $this->load->view('js');
         $this->load->view('footer');
@@ -59,6 +64,7 @@ class Home extends CI_Controller
     {
         $this->load->view('navbar');
         $this->load->view('css');
+        $this->load->view('social');
         $this->load->view('product_detail/mb_asus');
         $this->load->view('product_detail/css_product_detail');
         $this->load->view('js');
