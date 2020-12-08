@@ -60,6 +60,7 @@ class Home extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('product_detail/mb_asus');
+        $this->load->view('product_detail/css_product_detail');
         $this->load->view('js');
         $this->load->view('footer');
     }
