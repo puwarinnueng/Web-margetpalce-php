@@ -237,7 +237,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     }
   </style>
 
-  <!-- social -->
+ 
   <div class="icon-bar">
 
     <a href="https://www.facebook.com/puwarin.nueng.92/" class="facebook"><i class="fa fa-facebook"></i></a>
