@@ -18,8 +18,8 @@
         margin: 0;
         padding: 0;
         height: 100hv;
-        /* align-items: center;
-        align-content: center; */
+        align-items: center;
+        align-content: center;
         font-family: 'Prompt', sans-serif;
 
     }
@@ -107,15 +107,36 @@
     .discription {
         background: #003559;
         color: #fff;
-        width: 95%;
+        width: 70%;
         height: 50px;
-        margin-left: 5%;
-        margin-top: 5%;
+        margin-left: 24%;
+        margin-top: 3%;
         align-items: center;
+        margin-bottom: 40%;
     }
 
     .discription h3 {
-       text-align: left;
-       padding: 15px 45px;
+        text-align: left;
+        padding: 15px 45px;
+    }
+
+    .discription_table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 4px solid  #003559;
+        font-size: 13px;
+    }
+
+    .discription_table td,
+    th {
+        border: 1px solid  #003559;
+        text-align: left;
+        padding: 8px;
+    }
+
+    .discription_table td:first-child{
+        width: 20%;
+        font-weight: bold;
+
     }
 </style>
