@@ -83,11 +83,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </tr>
             <tr>
               <td>CPU Series </td>
-              <td>Z490</td>
+              <td>Intel Celeron , Intel Core i3 , Intel Core i5 , Intel Core i7 , Intel Core i9 , Intel Pentium Gold</td>
             </tr>
             <tr>
               <td>Chipset </td>
-              <td>Intel Celeron , Intel Core i3 , Intel Core i5 , Intel Core i7 , Intel Core i9 , Intel Pentium Gold</td>
+              <td>Z490</td>
             </tr>
             <tr>
               <td>จำนวน Slot แรม </td>
