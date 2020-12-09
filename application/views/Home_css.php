@@ -1,94 +1,13 @@
-<?php echo link_tag('css/style.css'); ?>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-        float: center;
-
-    }
-
-    .slider {
-        width: 800px;
-        height: 500px;
-        overflow: hidden;
-    }
-
-    .slides {
-        width: 500%;
-        height: 500px;
-        display: flex;
-
-    }
-
-    .slides input {
-        display: none;
-    }
-
-    .slide {
-        width: 20%;
-        transition: 2s;
-
-    }
-
-    .slide img {
-        width: 800px;
-        height: 500px;
-
-    }
-
-
-    /* css for manual slide navigation */
-    .navigation-manual {
-        position: absolute;
-        width: 200px;
-        margin-top: -40px;
-        margin-left: 650px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .manual-btn {
-        border: 2px solid #ff9d47;
-        padding: 5px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 1s;
-
-    }
-
-    .manual-btn:not(last-child) {
-        margin-right: 20px;
-    }
-
-    .manual-btn:hover {
-        background: #ff9d47;
-
-    }
-
-    #radio1:checked~.first {
-        margin-left: 0;
-    }
-
-    #radio2:checked~.first {
-        margin-left: -20%;
-    }
-
-    #radio3:checked~.first {
-        margin-left: -40%;
-    }
-</style>
 
 <!-- brandner -->
 <style>
     #slider {
         margin: 0 auto;
+        margin-top: 3%;
         width: 1080px;
         max-width: 100%;
         text-align: center;
