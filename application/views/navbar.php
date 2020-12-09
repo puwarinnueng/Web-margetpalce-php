@@ -87,8 +87,8 @@
 
               <li><a href="#news">เงื่อนไขการบริการ<i class="fa fa-caret-down" id="dropdown_icon"></i></a>
                 <ul class="sub-menu1">
-                  <li><a href="#">วิธีการสั่งซื้อสินค้าออนไลน์</a></li>
-                  <li><a href="#">วิธีการชำระเงินและแจ้งชำระเงิน</a></li>
+                  <li><a href="<?php echo site_url('home/how_order'); ?>">วิธีการสั่งซื้อสินค้าออนไลน์</a></li>
+                  <li><a href="<?php echo site_url('home/how_payment'); ?>">วิธีการชำระเงินและแจ้งชำระเงิน</a></li>
                 </ul>
               </li>
 

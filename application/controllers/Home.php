@@ -49,6 +49,28 @@ class Home extends CI_Controller
         $this->load->view('footer');
     }
 
+    public function how_order()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('Home_css');
+        $this->load->view('social');
+        $this->load->view('service/order_view');
+        $this->load->view('js');
+        $this->load->view('footer');
+    }
+
+    public function how_payment()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('Home_css');
+        $this->load->view('social');
+        $this->load->view('service/payment_view');
+        $this->load->view('js');
+        $this->load->view('footer');
+    }
+
     public function group_mb()
     {
         $this->load->view('navbar');
