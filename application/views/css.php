@@ -2,12 +2,10 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-
 <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
 <style>
-    .container{
-        margin: auto;
-    }
+
     #flipkart-navbar {
         background-color: #003559;
         color: #FFFFFF;
@@ -41,175 +39,14 @@
         cursor: pointer;
     }
 
-    .cart-button {
-        background-color: #2469d9;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
-        padding: 10px 0;
-        text-align: center;
-        height: 41px;
-        border-radius: 2px;
-        font-weight: 500;
-        width: 100px;
-        display: inline-block;
-        color: #FFFFFF;
-        text-decoration: none;
-        color: inherit;
-        border: none;
-        outline: none;
-    }
-
-    .cart-button2 {
-        background-color: black;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 hsla(0, 0%, 100%, .2);
-        padding: 10px 0;
-        text-align: center;
-        height: 25px;
-        border-radius: 2px;
-        font-weight: 500;
-        width: 120px;
-        display: inline-block;
-        color: #FFFFFF;
-        text-decoration: none;
-        color: inherit;
-        border: none;
-        outline: none;
-    }
-
-    .cart-button:hover {
-        text-decoration: none;
-        color: #fff;
-        cursor: pointer;
-    }
-
-    .cart-svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-        margin-right: 8px;
-
-    }
-
-    .item-number {
-        border-radius: 3px;
-        background-color: rgba(0, 0, 0, .1);
-        height: 20px;
-        padding: 3px 6px;
-        font-weight: 500;
-        display: inline-block;
-        color: #fff;
-        line-height: 12px;
-        margin-left: 10px;
-    }
-
-    .upper-links {
-        display: inline-block;
-        padding: 0 11px;
-        line-height: 23px;
-        letter-spacing: 0;
-        color: inherit;
-        border: none;
-        outline: none;
-        font-size: 12px;
-    }
-
-    .links {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .links:hover {
-        color: #fff;
-        text-decoration: none;
-    }
-
-    .profile-links {
-        font-size: 12px;
-        border-bottom: 1px solid #e9e9e9;
-        box-sizing: border-box;
-        display: block;
-        padding: 0 11px;
-        line-height: 23px;
-    }
-
-    .profile-li {
-        padding-top: 2px;
-    }
-
-    .largenav {
-        display: none;
-    }
-
-    .smallnav {
-        display: block;
-    }
-
-    .smallsearch {
-        margin-left: 15px;
-        margin-top: 15px;
-    }
-
-    .menu {
-        cursor: pointer;
-    }
-
-    @media screen and (min-width: 768px) {
-        .largenav {
-            display: block;
-        }
-
-        .smallnav {
-            display: none;
-        }
-
-        .smallsearch {
-            margin: 0px;
-        }
-    }
-
-    /*Sidenav*/
-    .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
+    .container{
+        padding: 0;
+        margin: auto;
         left: 0;
-        background-color: #fff;
-        overflow-x: hidden;
-        transition: 0.5s;
-        box-shadow: 0 4px 8px -3px #555454;
-        padding-top: 0px;
+        bottom: 0;
+        width: 100%;
     }
 
-    .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s
-    }
-
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-        color: #fff;
-    }
-
-    @media screen and (max-height: 450px) {
-        .sidenav a {
-            font-size: 18px;
-        }
-    }
-
-    .sidenav-heading {
-        font-size: 36px;
-        color: #fff;
-    }
 </style>
 
 
@@ -296,6 +133,8 @@
     .addtocart {
 
         position: relative;
+        margin-left: 40%;
+        margin-top: 10%;
         /* transform: translate(-50%, -50%); */
 
     }
@@ -328,6 +167,8 @@
         background-repeat: no-repeat;
         overflow: hidden;
         outline: none;
+        margin-top: 10%;
+        /* margin-left: 2%; */
     }
 
     .drop_btn:hover,
@@ -418,14 +259,23 @@
 
     .dropdown-content-group a:hover {
         background-color: #ff9d47
+
+    }
+
+    .dropdown-content-group :hover{
+        text-decoration: none;
+        color: #fff;
     }
 
     .dropdown-group:hover .dropdown-content-group {
         display: block;
+        
     }
 
     .dropdown-group:hover .dropbtn {
         background-color: #ff9d47;
+        text-decoration: none;
+       
     }
 
     #hamburger {

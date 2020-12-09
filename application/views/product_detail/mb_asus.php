@@ -13,7 +13,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <div class="container">
     <div class="row row1">
       <div class="col-md-8">
-        <div class="card_product_detail">
+        <div1 class="card_product_detail">
           <div class="img_detail">
             <img src="<?php echo base_url('img/mb1.png'); ?>">
           </div>
@@ -30,25 +30,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <p class="availbilty">AVAILABILITY : In Stock</p>
             <br>
-          
             <button class="buttons_detail"><a href="<?php echo site_url(''); ?>"><i class="fa fa-shopping-cart" aria-hidden="true"></i> เพิ่มใส่รถเข็น </a></button>
-
           </div>
-        </div>
       </div>
     </div>
+  </div>
 
-  
-
+  <div class="row row2">
     <div class="col-md-8">
-      <div class="discription-detail1">
+      <div class="discription">
         <h3>รายละเอียดสินค้า</h3>
-        <div class="content-dicription">
-        </div>
       </div>
     </div>
   </div>
   </div>
-
 </body>
+
+
 </html>

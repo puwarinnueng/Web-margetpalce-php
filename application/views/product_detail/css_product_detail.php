@@ -18,15 +18,15 @@
         margin: 0;
         padding: 0;
         height: 100hv;
-        align-items: center;
-        align-content: center;
+        /* align-items: center;
+        align-content: center; */
         font-family: 'Prompt', sans-serif;
 
     }
 
     .card_product_detail {
         background: #f6f6f6;
-        height:95%;
+        height: 95%;
         width: 100%;
         padding: 20px;
         border: 4px solid #DEDDDD;
@@ -104,15 +104,18 @@
 </style>
 
 <style>
+    .discription {
+        background: #003559;
+        color: #fff;
+        width: 95%;
+        height: 50px;
+        margin-left: 5%;
+        margin-top: 5%;
+        align-items: center;
+    }
 
-.discription_detail1{
-    background: #003559;
-    height: 50px;
-    width: 95%;
-    /* margin-left: 5%;
-    margin-top: 5%; */
-    border: 4px solid #003559;
-    padding: 0;
-    display:block;
-}
+    .discription h3 {
+       text-align: left;
+       padding: 15px 45px;
+    }
 </style>

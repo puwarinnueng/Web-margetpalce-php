@@ -1,18 +1,20 @@
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+?>
 <!DOCTYPE html>
 <html>
-
-<body>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+</head>
 
+<body>
   <div class="footer">
     <div class="container ft">
       <div class="row">
-
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <div align="left">
+          <div align="center">
             <a>
               <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="25%">
               <br>
@@ -25,7 +27,6 @@
                 ร้าน COM STORE
               </p1>
             </a>
-
           </div>
         </div>
 
@@ -53,21 +54,24 @@
           <img src="<?php echo base_url('img/dhl.png'); ?>" width="50%">
           <img src="<?php echo base_url('img/kerry.png'); ?>" width="50%">
         </div>
-
       </div>
-
-      <!-- <script src='https://kit.fontawesome.com/a076d05399.js'></script> -->
     </div>
-
   </div>
 
   <style type="text/css">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
     .footer {
-      margin-top: 100%;
-      margin-bottom: 100%;
+      min-width: 100%;
+      margin-top: 100px;
+      height: 168px;
       background-color: #003559;
       color: white;
       font-family: 'Prompt', sans-serif;
+      position: absolute;
 
     }
 
@@ -93,7 +97,7 @@
     .footer i {
       font-size: 40px;
       color: white;
-      position: relative;
+      position: relativse;
       float: left;
       margin-right: 4px;
     }
