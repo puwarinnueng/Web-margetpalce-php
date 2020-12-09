@@ -16,13 +16,35 @@ class Home extends CI_Controller
         $this->load->view('footer');
     }
 
-    public function about()
+    public function about_us()
     {
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('Home_css');
         $this->load->view('social');
-        $this->load->view('home_view');
+        $this->load->view('about_us_view');
+        $this->load->view('js');
+        $this->load->view('footer');
+    }
+
+    public function sevenday()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('Home_css');
+        $this->load->view('social');
+        $this->load->view('warranty/sevenday_view');
+        $this->load->view('js');
+        $this->load->view('footer');
+    }
+
+    public function wardetail()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('Home_css');
+        $this->load->view('social');
+        $this->load->view('warranty/wardetail_view');
         $this->load->view('js');
         $this->load->view('footer');
     }
