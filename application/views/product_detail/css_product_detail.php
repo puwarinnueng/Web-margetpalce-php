@@ -148,17 +148,17 @@
     .card_right_table {
         border-collapse: collapse;
         width: 80%;
-        height: 70%;
-        border: 4px solid #dddd;
+        height: 50%;
+        border: 4px solid #003559;
         font-size: 14px;
         margin-left: 10%;
-        margin-top: 6%;
+        margin-top: 7%;
     }
 
     .card_right_table td {
         font-size: 14px;
         text-align: left;
-        padding: 15px 30px;
+        padding: 12px 30px;
     }
 
     #thumbs_up_icon1 {
@@ -181,7 +181,7 @@
         font-size: 30px;
         color: #ff9d47;
     }
-    .pay{
-        line-height: 1;
+    .pay p{
+        line-height: 80%;
     }
 </style>
