@@ -33,6 +33,33 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <button class="buttons_detail"><a href="<?php echo site_url(''); ?>"><i class="fa fa-shopping-cart" aria-hidden="true"></i> เพิ่มใส่รถเข็น </a></button>
           </div>
       </div>
+
+      <div class="col-md-4">
+        <div class="card_right">
+          <table class="card_right_table">
+            <tr>
+              <td><i class="fas fa-thumbs-up" id="thumbs_up_icon1"></i> รับประกันสินค้าแท้ 100%</td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-shipping-fast" id="truck_icon"></i> ส่งฟรีทั่วไทย
+                <p>ช้อปครบ 3000.- ขึ้นไป</p>
+              </td>
+            </tr>
+            <tr>
+              <td><i class="fa fa-exchange" aria-hidden="true" id="exchange_icon"></i> สามารถเปลี่ยนสินค้าได้
+                <p>ภายใน 7 วัน</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="pay"><i class="fas fa-credit-card" id="creditcard_icon1"></i> ชำระเงินได้หลายช่องทาง
+                <p>- เก็บเงินปลายทาง</p>
+                <p>- โอนผ่านทางธนาคาร/ATM</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
     </div>
   </div>
 
