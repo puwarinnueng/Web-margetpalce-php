@@ -18,12 +18,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <body>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <div class="head-goods" style="margin-top: 20%;">
+  <div class="head-goods">
     <h1 class="Best-sellers">CPU INTEL GEN 10 SOCKET 1200</h1>
   </div>
   <hr class="style1">
   <br>
-
   <div class="container" >
     <div class="row">
       <div class="col-md-3">

@@ -66,7 +66,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     .footer {
       min-width: 100%;
-      margin-top: 100px;
+      margin-top: 80px;
       height: 168px;
       background-color: #003559;
       color: white;
@@ -97,7 +97,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     .footer i {
       font-size: 40px;
       color: white;
-      position: relativse;
+      position: relative;
       float: left;
       margin-right: 4px;
     }

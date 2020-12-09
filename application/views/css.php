@@ -146,7 +146,6 @@
         color: #fff;
         font-size: 26px;
         display: inline-block;
-        
     }
 
     .add_to_cart:hover,
@@ -202,10 +201,18 @@
 
     .dropdown-content a:hover {
         background-color: #ff9d47
+
+    }
+
+    .dropdown-content a:hover{
+        text-decoration: none;
+        background: #ff9d47;
+        color: #fff;
     }
 
     .dropdown:hover .dropdown-content {
         display: block;
+        text-decoration: none;
     }
 
     .dropdown:hover .dropbtn {

@@ -3,6 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+<!-- แสดงข้อมูลสินค้า -->
 <style>
     * {
         margin: 0;
@@ -29,7 +30,7 @@
         height: 95%;
         width: 100%;
         padding: 20px;
-        border: 4px solid #DEDDDD;
+        border: 4px solid #003559;
         display: flex;
         margin-top: 3%;
         margin-left: 5%;
@@ -103,6 +104,7 @@
     }
 </style>
 
+<!-- รายละเอียดสินค้า -->
 <style>
     .discription {
         background: #003559;
@@ -123,20 +125,63 @@
     .discription_table {
         border-collapse: collapse;
         width: 100%;
-        border: 4px solid  #003559;
+        border: 4px solid #003559;
         font-size: 13px;
     }
 
     .discription_table td,
     th {
-        border: 1px solid  #003559;
+        border: 1px solid #003559;
         text-align: left;
         padding: 8px;
     }
 
-    .discription_table td:first-child{
+    .discription_table td:first-child {
         width: 20%;
         font-weight: bold;
 
+    }
+</style>
+
+<!-- card right -->
+<style>
+    .card_right_table {
+        border-collapse: collapse;
+        width: 80%;
+        height: 70%;
+        border: 4px solid #dddd;
+        font-size: 14px;
+        margin-left: 10%;
+        margin-top: 6%;
+    }
+
+    .card_right_table td {
+        font-size: 14px;
+        text-align: left;
+        padding: 15px 30px;
+    }
+
+    #thumbs_up_icon1 {
+        font-size: 30px;
+        color: #ff9d47;
+        line-height: 1.6;
+    }
+
+    #truck_icon {
+        font-size: 30px;
+        color: #ff9d47;
+    }
+
+    #exchange_icon {
+        font-size: 30px;
+        color: #ff9d47;
+    }
+
+    #creditcard_icon1 {
+        font-size: 30px;
+        color: #ff9d47;
+    }
+    .pay{
+        line-height: 1;
     }
 </style>
