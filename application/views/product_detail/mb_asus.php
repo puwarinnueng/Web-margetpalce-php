@@ -8,11 +8,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <meta charset="utf-8">
   <title>LGA1200 Z490 Rog XI Formula</title>
 </head>
-<br><br><br>
 
 <body>
   <div class="container">
-    <div class="row">
+    <div class="row row1">
       <div class="col-md-8">
         <div class="card_product_detail">
           <div class="img_detail">
@@ -36,9 +35,22 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
       </div>
     </div>
+
+
+      <div class="col-md-8">
+        <div class="discription-detail1">
+            <h3>รายละเอียดสินค้า</h3>
+            <div class="content-dicription">
+
+            </div>
+        </div>
+      </div>
+  
+  </div> 
+
+
+
   </div>
-
-
 </body>
 
 

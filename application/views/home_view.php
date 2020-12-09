@@ -108,8 +108,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
   </head> -->
 
 
-
-  <br><br>
   <!-- image slide -->
 
   <div id="slider">
@@ -363,8 +361,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
       </div>
     </div>
   </div>
-
-
 
 
 </body>

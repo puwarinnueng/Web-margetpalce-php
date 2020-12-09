@@ -5,6 +5,9 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <style>
+    .container{
+        margin: auto;
+    }
     #flipkart-navbar {
         background-color: #003559;
         color: #FFFFFF;
@@ -344,7 +347,7 @@
         background-color: #f9f9f9;
         min-width: 130px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 20;
+        z-index: 2;
         font-size: 12px;
         align-items: center;
     }
@@ -400,7 +403,7 @@
         background-color: #f9f9f9;
         min-width: 200px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 500;
+        z-index: 2;
         font-size: 14px;
         color: #003559;
     }
@@ -487,7 +490,7 @@
 /* ----------- submenu----------------- */
     .sub-menu1 {
         display: none;
-        z-index: 3000;
+        z-index: 2;
     }
 
     .bar-list-menu ul li:hover .sub-menu1 {
@@ -505,7 +508,7 @@
 
     .sub-menu2 {
         display: none;
-        z-index: 3000;
+        z-index: 2;
     }
 
     .bar-list-menu ul li:hover .sub-menu2 {

@@ -26,11 +26,13 @@
 
     .card_product_detail {
         background: #f6f6f6;
-        height: 100%;
+        height:95%;
         width: 100%;
         padding: 20px;
         border: 4px solid #DEDDDD;
         display: flex;
+        margin-top: 3%;
+        margin-left: 5%;
 
     }
 
@@ -99,4 +101,18 @@
         margin-top: 22%;
         margin-right: 10%;
     }
+</style>
+
+<style>
+
+.discription_detail1{
+    background: #003559;
+    height: 50px;
+    width: 95%;
+    /* margin-left: 5%;
+    margin-top: 5%; */
+    border: 4px solid #003559;
+    padding: 0;
+    display:block;
+}
 </style>
