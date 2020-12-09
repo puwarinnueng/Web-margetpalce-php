@@ -42,18 +42,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </tr>
             <tr>
               <td><i class="fas fa-shipping-fast" id="truck_icon"></i> ส่งฟรีทั่วไทย
-                <p>ช้อปครบ 3000.- ขึ้นไป</p>
+                <p style="font-size: 10px; ">ช้อปครบ 3000.- ขึ้นไป</p>
               </td>
             </tr>
             <tr>
               <td><i class="fa fa-exchange" aria-hidden="true" id="exchange_icon"></i> สามารถเปลี่ยนสินค้าได้
-                <p>ภายใน 7 วัน</p>
+                <p style="font-size: 10px;"> ภายใน 7 วัน</p>
               </td>
             </tr>
             <tr>
               <td class="pay"><i class="fas fa-credit-card" id="creditcard_icon1"></i> ชำระเงินได้หลายช่องทาง
-                <p>- เก็บเงินปลายทาง</p>
-                <p>- โอนผ่านทางธนาคาร/ATM</p>
+                <p style="font-size: 10px;">- เก็บเงินปลายทาง</p>
+                <p style="font-size: 10px;">- โอนผ่านทางธนาคาร/ATM</p>
               </td>
             </tr>
           </table>
@@ -83,11 +83,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </tr>
             <tr>
               <td>CPU Series </td>
-              <td>Z490</td>
+              <td>Intel Celeron , Intel Core i3 , Intel Core i5 , Intel Core i7 , Intel Core i9 , Intel Pentium Gold</td>
             </tr>
             <tr>
               <td>Chipset </td>
-              <td>Intel Celeron , Intel Core i3 , Intel Core i5 , Intel Core i7 , Intel Core i9 , Intel Pentium Gold</td>
+              <td>Z490</td>
             </tr>
             <tr>
               <td>จำนวน Slot แรม </td>
