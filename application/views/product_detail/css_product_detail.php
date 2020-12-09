@@ -107,7 +107,7 @@
     .discription {
         background: #003559;
         color: #fff;
-        width: 70%;
+        width: 695px;
         height: 50px;
         margin-left: 24%;
         margin-top: 3%;
