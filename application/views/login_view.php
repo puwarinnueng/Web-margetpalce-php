@@ -5,10 +5,9 @@
 
                 <br>
                 <br>
-                <h4 style="text-align:center;"> เข้าสู่ระบบ</h4>
+                <h2 style="text-align:center;"> เข้าสู่ระบบ</h2>
                 <br>
                 <form action="<?php echo site_url(' '); ?>" method="post" class="form-hoizontal" enctype="multipart/form-data">
-
 
                     <div class="form-group row">
                         <div class="col-sm-2 control-label">E-mail</div>
@@ -27,7 +26,14 @@
                     <div class="form-group row" >
                         <div class="col-sm-2 control-label"></div>
                         <div class="col-sm-5">
-                            <button type="submit" class="btn btn-primary">ตกลง</button>
+                            <button type="submit" class="btn btn-primary">ลืมรหัสผ่าน</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group row" >
+                        <div class="col-sm-2 control-label"></div>
+                        <div class="col-sm-5">
+                            <button type="submit" class="btn btn-primary">เข้าสู่ระบบ </button>
                         </div>
                     </div>
 
