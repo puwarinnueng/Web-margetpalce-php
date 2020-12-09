@@ -4,8 +4,7 @@
   <style>
     body {
       margin: 0;
-
-      height: 2000px;
+      /* height: 2000px; */
     }
 
     .icon-bar {
@@ -14,6 +13,7 @@
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
+      z-index: 1;
     }
 
     .icon-bar a {

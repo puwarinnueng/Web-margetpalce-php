@@ -162,6 +162,7 @@
     hr.style1 {
         border-top: 2px solid #ff9d47;
         width: 70%;
+        margin-left: 14%;
     }
 
     .Best-sellers {
@@ -169,6 +170,9 @@
         color: #003559;
         font-weight: bold;
         text-align: center;
+    }
+    .head-goods{
+        margin-top: 5%;
     }
 </style>
 

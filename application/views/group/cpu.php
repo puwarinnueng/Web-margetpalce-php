@@ -14,18 +14,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <meta charset="utf-8">
   <title>com</title>
   <link rel="stylesheet" href="Home_view.php">
-
 </head>
-<body style="text-align:center;">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <div class="head-goods">
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="head-goods" style="margin-top: 20%;">
     <h1 class="Best-sellers">CPU INTEL GEN 10 SOCKET 1200</h1>
   </div>
   <hr class="style1">
   <br>
 
-  <div class="container">
+  <div class="container" >
     <div class="row">
       <div class="col-md-3">
         <div class="card-product">
