@@ -99,7 +99,7 @@
                 </ul>
 
               </li>
-              <li><a href="#about">เกี่ยวกับเรา</a></li>
+              <li><a href="<?php echo site_url('home/about_us'); ?>">เกี่ยวกับเรา</a></li>
             </ul>
           </div>
         </div>
