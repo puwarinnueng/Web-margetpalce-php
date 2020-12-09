@@ -30,28 +30,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <p class="availbilty">AVAILABILITY : In Stock</p>
             <br>
-            <button class="buttons_detail"><a href="<?php echo site_url(''); ?>"><i class="fa fa-shopping-cart" aria-hidden="true"></i> เพิ่มใส่รถเข็น </button>
+          
+            <button class="buttons_detail"><a href="<?php echo site_url(''); ?>"><i class="fa fa-shopping-cart" aria-hidden="true"></i> เพิ่มใส่รถเข็น </a></button>
+
           </div>
         </div>
       </div>
     </div>
 
+  
 
-      <div class="col-md-8">
-        <div class="discription-detail1">
-            <h3>รายละเอียดสินค้า</h3>
-            <div class="content-dicription">
-
-            </div>
+    <div class="col-md-8">
+      <div class="discription-detail1">
+        <h3>รายละเอียดสินค้า</h3>
+        <div class="content-dicription">
         </div>
       </div>
-  
-  </div> 
-
-
-
+    </div>
   </div>
+  </div>
+
 </body>
-
-
 </html>
