@@ -35,7 +35,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/mb1.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url('home/mb_asus'); ?>">LGA1200 Z490 ROG XII Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_asus'); ?>">LGA1200 ASUS ROG Z490 MAXIMUS XII FORMULA</a></div>
             <br><br>
             <h2 class="price">18,400.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
@@ -49,7 +49,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/mb2.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 MSI GODLIKE</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_msi'); ?>">LGA1200 MSI MEG Z490 GODLIKE</a></div>
             <br><br>
             <h2 class="price">25,900.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
@@ -63,7 +63,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/mb3.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 AORUS XTREME</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_aorus'); ?>">LGA1200 GIGABYTE Z490 AORUS XTREME</a></div>
             <br><br>
             <h2 class="price">24,900.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
@@ -77,7 +77,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/mb4.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 ASROCK Z490 TAICHI</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_asrock'); ?>">LGA1200 ASROCK Z490 <br>TAICHI</a></div>
             <br><br>
             <h2 class="price">12,600.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>

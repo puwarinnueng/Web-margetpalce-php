@@ -134,4 +134,40 @@ class Home extends CI_Controller
         $this->load->view('card_buttom');
         $this->load->view('footer');
     }
+
+    public function mb_msi()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/mb_msi');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function mb_aorus()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/mb_aorus');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function mb_asrock()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/mb_asrock');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
 }
