@@ -22,7 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <div class="head-goods">
-    <h1 class="Best-sellers">GHARPHIC CARD</h1>
+    <h1 class="Best-sellers">GRAPHIC CARD</h1>
   </div>
   <hr class="style1">
   <br>
@@ -35,7 +35,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/gpu1.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">MSI RTX 2060 SUPER</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/gpu_msi_2060'); ?>">MSI RTX 2060 SUPER <br>GAMING X</a></div>
             <br><br>
             <h2 class="price">14,000.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
@@ -49,7 +49,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/gpu2.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">MSI RTX 2070 SUPER</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/gpu_msi_2070'); ?>">MSI RTX 2070 SUPER <br>GAMING X TRIO</a></div>
             <br><br>
             <h2 class="price">19,000.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
@@ -63,7 +63,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/gpu3.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">AORUS RTX 2080 SUPER</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/gpu_aorus'); ?>">AORUS RTX 2080 SUPER</a></div>
             <br><br>
             <h2 class="price">25,000.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
@@ -77,7 +77,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/gpu4.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">GALAX RTX 2080 TI</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/gpu_galax'); ?>">GALAX RTX 2080 TI SG <br>(1-Click OC)</a></div>
             <br><br>
             <h2 class="price">45,000.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>

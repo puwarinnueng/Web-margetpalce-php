@@ -6,7 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
   <meta charset="utf-8">
-  <title>LGA1200 Z490 Rog XI Formula</title>
+  <title>GIGABYTE AORUS GEFORCE RTX 2080 SUPER 8G</title>
 </head>
 
 <body>
@@ -15,18 +15,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-8">
         <div1 class="card_product_detail">
           <div class="img_detail">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <img src="<?php echo base_url('img/gpu3.png'); ?>">
           </div>
           <div class="infos">
-            <h1 class="name_detail">MAINBOARD (เมนบอร์ด) 1200 ASUS ROG MAXIMUS XII FORMULA </h1><br>
-            <p>- แบรนด์ ASUS </p>
-            <p>- LGA 1200 socket : รองรับหน่วยประมวลผล Intel® Core™ 10th-gen</p>
-            <p>- SOCKET : 1200</p>
-            <p>- CHIPSET : INTEL Z490</p>
-            <p>- MEMORY : 4 X DDR4 DIMM</p>
+            <h1 class="name_detail">GRAPHIC CARD (การ์ดแสดงผล) GIGABYTE AORUS GEFORCE RTX 2080 SUPER 8G</h1><br>
+            <p>- แบรนด์ GIGABYTE </p>
+            <p>- GRAPHIC ENGINE : GEFORCE RTX 2080 SUPER</p>
+            <p>- MEMORY : 8 GB GDDR6 256 BIT</p>
             <br>
             <h4 class="guarantee"><i class="fa fa-certificate" aria-hidden="true" style="font-size:20px;color:#FACC2E"></i> ประกัน 3 ปี</h4><br><br>
-            <h3 class="price_detail"> ราคา 18,400 บาท</h3>
+            <h3 class="price_detail"> ราคา 25,000 บาท</h3>
             <br>
             <p class="availbilty">AVAILABILITY : In Stock</p>
             <br>
@@ -71,31 +69,35 @@ defined('BASEPATH') or exit('No direct script access allowed');
           <table class="discription_table">
             <tr>
               <td>Brand </td>
-              <td>ASUS</td>
+              <td>GIGABYTE</td>
             </tr>
             <tr>
               <td>Model </td>
-              <td>ROG MAXIMUS XII FORMULA</td>
+              <td>AORUS GeForce RTX 2080 SUPER 8G</td>
             </tr>
             <tr>
-              <td>CPU </td>
-              <td>Intel® Socket 1200 for 10th Gen Intel® Core™, Pentium® Gold and Celeron® Processors</td>
+              <td>Graphics Processing Unit </td>
+              <td>NVIDIA GeForce RTX 2080 SUPER</td>
             </tr>
             <tr>
-              <td>CPU Series </td>
-              <td>Intel Celeron , Intel Core i3 , Intel Core i5 , Intel Core i7 , Intel Core i9 , Intel Pentium Gold</td>
+              <td>Interface </td>
+              <td>PCI Express x16 3.0</td>
             </tr>
             <tr>
-              <td>Chipset </td>
-              <td>Z490</td>
+              <td>Memory </td>
+              <td>8GB GDDR6</td>
             </tr>
             <tr>
-              <td>จำนวน Slot แรม </td>
-              <td>4</td>
+              <td>Output </td>
+              <td>DisplayPort x 3 (v1.4) / HDMI 2.0b x 3 / USB Type-C (support VirtualLink) x 1 </td>
             </tr>
             <tr>
-              <td>ความจุแรมสูงสุด </td>
-              <td>128 GB</td>
+              <td>Power Connectors </td>
+              <td>8-pin x 2</td>
+            </tr>
+            <tr>
+              <td>ขนาด (mm)</td>
+              <td>290 x 134.31 x 59.9 mm</td>
             </tr>
           </table>
         </div>
