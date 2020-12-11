@@ -21,9 +21,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body style="text-align:center;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <div class="head-goods">
-        <h1 class="Best-sellers">เงื่อนไขการเครมเปลี่ยนสินค้าภายใน 7 วัน</h1>
-    </div>
+    <h1 class="Head_title">เงื่อนไขการเครมเปลี่ยนสินค้าภายใน 7 วัน</h1>
     <hr class="style1">
     <br>
     <ol class="warranty_7days">
@@ -68,9 +66,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
         font-size: 16px;
         line-height: 30px;
         margin: auto;
-        padding: 20px;
+        padding: 20px 40px;
         white-space: wrap;
         text-overflow: ellipsis;
+        border: 4px solid #ff9d47;
+        border-radius: 20px;
         /* border: 4px solid #003559; */
     }
 </style>

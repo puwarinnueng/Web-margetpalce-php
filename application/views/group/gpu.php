@@ -20,10 +20,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <body style="text-align:center;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <div class="head-goods">
-    <h1 class="Best-sellers">GRAPHIC CARD</h1>
-  </div>
+  
+  <h1 class="Head_title">GRAPHIC CARD</h1>
   <hr class="style1">
   <br>
 

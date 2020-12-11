@@ -12,7 +12,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
   <meta charset="utf-8">
-  <title>com</title>
+  <title>Mainborad</title>
   <link rel="stylesheet" href="Home_view.php">
 
 </head>
@@ -21,9 +21,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body style="text-align:center;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <div class="head-goods">
-    <h1 class="Best-sellers">MAINBOARD SOCKET 1200</h1>
-  </div>
+  <h1 class="Head_title">MAINBOARD SOCKET 1200</h1>
   <hr class="style1">
   <br>
 
