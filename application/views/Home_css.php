@@ -165,14 +165,12 @@
         margin-left: 14%;
     }
 
-    .Best-sellers {
+    .Head_title {
         font-size: 26px;
         color: #003559;
         font-weight: bold;
         text-align: center;
-    }
-    .head-goods{
-        margin-top: 5%;
+        margin-top: 3%;
     }
 </style>
 
@@ -185,7 +183,7 @@
         display: flex;
     }
 
-    .card-product{
+    .card-product {
         position: relative;
         width: 220px;
         height: 300px;
@@ -194,7 +192,7 @@
         overflow: hidden;
     }
 
-    .card-product::before{
+    .card-product::before {
         content: '';
         position: absolute;
         top: 0;
@@ -206,11 +204,11 @@
         transition: 0.5s ease-in-out;
     }
 
-    .card-product:hover:before{
+    .card-product:hover:before {
         clip-path: circle(250px at 80% -20%);
     }
 
-    .card-product .imgBx{
+    .card-product .imgBx {
         position: relative;
         width: 100%;
         display: flex;
@@ -220,18 +218,18 @@
         z-index: 1;
     }
 
-    .card-product .imgBx img{
+    .card-product .imgBx img {
         width: 90%;
         transition: 0.5s;
     }
 
-    .card-product:hover .imgBx img{
+    .card-product:hover .imgBx img {
         max-width: 70%;
         top: 0%;
         transform: translate(0%);
     }
 
-    .card-product .contentBx{
+    .card-product .contentBx {
         position: relative;
         padding: 20px;
         display: flex;
@@ -241,19 +239,19 @@
         z-index: 1;
     }
 
-    .card-product .contentBx .brand a{
+    .card-product .contentBx .brand a {
         font-size: 12px;
         font-weight: bold;
         color: #fff;
     }
 
-    .card-product .contentBx .brand a:hover{
+    .card-product .contentBx .brand a:hover {
         color: #003559;
         font-weight: bold;
         text-decoration: none;
     }
 
-    .card-product .contentBx .price{
+    .card-product .contentBx .price {
         color: #003559;
         font-size: 22px;
         font-weight: bold;
@@ -261,7 +259,7 @@
         letter-spacing: 1px;
     }
 
-    .card-product .contentBx .buy{
+    .card-product .contentBx .buy {
         position: relative;
         padding: 10px 20px;
         margin-top: 15px;
@@ -277,10 +275,8 @@
         opacity: 0;
     }
 
-    .card-product:hover .contentBx .buy{
+    .card-product:hover .contentBx .buy {
         top: 0px;
         opacity: 1;
     }
-
 </style>
-

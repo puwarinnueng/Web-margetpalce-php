@@ -19,7 +19,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 <body style="text-align:center;">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <div class="head-goods">
         <h1 class="Best-sellers">วิธีการสั่งซื้อสินค้าออนไลน์</h1>
@@ -28,7 +28,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <br>
 
     <h4>สวัสดีครับ พวกเราพัฒนาเว็บนี้ขึ้นมาเพื่อเป็นโปรเจคในวิชา WEB PROGRAMING มันเป็นเว็บขายของเล็กๆ</h4>
-    <h4>ใช้เวลาทำก็หลายเดือนอยู่555555555555</h4>
+    <h4>ใช้เวลาทำก็หลายเดือนอยู่555555555555</h4> -->
 
 
 
