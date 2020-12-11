@@ -89,10 +89,10 @@ class Member_model extends CI_Model
     //queryข้อมูลมาแสดง inner join select column
     public function showdata22()
     {
-        $this->db->select('m.m_id,p.pname,m.m_email,m.m_password,m.m_img,m.m_name,m.m_lname,m.m_tel,m.m_ads,m.m_datesave');
+        $this->db->select('m.m_id,m.m_email,m.m_password,m.m_img,m.m_name,m.m_lname,m.m_tel,m.m_ads,m.m_datesave');
         $this->db->from('tbl_member as m');
         // $this->db->join('tbl_position as p', 'm.pid=p.pid');
-        $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
         // $this->db->where('m.pid','1');
         // $this->db->where_in('m.pid',array('1','2'));
         // $this->db->where('m.pid <= 2');
