@@ -9,7 +9,7 @@ class User extends CI_Controller
         $this->load->model('member_model');
     }
 
-
+    //โหลดหน้า login
     public function index()
     {
         // print_r($_SESSION);
@@ -50,7 +50,7 @@ class User extends CI_Controller
     // }
 
 
-
+    //check การ login
     public function check2()
     {
         if ($this->input->post('m_email') == '') {
@@ -112,5 +112,38 @@ class User extends CI_Controller
     {
         $this->session->unset_userdata(array('m_id', 'm_email', 'm_name', 'm_ads'));
         redirect('user', 'refresh');
+    }
+
+
+    //ลืมรหัสผ่าน
+    public function forgotpass()
+    {
+        $this->load->view('css');
+        $this->load->view('forgotpass_view');
+        $this->load->view('Home_css');
+        // $this->load->view('social');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    //query ข้อมูลจากemail ที่ลืมรหัสผ่าน
+    public function wantlogin()
+    {
+        $query = $this->db->query("select * from tbl_member where m_email='" . $_POST['m_email'] . "'");
+        // $result = $query->result();
+        $row = $query->row_array();
+        if (count($row) > 0) {
+            $data['query'] = $this->member_model->querylogin($_POST['m_email']);
+            $this->load->view('css');
+            $this->load->view('Home_css');
+            $this->load->view('js');
+            $this->load->view('forgotok_view', $data);
+            $this->load->view('css');
+        } else {
+            echo "fail";
+            // exit;
+            redirect('user/forgotpass');
+        }
     }
 }

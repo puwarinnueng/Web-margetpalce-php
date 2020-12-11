@@ -137,8 +137,6 @@ class Member_model extends CI_Model
 
 
 
-
-
     //checklogin
     public function fetch_user_login($m_email, $m_password)
     {
@@ -146,5 +144,19 @@ class Member_model extends CI_Model
         $this->db->where('m_password', $m_password);
         $query = $this->db->get('tbl_member');
         return $query->row();
+    }
+
+
+    //query จาก ลืมรหัสผ่าน
+    public function querylogin($m_email)
+    {
+
+        $data = array(
+            'm_email' => $m_email,
+        );
+        $query = $this->db->get_where('tbl_member', $data);
+        $data = $query->result();
+        return $data;
+
     }
 }
