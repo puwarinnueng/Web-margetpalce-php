@@ -227,4 +227,100 @@ class Home extends CI_Controller
         $this->load->view('card_buttom');
         $this->load->view('footer');
     }
+
+    public function ram_kingston()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/ram_kingston');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function ram_gskill()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/ram_gskill');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function ram_corsair()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/ram_corsair');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function ram_thermal()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/ram_thermal');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function cpu_i3()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/cpu_i3');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function cpu_i5()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/cpu_i5');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function cpu_i7()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/cpu_i7');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
+
+    public function cpu_i9()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('social');
+        $this->load->view('product_detail/cpu_i9');
+        $this->load->view('product_detail/css_product_detail');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
+    }
 }
