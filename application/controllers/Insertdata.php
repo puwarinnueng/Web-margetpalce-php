@@ -80,8 +80,7 @@ class Insertdata extends CI_Controller
         $data['query'] = $this->member_model->showdata22();
         
        
-        $this->load->view('header');
-        // $this->load->view('banner');
+     
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('member_view', $data);
