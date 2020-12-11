@@ -23,7 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
   </div>
   <hr class="style1">
   <br>
-  <div class="container" >
+  <div class="container">
     <div class="row">
       <div class="col-md-3">
         <div class="card-product">
@@ -82,7 +82,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
       </div>
     </div>
   </div>
-
-
 </body>
+
 </html>

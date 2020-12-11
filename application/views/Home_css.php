@@ -171,9 +171,6 @@
         font-weight: bold;
         text-align: center;
     }
-    .head-goods{
-        margin-top: 5%;
-    }
 </style>
 
 <!-- list card product -->

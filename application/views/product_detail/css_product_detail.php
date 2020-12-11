@@ -109,7 +109,7 @@
     .discription {
         background: #003559;
         color: #fff;
-        width: 69%;
+        width: 700px;
         height: 50px;
         margin-left: 24%;
         margin-top: 3%;
@@ -121,10 +121,13 @@
         text-align: left;
         padding: 15px 45px;
     }
+    .content_discription{
+        display: flex;
+    }
 
     .discription_table {
         border-collapse: collapse;
-        width: 100%;
+        /* width: 100%; */
         border: 4px solid #003559;
         font-size: 13px;
     }
@@ -148,11 +151,12 @@
     .card_right_table {
         border-collapse: collapse;
         width: 80%;
-        height: 50%;
+        height: 50px;
         border: 4px solid #003559;
         font-size: 14px;
         margin-left: 10%;
         margin-top: 7%;
+        padding: 20px;
     }
 
     .card_right_table td {
