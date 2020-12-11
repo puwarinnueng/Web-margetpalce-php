@@ -6,16 +6,15 @@ class Home extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        if($this->session->userdata('level') == 'admin'){
-            echo 'welcom user';
-        }else{
-            echo 'wrong';
-        }
+        // if($this->session->userdata('m_level') != 4){
+        //     redirect('user','refresh');
+        // }   
     }
 
 
     public function index()
     {
+        // print_r($_SESSION);
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('home_view');
