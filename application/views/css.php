@@ -21,7 +21,7 @@
         padding-bottom: 0px;
     }
 
-    .flipkart-navbar-input {
+    .flipkart-navbar-input { 
         padding: 11px 16px;
         border-radius: 2px 0 0 2px;
         border: 0 none;
@@ -219,8 +219,8 @@
         background-color: #FF8E2B;
     }
 
-    .icon_profile {
-        font-size: 18px
+    #icon_profile {
+        font-size: 25px
     }
 </style>
 
@@ -238,6 +238,7 @@
         height: 33px;
         color: #fff;
         font-weight: bold;
+        border-radius: 7px 7px 0px 0px;
     }
 
     .dropdown-group {
@@ -276,20 +277,17 @@
 
     .dropdown-group:hover .dropdown-content-group {
         display: block;
-        
     }
 
     .dropdown-group:hover .dropbtn {
         background-color: #ff9d47;
         text-decoration: none;
-       
     }
 
     #hamburger {
         padding: 0px 10px;
         float: left;
         font-size: 21px;
-
     }
 </style>
 
@@ -312,7 +310,7 @@
         display: block;
         padding: 7px 15px;
         color: #fff;
-        text-align: center;
+        text-align: left;
         text-decoration: none;
         font-size: 13px;
     }

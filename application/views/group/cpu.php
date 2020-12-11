@@ -12,18 +12,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
   <meta charset="utf-8">
-  <title>Com Store</title>
+  <title>CPU</title>
   <link rel="stylesheet" href="Home_view.php">
 </head>
 
 <body>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <div class="head-goods">
-    <h1 class="Best-sellers">CPU INTEL GEN 10 SOCKET 1200</h1>
-  </div>
+  
+  <h1 class="Head_title">CPU INTEL GEN 10 SOCKET 1200</h1>
   <hr class="style1">
   <br>
-  <div class="container" >
+  <div class="container">
     <div class="row">
       <div class="col-md-3">
         <div class="card-product">
@@ -82,7 +81,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
       </div>
     </div>
   </div>
-
-
 </body>
+
 </html>

@@ -59,7 +59,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
           </table>
         </div>
       </div>
-
     </div>
   </div>
 
@@ -101,7 +100,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
       </div>
     </div>
-  </div>
   </div>
 </body>
 

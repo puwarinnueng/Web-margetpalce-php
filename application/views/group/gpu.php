@@ -12,7 +12,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
   <meta charset="utf-8">
-  <title>com</title>
+  <title>GRAPHIC CARD</title>
   <link rel="stylesheet" href="Home_view.php">
 
 </head>
@@ -20,10 +20,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <body style="text-align:center;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <div class="head-goods">
-    <h1 class="Best-sellers">GRAPHIC CARD</h1>
-  </div>
+  
+  <h1 class="Head_title">GRAPHIC CARD</h1>
   <hr class="style1">
   <br>
 
@@ -32,7 +30,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/gpu1.png'); ?>">
+            <a href="<?php echo site_url('home/gpu_msi_2060'); ?>"><img src="<?php echo base_url('img/gpu1.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/gpu_msi_2060'); ?>">MSI RTX 2060 SUPER <br>GAMING X</a></div>
@@ -46,7 +44,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/gpu2.png'); ?>">
+            <a href="<?php echo site_url('home/gpu_msi_2070'); ?>"><img src="<?php echo base_url('img/gpu2.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/gpu_msi_2070'); ?>">MSI RTX 2070 SUPER <br>GAMING X TRIO</a></div>
@@ -60,7 +58,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/gpu3.png'); ?>">
+            <a href="<?php echo site_url('home/gpu_aorus'); ?>"><img src="<?php echo base_url('img/gpu3.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/gpu_aorus'); ?>">AORUS RTX 2080 SUPER</a></div>
@@ -74,7 +72,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/gpu4.png'); ?>">
+            <a href="<?php echo site_url('home/gpu_galax'); ?>"><img src="<?php echo base_url('img/gpu4.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/gpu_galax'); ?>">GALAX RTX 2080 TI SG <br>(1-Click OC)</a></div>
