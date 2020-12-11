@@ -53,9 +53,9 @@
               เข้าสู่ระบบ
             </button>
             <div class="dropdown-content">
-              <a href="<?php echo site_url('insertdata'); ?>">สมัครสมาชิก</a>
-              <a href="<?php echo site_url('insertdata/login'); ?>">เข้าสู่ระบบ</a>
-              <li class="divider"></li>
+              <!-- <a href="<?php echo site_url('insertdata'); ?>">สมัครสมาชิก</a>
+              <a href="<?php echo site_url('insertdata/login'); ?>">เข้าสู่ระบบ</a> -->
+              <!-- <li class="divider"></li> -->
               <a href="<?php echo site_url('insertdata/showmember'); ?>">แก้ไขข้อมูล</a>
               <a href="<?php echo site_url('user/logout');?>"
               onclick="return confirm('ยืนยัน')";
