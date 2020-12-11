@@ -1,3 +1,4 @@
+<!-- หน้าแสดงข้อมูลหลังจากกรอก email แล้ว -->
 <br>
 <br>
 <div class="container">
