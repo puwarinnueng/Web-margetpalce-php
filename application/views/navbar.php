@@ -14,7 +14,7 @@
       <!-- LOGO -->
       <div class="row row1">
         <div class="col-md-3">
-          <a href="<?php echo base_url(''); ?>">
+          <a href="<?php echo site_url('home'); ?>">
             <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="20%">
           </a>
         </div>
@@ -57,6 +57,9 @@
               <a href="<?php echo site_url('insertdata/login'); ?>">เข้าสู่ระบบ</a>
               <li class="divider"></li>
               <a href="<?php echo site_url('insertdata/showmember'); ?>">แก้ไขข้อมูล</a>
+              <a href="<?php echo site_url('user/logout');?>"
+              onclick="return confirm('ยืนยัน')";
+              >ออกจากระบบ</a>
             </div>
           </div>
 
@@ -98,7 +101,7 @@
                 </ul>
 
               </li>
-              <li><a href="<?php echo site_url('home/about_us'); ?>">เกี่ยวกับเรา</a></li>
+              <li><a href="<?php echo site_url('home/about_us');?>">เกี่ยวกับเรา</a></li>
             </ul>
           </div>
         </div>

@@ -139,29 +139,12 @@ class Member_model extends CI_Model
 
 
 
-
-
-
-
-
-    // public function update_entry()
-    // {
-    //         $this->title    = $_POST['title'];
-    //         $this->content  = $_POST['content'];
-    //         $this->date     = time();
-
-    //         $this->db->update('entries', $this, array('id' => $_POST['id']));
-    // }
-
-
-    // public function insert_entry()
-    // {
-    //         $this->title    = $_POST['title']; // please read the below note
-    //         $this->content  = $_POST['content'];
-    //         $this->date     = time();
-
-    //         $this->db->insert('entries', $this);
-    // }
-
-
+    //checklogin
+    public function fetch_user_login($m_email, $m_password)
+    {
+        $this->db->where('m_email', $m_email);
+        $this->db->where('m_password', $m_password);
+        $query = $this->db->get('tbl_member');
+        return $query->row();
+    }
 }

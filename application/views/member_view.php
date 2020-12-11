@@ -7,11 +7,11 @@
                     <thead>
                         <tr>
                             <th>เลขที่ผู้ใช้</th>
-                            <th>ตำแหน่ง</th>
+                            <!-- <th>ตำแหน่ง</th> -->
                             <th>รูปภาพ</th>
-                            <th>ชื่อ</th>
                             <th>อีเมล</th>
                             <th>รหัสผ่าน</th>
+                            <th>ชื่อ</th>
                             <th>สกุล</th>
                             <th>เบอร์โทร</th>
                             <th>ที่อยู่</th>
@@ -26,7 +26,7 @@
                         <?php foreach ($query as $rs) { ?>
                             <tr>
                                 <td> <?php echo $rs->m_id; ?> </td>
-                                <td> <?php echo $rs->pname; ?> </td>
+                                <!-- <td> <?php echo $rs->pname; ?> </td> -->
                                 <td>
                                     <img src="<?php echo base_url('img'); ?>/<?php echo $rs->m_img; ?>" width="50px">
                                 </td>

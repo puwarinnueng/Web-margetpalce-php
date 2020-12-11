@@ -6,7 +6,23 @@
               <br>
               <form action="<?php echo site_url('insertdata/editdata'); ?>" method="post" class="form-hoizontal">
 
+              <div class="form-group row">
+                      <div class="col-sm-2 control-label">email</div>
+                      <div class="col-sm-6">
+                          <input type="text" name="m_email" required class="form-control"
+                          value="<?php echo $rsedit->m_email; ?>">
+                      </div>
+                  </div>
+
                   <div class="form-group row">
+                      <div class="col-sm-2 control-label">password]</div>
+                      <div class="col-sm-6">
+                          <input type="text" name="m_password" required class="form-control"
+                          value="<?php echo $rsedit->m_password; ?>">
+                      </div>
+                  </div>
+                  
+              <div class="form-group row">
                       <div class="col-sm-2 control-label">Name</div>
                       <div class="col-sm-6">
                           <input type="text" name="m_name" required class="form-control" placeholder="ชื่อ" 

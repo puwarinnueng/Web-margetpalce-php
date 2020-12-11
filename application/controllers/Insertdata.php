@@ -24,7 +24,7 @@ class Insertdata extends CI_Controller
 
        
       
-        $this->load->view('navbar');
+        // $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('insert_view');
         // $this->load->view('member_view',$data);
@@ -40,8 +40,7 @@ class Insertdata extends CI_Controller
         // print_r($data);
         // exit;
         
-        $this->load->view('header');
-        // $this->load->view('banner');
+  
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('edit_view',$data);
@@ -53,7 +52,7 @@ class Insertdata extends CI_Controller
     public function adding()
     {
        $this->member_model->addmember();
-       redirect('insertdata','refresh');
+       redirect('user','refresh');
      
     }
 
@@ -62,7 +61,7 @@ class Insertdata extends CI_Controller
     {
     //   print_r($_POST);
       $this->member_model->editmember();
-      redirect('insertdata','refresh');
+      redirect('insertdata/showmember','refresh');
      
     }
 
@@ -71,7 +70,7 @@ class Insertdata extends CI_Controller
     {
     //   print_r($_POST);
       $this->member_model->deldata($m_id);
-      redirect('insertdata','refresh');
+      redirect('insertdata/showmember','refresh');
      
     }
     
