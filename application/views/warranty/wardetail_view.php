@@ -121,7 +121,4 @@ defined('BASEPATH') or exit('No direct script access allowed');
         font-weight: bold;
         margin-left: 4%;
     }
-    .content_Out_of_warranty p{
-        
-    }
 </style>

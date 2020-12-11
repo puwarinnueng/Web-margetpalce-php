@@ -62,7 +62,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/gpu_aorus'); ?>">AORUS RTX 2080 SUPER</a></div>
-            <br><br>
+            <br><br><br>
             <h2 class="price">25,000.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>

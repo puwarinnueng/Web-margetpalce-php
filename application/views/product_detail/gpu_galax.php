@@ -57,53 +57,51 @@ defined('BASEPATH') or exit('No direct script access allowed');
           </table>
         </div>
       </div>
-
     </div>
-  </div>
 
-  <div class="row row2">
-    <div class="col-md-8">
-      <div class="discription">
-        <h3>รายละเอียดสินค้า</h3>
-        <div class="content_discription">
-          <table class="discription_table">
-            <tr>
-              <td>Brand </td>
-              <td>GALAX</td>
-            </tr>
-            <tr>
-              <td>Model </td>
-              <td>RTX 2080Ti SG (1-Click OC) 11GB GDDR6</td>
-            </tr>
-            <tr>
-              <td>Graphics Processing Unit </td>
-              <td>NVIDIA GeForce RTX 2080 TI</td>
-            </tr>
-            <tr>
-              <td>Interface </td>
-              <td>PCI Express x16 3.0</td>
-            </tr>
-            <tr>
-              <td>Memory </td>
-              <td>11GB GDDR6</td>
-            </tr>
-            <tr>
-              <td>Output </td>
-              <td>DisplayPort x 3 (v1.4) / HDMI 2.0b x 1 / USB Type-C x 1 </td>
-            </tr>
-            <tr>
-              <td>Power Connectors </td>
-              <td>8-pin x 2</td>
-            </tr>
-            <tr>
-              <td>ขนาด (mm)</td>
-              <td>320 x 110 x 50 mm</td>
-            </tr>
-          </table>
+    <div class="row row2">
+      <div class="col-md-8">
+        <div class="discription">
+          <h3>รายละเอียดสินค้า</h3>
+          <div class="content_discription">
+            <table class="discription_table">
+              <tr>
+                <td>Brand </td>
+                <td>GALAX</td>
+              </tr>
+              <tr>
+                <td>Model </td>
+                <td>RTX 2080Ti SG (1-Click OC) 11GB GDDR6</td>
+              </tr>
+              <tr>
+                <td>Graphics Processing Unit </td>
+                <td>NVIDIA GeForce RTX 2080 TI</td>
+              </tr>
+              <tr>
+                <td>Interface </td>
+                <td>PCI Express x16 3.0</td>
+              </tr>
+              <tr>
+                <td>Memory </td>
+                <td>11GB GDDR6</td>
+              </tr>
+              <tr>
+                <td>Output </td>
+                <td>DisplayPort x 3 (v1.4) / HDMI 2.0b x 1 / USB Type-C x 1 </td>
+              </tr>
+              <tr>
+                <td>Power Connectors </td>
+                <td>8-pin x 2</td>
+              </tr>
+              <tr>
+                <td>ขนาด (mm)</td>
+                <td>320 x 110 x 50 mm</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 </body>
 

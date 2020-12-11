@@ -60,43 +60,43 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="row row2">
-    <div class="col-md-8">
-      <div class="discription">
-        <h3>รายละเอียดสินค้า</h3>
-        <div class="content_discription">
-          <table class="discription_table">
-            <tr>
-              <td>Brand </td>
-              <td>ASUS</td>
-            </tr>
-            <tr>
-              <td>Model </td>
-              <td>ROG MAXIMUS XII FORMULA</td>
-            </tr>
-            <tr>
-              <td>CPU </td>
-              <td>Intel® Socket 1200 for 10th Gen Intel® Core™, Pentium® Gold and Celeron® Processors</td>
-            </tr>
-            <tr>
-              <td>CPU Series </td>
-              <td>Intel Celeron , Intel Core i3 , Intel Core i5 , Intel Core i7 , Intel Core i9 , Intel Pentium Gold</td>
-            </tr>
-            <tr>
-              <td>Chipset </td>
-              <td>Z490</td>
-            </tr>
-            <tr>
-              <td>จำนวน Slot แรม </td>
-              <td>4</td>
-            </tr>
-            <tr>
-              <td>ความจุแรมสูงสุด </td>
-              <td>128 GB</td>
-            </tr>
-          </table>
+    <div class="row row2">
+      <div class="col-md-8">
+        <div class="discription">
+          <h3>รายละเอียดสินค้า</h3>
+          <div class="content_discription">
+            <table class="discription_table">
+              <tr>
+                <td>Brand </td>
+                <td>ASUS</td>
+              </tr>
+              <tr>
+                <td>Model </td>
+                <td>ROG MAXIMUS XII FORMULA</td>
+              </tr>
+              <tr>
+                <td>CPU </td>
+                <td>Intel® Socket 1200 for 10th Gen Intel® Core™, Pentium® Gold and Celeron® Processors</td>
+              </tr>
+              <tr>
+                <td>CPU Series </td>
+                <td>Intel Celeron , Intel Core i3 , Intel Core i5 , Intel Core i7 , Intel Core i9 , Intel Pentium Gold</td>
+              </tr>
+              <tr>
+                <td>Chipset </td>
+                <td>Z490</td>
+              </tr>
+              <tr>
+                <td>จำนวน Slot แรม </td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>ความจุแรมสูงสุด </td>
+                <td>128 GB</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>

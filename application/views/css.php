@@ -155,7 +155,7 @@
 </style>
 
 
-<!-- ปุ่มเข้าสู่ระบบ -->
+<!-- ผู้ใช้งาน -->
 <style>
     .drop_btn {
         color: white;
@@ -167,7 +167,6 @@
         overflow: hidden;
         outline: none;
         margin-top: 10%;
-        /* margin-left: 2%; */
     }
 
     .drop_btn:hover,
@@ -213,6 +212,7 @@
     .dropdown:hover .dropdown-content {
         display: block;
         text-decoration: none;
+        font-size: 12px;
     }
 
     .dropdown:hover .dropbtn {

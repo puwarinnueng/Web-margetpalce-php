@@ -21,10 +21,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <body style="text-align:center;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <div class="head-goods">
-        <h1 class="Best-sellers">เกี่ยวกับเรา</h1>
-    </div>
+    <h1 class="Head_title">เกี่ยวกับเรา</h1>
     <hr class="style1">
     <br>
 
@@ -43,3 +40,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </body>
 
 </html>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100hv;
+        align-items: center;
+        align-content: center;
+        font-family: 'Prompt', sans-serif;
+    }
+</style>

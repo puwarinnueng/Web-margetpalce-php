@@ -167,7 +167,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     }, 5000);
   </script>
 
-<h1 class="Head_title">โปรโมชั่น</h1>
+  <h1 class="Head_title">โปรโมชั่น</h1>
   <hr class="style1">
   <br>
   <div class="container">
@@ -175,12 +175,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/cpu_i3'); ?>"><img src="<?php echo base_url('img/cpu1.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/cpu_i3'); ?>">INTEL LGA1200 <br> CORE I3-10300</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">5,400.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -189,12 +189,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/gpu_aorus'); ?>"><img src="<?php echo base_url('img/gpu3.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
-            <br><br>
-            <h2 class="price">20000.-</h2>
+            <div class="brand"><a href="<?php echo site_url('home/gpu_aorus'); ?>">AORUS RTX 2080 SUPER</a></div>
+            <br><br><br>
+            <h2 class="price">25,000.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -203,12 +203,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/mb_asrock'); ?>"><img src="<?php echo base_url('img/mb4.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_asrock'); ?>">LGA1200 ASROCK Z490 <br>TAICHI</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">12,600.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -217,12 +217,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/ram_kingston'); ?>"><img src="<?php echo base_url('img/ram1.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/ram_kingston'); ?>">32GB (16GBX2) DDR4 BUS2666 KINGSTON HYPERX FURY</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">2,600.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -238,12 +238,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/gpu_msi_2060'); ?>"><img src="<?php echo base_url('img/gpu1.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/gpu_msi_2060'); ?>">MSI RTX 2060 SUPER <br>GAMING X</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">14,000.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -252,12 +252,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/cpu_i5'); ?>"><img src="<?php echo base_url('img/cpu2.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/cpu_i5'); ?>">INTEL LGA1200 <br> CORE I5-10600K</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">9,800.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -266,26 +266,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/mb_msi'); ?>"><img src="<?php echo base_url('img/mb2.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_msi'); ?>">LGA1200 MSI MEG Z490 GODLIKE</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">25,900.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
 
+
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/mb_asus'); ?>"><img src="<?php echo base_url('img/mb1.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_asus'); ?>">LGA1200 ASUS ROG Z490 MAXIMUS XII FORMULA</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">18,400.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -293,7 +294,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </div>
   </div>
 
-  
+
   <h1 class="Head_title">สินค้ามาใหม่</h1>
   <hr class="style1">
   <br>
@@ -302,12 +303,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/gpu_msi_2070'); ?>"><img src="<?php echo base_url('img/gpu2.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/gpu_msi_2070'); ?>">MSI RTX 2070 SUPER <br>GAMING X TRIO</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">19,000.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -330,12 +331,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/ram_corsair'); ?>"><img src="<?php echo base_url('img/ram3.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/ram_corsair'); ?>">16GB (8GBX2) BUS3600 CORSAIR VENGEANCE RGB PRO</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">3,500.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
@@ -344,12 +345,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/mb1.png'); ?>">
+            <a href="<?php echo site_url('home/cpu_i9'); ?>"><img src="<?php echo base_url('img/cpu4.png'); ?>"></a>
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/cpu_i9'); ?>">INTEL LGA1200 <br> CORE I9-10900K</a></div>
             <br><br>
-            <h2 class="price">20000.-</h2>
+            <h2 class="price">19,500.-</h2>
             <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
