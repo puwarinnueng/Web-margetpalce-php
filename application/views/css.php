@@ -219,8 +219,8 @@
         background-color: #FF8E2B;
     }
 
-    .icon_profile {
-        font-size: 18px
+    #icon_profile {
+        font-size: 25px
     }
 </style>
 

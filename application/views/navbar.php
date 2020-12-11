@@ -49,17 +49,15 @@
         <div class="col-md-1">
           <div class="dropdown">
             <button class="drop_btn">
-              <p class="icon_profile"><i class="fa fa-user" aria-hidden="true"></i></p>
-              เข้าสู่ระบบ
+              <p><i class="fa fa-user" id="icon_profile" aria-hidden="true"></i><br>
+                ผู้ใช้งาน</p>
             </button>
             <div class="dropdown-content">
               <!-- <a href="<?php echo site_url('insertdata'); ?>">สมัครสมาชิก</a>
               <a href="<?php echo site_url('insertdata/login'); ?>">เข้าสู่ระบบ</a> -->
               <!-- <li class="divider"></li> -->
               <a href="<?php echo site_url('insertdata/showmember'); ?>">แก้ไขข้อมูล</a>
-              <a href="<?php echo site_url('user/logout');?>"
-              onclick="return confirm('ยืนยัน')";
-              >ออกจากระบบ</a>
+              <a href="<?php echo site_url('user/logout'); ?>" onclick="return confirm('ยืนยัน')" ;>ออกจากระบบ</a>
             </div>
           </div>
 
@@ -101,7 +99,7 @@
                 </ul>
 
               </li>
-              <li><a href="<?php echo site_url('home/about_us');?>">เกี่ยวกับเรา</a></li>
+              <li><a href="<?php echo site_url('home/about_us'); ?>">เกี่ยวกับเรา</a></li>
             </ul>
           </div>
         </div>

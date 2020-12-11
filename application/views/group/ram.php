@@ -30,7 +30,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/ram1.png'); ?>">
+            <a href="<?php echo site_url('home/ram_kingston'); ?>"><img src="<?php echo base_url('img/ram1.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/ram_kingston'); ?>">32GB (16GBX2) DDR4 BUS2666 KINGSTON HYPERX FURY</a></div>
@@ -44,7 +44,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/ram2.png'); ?>">
+            <a href="<?php echo site_url('home/ram_gskill'); ?>"><img src="<?php echo base_url('img/ram2.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/ram_gskill'); ?>">16GB (8GBX2) DDR4 BUS3200 G.SKILL TRIDENT Z RGB</a></div>
@@ -58,7 +58,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/ram3.png'); ?>">
+            <a href="<?php echo site_url('home/ram_corsair'); ?>"><img src="<?php echo base_url('img/ram3.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/ram_corsair'); ?>">16GB (8GBX2) BUS3600 CORSAIR VENGEANCE RGB PRO</a></div>
@@ -73,7 +73,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="card-product">
           <div class="imgBx">
           <!-- ใช้รูป ram5 เพราะ 4 มันแก้รูปไม่ได้ เป็นรูปเดิมตลอด -->
-            <img src="<?php echo base_url('img/ram5.png'); ?>"> 
+            <a href="<?php echo site_url('home/ram_thermal'); ?>"><img src="<?php echo base_url('img/ram5.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/ram_thermal'); ?>">16 GB (8GBX2) BUS4000 THERMALTAKE TOUGHRAM</a></div>
