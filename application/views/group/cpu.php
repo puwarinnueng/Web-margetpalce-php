@@ -12,7 +12,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
   <meta charset="utf-8">
-  <title>Com Store</title>
+  <title>CPU</title>
   <link rel="stylesheet" href="Home_view.php">
 </head>
 
