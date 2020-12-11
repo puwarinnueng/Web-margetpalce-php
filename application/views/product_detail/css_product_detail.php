@@ -111,10 +111,10 @@
         color: #fff;
         width: 700px;
         height: 50px;
-        margin-left: 24%;
+        margin-left: 5%;
         margin-top: 3%;
         align-items: center;
-        margin-bottom: 40%;
+        margin-bottom: 50%;
     }
 
     .discription h3 {
@@ -127,7 +127,7 @@
 
     .discription_table {
         border-collapse: collapse;
-        /* width: 100%; */
+        width: 100%;
         border: 4px solid #003559;
         font-size: 13px;
     }

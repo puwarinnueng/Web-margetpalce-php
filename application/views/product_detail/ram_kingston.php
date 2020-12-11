@@ -58,54 +58,53 @@ defined('BASEPATH') or exit('No direct script access allowed');
           </table>
         </div>
       </div>
-
     </div>
-  </div>
 
-  <div class="row row2">
-    <div class="col-md-8">
-      <div class="discription">
-        <h3>รายละเอียดสินค้า</h3>
-        <div class="content_discription">
-          <table class="discription_table">
-            <tr>
-              <td>Brand </td>
-              <td>KINGSTON</td>
-            </tr>
-            <tr>
-              <td>Model </td>
-              <td>HyperX FURY RGB</td>
-            </tr>
-            <tr>
-              <td>Type </td>
-              <td>DDR4</td>
-            </tr>
-            <tr>
-              <td>Speed </td>
-              <td>2666 MHz</td>
-            </tr>
-            <tr>
-              <td>Total Capacity </td>
-              <td>16 GB</td>
-            </tr>
-            <tr>
-              <td>Capacity per DIMM </td>
-              <td>8 GB</td>
-            </tr>
-            <tr>
-              <td>Number of DIMMs </td>
-              <td>2 DIMM(s)</td>
-            </tr>
-            <tr>
-              <td>Latency </td>
-              <td>16-18-18</td>
-            </tr>
-          </table>
+    <div class="row row2">
+      <div class="col-md-8">
+        <div class="discription">
+          <h3>รายละเอียดสินค้า</h3>
+          <div class="content_discription">
+            <table class="discription_table">
+              <tr>
+                <td>Brand </td>
+                <td>KINGSTON</td>
+              </tr>
+              <tr>
+                <td>Model </td>
+                <td>HyperX FURY RGB</td>
+              </tr>
+              <tr>
+                <td>Type </td>
+                <td>DDR4</td>
+              </tr>
+              <tr>
+                <td>Speed </td>
+                <td>2666 MHz</td>
+              </tr>
+              <tr>
+                <td>Total Capacity </td>
+                <td>16 GB</td>
+              </tr>
+              <tr>
+                <td>Capacity per DIMM </td>
+                <td>8 GB</td>
+              </tr>
+              <tr>
+                <td>Number of DIMMs </td>
+                <td>2 DIMM(s)</td>
+              </tr>
+              <tr>
+                <td>Latency </td>
+                <td>16-18-18</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
+
 </body>
 
 </html>

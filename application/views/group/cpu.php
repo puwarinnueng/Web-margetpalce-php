@@ -27,7 +27,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/cpu1.png'); ?>">
+            <a href="<?php echo site_url('home/cpu_i3'); ?>"><img src="<?php echo base_url('img/cpu1.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/cpu_i3'); ?>">INTEL LGA1200 <br> CORE I3-10300</a></div>
@@ -41,7 +41,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/cpu2.png'); ?>">
+            <a href="<?php echo site_url('home/cpu_i5'); ?>"><img src="<?php echo base_url('img/cpu2.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/cpu_i5'); ?>">INTEL LGA1200 <br> CORE I5-10600K</a></div>
@@ -55,7 +55,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/cpu3.png'); ?>">
+            <a href="<?php echo site_url('home/cpu_i7'); ?>"><img src="<?php echo base_url('img/cpu3.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/cpu_i7'); ?>">INTEL LGA1200 <br> CORE I7-10700K</a></div>
@@ -69,7 +69,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
       <div class="col-md-3">
         <div class="card-product">
           <div class="imgBx">
-            <img src="<?php echo base_url('img/cpu4.png'); ?>">
+            <a href="<?php echo site_url('home/cpu_i9'); ?>"><img src="<?php echo base_url('img/cpu4.png'); ?>"></a>
           </div>
           <div class="contentBx">
             <div class="brand"><a href="<?php echo site_url('home/cpu_i9'); ?>">INTEL LGA1200 <br> CORE I9-10900K</a></div>

@@ -235,6 +235,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
         flex-direction: column;
         z-index: 1;
     }
@@ -243,6 +244,8 @@
         font-size: 12px;
         font-weight: bold;
         color: #fff;
+        height: auto;
+
     }
 
     .card-product .contentBx .brand a:hover {
@@ -257,6 +260,7 @@
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 1px;
+        margin-top: -8%;
     }
 
     .card-product .contentBx .buy {
@@ -273,6 +277,7 @@
         transition: 0.5s;
         top: 0px;
         opacity: 0;
+        margin: auto;
     }
 
     .card-product:hover .contentBx .buy {

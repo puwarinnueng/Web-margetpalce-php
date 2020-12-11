@@ -59,58 +59,58 @@ defined('BASEPATH') or exit('No direct script access allowed');
           </table>
         </div>
       </div>
-
     </div>
-  </div>
 
-  <div class="row row2">
-    <div class="col-md-8">
-      <div class="discription">
-        <h3>รายละเอียดสินค้า</h3>
-        <div class="content_discription">
-          <table class="discription_table">
-            <tr>
-              <td>Brand </td>
-              <td>INTEL</td>
-            </tr>
-            <tr>
-              <td>Model </td>
-              <td>INTEL CORE I7 - 10700K</td>
-            </tr>
-            <tr>
-              <td>Socket </td>
-              <td>1200 Comet Lake 400 Series</td>
-            </tr>
-            <tr>
-              <td>CPU Core / Thread </td>
-              <td>8/16</td>
-            </tr>
-            <tr>
-              <td>Frequency </td>
-              <td>3.80 GHz</td>
-            </tr>
-            <tr>
-              <td>Turbo Frequency </td>
-              <td>5.10 GHz</td>
-            </tr>
-            <tr>
-              <td>Cache </td>
-              <td>16 MB Intel Smart Cache</td>
-            </tr>
-            <tr>
-              <td>Integrated Graphics </td>
-              <td>Intel UHD Graphics 630</td>
-            </tr>
-            <tr>
-              <td>TDP </td>
-              <td>95 W</td>
-            </tr>
-          </table>
+    <div class="row row2">
+      <div class="col-md-8">
+        <div class="discription">
+          <h3>รายละเอียดสินค้า</h3>
+          <div class="content_discription">
+            <table class="discription_table">
+              <tr>
+                <td>Brand </td>
+                <td>INTEL</td>
+              </tr>
+              <tr>
+                <td>Model </td>
+                <td>INTEL CORE I7 - 10700K</td>
+              </tr>
+              <tr>
+                <td>Socket </td>
+                <td>1200 Comet Lake 400 Series</td>
+              </tr>
+              <tr>
+                <td>CPU Core / Thread </td>
+                <td>8/16</td>
+              </tr>
+              <tr>
+                <td>Frequency </td>
+                <td>3.80 GHz</td>
+              </tr>
+              <tr>
+                <td>Turbo Frequency </td>
+                <td>5.10 GHz</td>
+              </tr>
+              <tr>
+                <td>Cache </td>
+                <td>16 MB Intel Smart Cache</td>
+              </tr>
+              <tr>
+                <td>Integrated Graphics </td>
+                <td>Intel UHD Graphics 630</td>
+              </tr>
+              <tr>
+                <td>TDP </td>
+                <td>95 W</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
+
+
 </body>
 
 </html>
