@@ -64,9 +64,19 @@ class Member_model extends CI_Model
         $this->db->where('m_id', $this->input->post('m_id'));
 
         $query = $this->db->update('tbl_member', $data);
+        // if ($query) {
+        //     echo 'edit ok';
+        // } else echo 'false';
+
         if ($query) {
-            echo 'edit ok';
-        } else echo 'false';
+                echo "<script>";
+                echo "alert('แก้ไขข้อมูลเรียบร้อยแล้ว');";
+                echo "</script>";
+            } else {
+                echo "<script>";
+                echo "alert('แก้ไขข้อมูลผิดพลาด!');";
+                echo "</script>";
+            }
     }
 
     //queryข้อมูลมาแสดง
