@@ -14,13 +14,14 @@ class User extends CI_Controller
     {
         // print_r($_SESSION);
         // $this->load->view('navbar');
-        $this->load->view('css');
+        // $this->load->view('css');
         $this->load->view('login_view');
         $this->load->view('Home_css');
+        $this->load->view('login_css');
         // $this->load->view('social');
-        $this->load->view('js');
-        $this->load->view('card_buttom');
-        $this->load->view('footer');
+        // $this->load->view('js');
+        // $this->load->view('card_buttom');
+        // $this->load->view('footer');
     }
 
     // public function check()
