@@ -18,23 +18,61 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 </head>
 
-
 <body style="text-align:center;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <h1 class="Head_title">เกี่ยวกับเรา</h1>
     <hr class="style1">
     <br>
 
-    <h1>เราคือผู้จัดจำหน่ายคอมพิวเตอร์ และอุปกรณ์ไอทีชั้นนำของประเทศไทย </h1>
-    <h1>ที่มีประสบการณ์ในการให้ บริการมากกว่า 4 ปี</h1>
-    <br>
-    <h2>โดดเด่นเรื่องบริการที่ทันสมัย ครบวงจร ผสมผสาน</h2>
-    <h2>กับความหลากหลายของสินค้าไอทีคุณภาพซึ่งผ่าน</h2>
-    <h2>การคัดสรรจากแบรนด์ที่มีชื่อเสียง และได้รับการรับ</h2>
-    <h2>รองมาตราฐานการผลิตจากบริษัทชั้นนำระดับโลก</h2>
+    <div class="container-fluid">
+        <div class="blog1">
+        <br>
+            <h1><b>COM STORE </b></h1>
+            <br>
+            <p>เราคือผู้จัดจำหน่ายคอมพิวเตอร์ และอุปกรณ์ไอทีชั้นนำของประเทศไทย <br>ที่มีประสบการณ์ให้บริการมากกว่า <b>4</b> ปี </p>
+        </div>
+        <div class="blog2">
+            <div class="logo_icon">
+                <img src="<?php echo base_url('img/cpu2.png'); ?>">
+            </div>
+        </div>
+    </div>
+        
+    <div class="container-fluid">
+        <div class="blog3">
+        <br>
+            <p>ทางร้านเราใส่ใจในรายละเอียด <br>และคุณภาพในการบริการอย่างมาก <br>เพื่อตอบสนองความต้องการของลูกค้า <br>และความเปลี่ยนแปลงของเทคโนโลยี</p>
+        </div>
+        <div class="blog4">
+            <div class="quality_icon">
+                <img src="<?php echo base_url('img/quality_icon.png'); ?>">
+            </div>
+        </div>
+    </div>
 
+    <div class="container-fluid">
+        <div class="blog5">
+        <br><br>
+            <p>ลูกค้าสามารถสั่งสินค้าออนไลน์ และชำระเงิน<br>ผ่านทาง E-Banking ได้ผ่านหลากหลายธนาคาร อาทิ เช่น ธนาคารกรุงศรี</p>
+        </div>
+        <div class="blog6">
+            <div class="banking_icon">
+                <img src="<?php echo base_url('img/banking_icon.png'); ?>">
+            </div>
+        </div>
+    </div>
 
-
+    <div class="container-fluid">
+        <div class="blog7">
+        <br><br>
+            <p>รับบริการส่งสินค้าของท่านอย่างรวดเร็ว ด้วยบริการจากบริษัทขนส่งชั้นนำของประเทศอย่าง Kerry และ DHL</p>
+        </div>
+        <div class="blog8">
+            <div class="deliver_icon">
+                <img src="<?php echo base_url('img/deliver_icon.png'); ?>">
+            </div>
+        </div>
+    </div>
 
 
 </body>
@@ -49,5 +87,99 @@ defined('BASEPATH') or exit('No direct script access allowed');
         align-items: center;
         align-content: center;
         font-family: 'Prompt', sans-serif;
+    }
+
+    .container-fluid {
+        width: 74%;
+        height: 50%;
+    }
+
+    .blog1 {
+        width: 50%;
+        height: 90%;
+        float: left;
+        font-size: 30px;
+        color: white;
+        background-color: #003559;
+    }
+
+    .blog2 {
+        width: 50%;
+        height: 90%;
+        float: right;
+    }
+
+    .blog3 {
+        width: 50%;
+        height: 90%;
+        float: right;
+        font-size: 30px;
+        color: black;
+        background-color: #E0EAF5;
+    }
+
+    .blog4 {
+        width: 40%;
+        height: 90%;
+        float: left;
+    }
+
+    .blog5 {
+        width: 50%;
+        height: 90%;
+        float: left;
+        font-size: 30px;
+        color: white;
+        background-color: #0D2137;
+    }
+
+    .blog6 {
+        width: 50%;
+        height: 90%;
+        float: right;
+    }
+
+    .blog7 {
+        width: 50%;
+        height: 90%;
+        float: right;
+        font-size: 30px;
+        color: white;
+        background-color: #FF8E2B;
+    }
+
+    .blog8 {
+        width: 50%;
+        height: 90%;
+        float: left;
+    }
+
+    .logo_icon img {
+        width: 85%;
+        height: 85%;
+        margin-top: auto;
+        margin-right: auto;
+    }
+
+    .quality_icon img {
+        width: 85%;
+        height: 85%;
+        margin-top: auto;
+        margin-right: auto;
+    }
+
+
+    .banking_icon img {
+        width: 70%;
+        height: 100%;
+        margin-top: auto;
+        margin-right: auto;
+    }
+
+    .deliver_icon img {
+        width: 80%;
+        height: 100%;
+        margin-top: auto;
+        margin-right: auto;
     }
 </style>
