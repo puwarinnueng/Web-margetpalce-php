@@ -56,7 +56,7 @@ class Insertdata extends CI_Controller
     {
         //   print_r($_POST);
         $this->member_model->editmember();
-        redirect('insertdata/showmember', 'refresh');
+        redirect('user/profile', 'refresh');
     }
 
     //เรียกใช้ model ลบข้อมูล

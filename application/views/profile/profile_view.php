@@ -11,7 +11,7 @@
                       <div class="col-sm-2 control-label">email</div>
                       <div class="col-sm-6">
                           <input type="text" name="m_email" required class="form-control"
-                          value="<?php echo $rsedit->m_email;?>" disabled>
+                          value="<?php echo $rsedit->m_email;?>">
                       </div>
                   </div>
 
