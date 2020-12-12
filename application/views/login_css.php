@@ -58,6 +58,23 @@
         z-index: 2;
     }
 
+    form.form-forgot{
+        z-index: 2;
+        margin-top: 21%;
+        margin-left: 50%;
+    }
+
+    .forgot{
+        border: none;
+        background: none;
+        font-size: 13px;
+    }
+
+    form.form-forgot :hover.forgot {
+        color: red;
+        outline: none;
+    }
+
 
     .title {
         font-size: 2.2rem;
@@ -114,6 +131,7 @@
         margin: 10px 0;
         cursor: pointer;
         transition: 0.5s;
+        margin-top: 8%;
     }
 
     .btn:hover {
@@ -128,7 +146,7 @@
         width: 50%;
         display: grid;
         grid-template-columns: 1fr;
-        z-index: 1;
+        z-index: 10;
     }
 
     .panels_container {
@@ -143,7 +161,7 @@
 
     .image2 {
         width: 100%;
-        margin-right:10%;
+        margin-right: 10%;
     }
 
     .panel {
@@ -186,6 +204,8 @@
         width: 130px;
         height: 41px;
         font-weight: 600;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
+
+  
 </style>
