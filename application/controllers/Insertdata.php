@@ -81,14 +81,6 @@ class Insertdata extends CI_Controller
         $this->load->view('js');
     }
 
-    // public function login()
-    // {   
-
-    //     $this->load->view('navbar');
-    //     $this->load->view('css');
-    //     $this->load->view('login_view');
-    //     $this->load->view('js');
-    // }
 
 
 

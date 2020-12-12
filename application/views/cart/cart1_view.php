@@ -1,72 +1,44 @@
-  <!-- หน้ายืนยันการเลือกสินค้า -->
-  <div class="container">
-      <div class="row">
-          <div class="col-md-2"></div>
-          <div class="col-md-7">
-              <h4 style="text-align:center;"> แก้ไขข้อมูล</h4>
-              <br>
-              <form action="<?php echo site_url('insertdata/editdata'); ?>" method="post" class="form-hoizontal">
+<br><br>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 style="text-align:center;"> ยืนยันการเลือกสินค้า</h4>
+                <table class="table table=bordered table=hover">
+                    <!-- <caption>    kkk</caption> -->
+                    <thead>
+                        <tr>
+                            <th>เลขที่สินค้า</th>
+                            <th>รูปสินค้า</th>
+                            <th>ประเภท</th>
+                            <th>ชื่อสินค้า</th>
+                            <th>ราคา</th>
 
-                  <img src="<?php echo base_url('img'); ?>/<?php echo $rsedit->m_img; ?>" width="100px">
-                  <br>
-                  <br>
-                  <div class="form-group row">
-                      <div class="col-sm-2 control-label">email</div>
-                      <div class="col-sm-6">
-                          <input type="text" name="m_email" required class="form-control" value="<?php echo $rsedit->m_email; ?>">
-                      </div>
-                  </div>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($query as $rs) { ?>
+                            <tr>
+                                <td> <?php echo $rs->p_id; ?> </td>
+                                <td>
+                                    <img src="<?php echo base_url('img'); ?>/<?php echo $rs->p_img; ?>" width="50px">
+                                </td>
+                                <td> <?php echo $rs->p_type; ?> </td>
+                                <td> <?php echo $rs->p_name; ?> </td>
+                                <td> <?php echo $rs->p_price; ?> </td>
 
+                                <!-- <td> <?php echo $rs->m_lname; ?> </td> -->
+                                <!-- <td> <?php echo $rs->m_tel; ?> </td>
+                                <td> <?php echo $rs->m_ads; ?> </td>
+                                <td> <?php echo $rs->m_datesave; ?> </td>
+                                <td> <?php echo $rs->count; ?> </td> -->
+                                <td><a href="<?php echo site_url('insertdata/edit/') . $rs->p_id; ?>">เพิ่มเข้ารถเข็น</td>
+                                <!-- <td><a href="<?php echo site_url('insertdata/del/') . $rs->p_id; ?>" onclick="return confirm('ยืนยัน')">ลบสินค้า</td> -->
+                            </tr>
+                        <?php } ?>
+                    </tbody>
+                </table>
 
-                  <div class="form-group row">
-                      <div class="col-sm-2 control-label">password</div>
-                      <div class="col-sm-6">
-                          <input type="text" name="m_password" required class="form-control" value="<?php echo $rsedit->m_password; ?>">
-                      </div>
-                  </div>
-
-                  <div class="form-group row">
-                      <div class="col-sm-2 control-label">Name</div>
-                      <div class="col-sm-6">
-                          <input type="text" name="m_name" required class="form-control" placeholder="ชื่อ" value="<?php echo $rsedit->m_name; ?>">
-                      </div>
-                  </div>
-
-                  <div class="form-group row">
-                      <div class="col-sm-2 control-label">Lastname</div>
-                      <div class="col-sm-6">
-                          <input type="text" name="m_lname" required class="form-control" placeholder="สกุล" value="<?php echo $rsedit->m_lname; ?>">
-                      </div>
-                  </div>
-
-                  <div class="form-group row">
-                      <div class="col-sm-2 control-label">Phone</div>
-                      <div class="col-sm-5">
-                          <input type="text" name="m_tel" required class="form-control" placeholder="เบอร์โทรศัพท์" value="<?php echo $rsedit->m_tel; ?>">
-                      </div>
-                  </div>
-
-                  <div class="form-group row">
-                      <div class="col-sm-2 control-label">Address</div>
-                      <div class="col-sm-7">
-                          <input type="text" name="m_ads" required class="form-control" placeholder="ที่อยู่" value="<?php echo $rsedit->m_ads; ?>">
-                      </div>
-                  </div>
-
-                  <div class="form-group row">
-                      <div class="col-sm-2 control-label"></div>
-                      <div class="col-sm-5">
-                          <input type="hidden" name="m_id" value="<?php echo $rsedit->m_id; ?>">
-                          <button type="submit" class="btn btn-primary">ตกลง</button>
-                      </div>
-                  </div>
-
-              </form>
-          </div>
-      </div>
-  </div>
-
-
-
-
-  </html>
+            </div>
+        </div>
+    </div>
