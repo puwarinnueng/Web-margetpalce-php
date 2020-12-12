@@ -146,4 +146,26 @@ class User extends CI_Controller
             redirect('user/forgotpass');
         }
     }
+
+    //แก้ไขโปรไฟล์แบบ2
+    public function profile()
+    {
+
+        $m_id = $_SESSION['m_id'];
+        // echo $m_id;
+        // echo '<br>';
+        // print_r($_SESSION);
+        // exit;
+        $data['rsedit'] = $this->member_model->read($m_id);
+        // echo '<pre>';
+        // print_r($data);
+        // echo '</pre>';
+        // exit;
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('profile/profile_view' ,$data);
+        $this->load->view('Home_css');
+        $this->load->view('js');
+        $this->load->view('footer');
+    }
 }
