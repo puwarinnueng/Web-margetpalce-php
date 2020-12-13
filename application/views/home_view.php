@@ -181,7 +181,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/cpu_i3'); ?>">INTEL LGA1200 <br> CORE I3-10300</a></div>
             <br><br>
             <h2 class="price">5,400.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/cpu_i3'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -258,7 +258,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/cpu_i5'); ?>">INTEL LGA1200 <br> CORE I5-10600K</a></div>
             <br><br>
             <h2 class="price">9,800.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/cpu_i5'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -351,7 +351,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/cpu_i9'); ?>">INTEL LGA1200 <br> CORE I9-10900K</a></div>
             <br><br>
             <h2 class="price">19,500.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/cpu_i9'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>

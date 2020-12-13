@@ -175,4 +175,59 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
+    public function ram_thermal()
+    {
+        $data['query'] = $this->cart_model->showdata12();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function cpu_i3()
+    {
+        $data['query'] = $this->cart_model->showdata13();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function cpu_i5()
+    {
+        $data['query'] = $this->cart_model->showdata14();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function cpu_i7()
+    {
+        $data['query'] = $this->cart_model->showdata15();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function cpu_i9()
+    {
+        $data['query'] = $this->cart_model->showdata16();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
 }

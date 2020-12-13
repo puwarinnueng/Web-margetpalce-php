@@ -79,7 +79,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/ram_thermal'); ?>">16 GB (8GBX2) BUS4000 THERMALTAKE TOUGHRAM</a></div>
             <br><br>
             <h2 class="price">5,000.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/ram_thermal'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
