@@ -287,7 +287,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/mb_asus'); ?>">LGA1200 ASUS ROG Z490 MAXIMUS XII FORMULA</a></div>
             <br><br>
             <h2 class="price">18,400.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/mb_asus'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>

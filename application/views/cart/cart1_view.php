@@ -32,7 +32,7 @@
                                 <td> <?php echo $rs->m_ads; ?> </td>
                                 <td> <?php echo $rs->m_datesave; ?> </td>
                                 <td> <?php echo $rs->count; ?> </td> -->
-                                <td><a href="<?php echo site_url('insertdata/edit/') . $rs->p_id; ?>">เพิ่มเข้ารถเข็น</td>
+                                <td><a href="<?php echo site_url('cart/show_data/') . $rs->p_id; ?>">ยืนยันการเลือกสินค้า</td>
                                 <!-- <td><a href="<?php echo site_url('insertdata/del/') . $rs->p_id; ?>" onclick="return confirm('ยืนยัน')">ลบสินค้า</td> -->
                             </tr>
                         <?php } ?>
