@@ -17,7 +17,7 @@ class User extends CI_Controller
         // $this->load->view('css');
         $this->load->view('login_view');
         $this->load->view('Home_css');
-        $this->load->view('login_css');
+        $this->load->view('login&regis_css');
         // $this->load->view('social');
         // $this->load->view('js');
         // $this->load->view('card_buttom');
