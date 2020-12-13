@@ -9,18 +9,6 @@ class Cart extends CI_Controller
         $this->load->model('cart_model');
     }
 
-    //โชว์ข้อมูลสินค้าเริ่มต้น
-    public function mb_asus()
-    {
-        $data['query'] = $this->cart_model->showdata1();
-
-        $this->load->view('navbar');
-        $this->load->view('css');
-        $this->load->view('cart/cart1_view', $data);
-        $this->load->view('footer');
-        $this->load->view('js');
-    }
-
     //query ข้อมูลของสินค้ามาใส่ใน form
     public function show_data($p_id)
     {
@@ -64,4 +52,95 @@ class Cart extends CI_Controller
         $this->cart_model->deldata($id);
         redirect('cart/showcart', 'refresh');
     }
+
+    //โชว์ข้อมูลสินค้าเริ่มต้น
+    public function mb_asus()
+    {
+        $data['query'] = $this->cart_model->showdata1();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function mb_msi()
+    {
+        $data['query'] = $this->cart_model->showdata2();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+        public function mb_aorus()
+    {
+        $data['query'] = $this->cart_model->showdata3();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function mb_asrock()
+    {
+        $data['query'] = $this->cart_model->showdata4();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function gpu_msi_2060()
+    {
+        $data['query'] = $this->cart_model->showdata5();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function gpu_msi_2070()
+    {
+        $data['query'] = $this->cart_model->showdata6();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function gpu_aorus()
+    {
+        $data['query'] = $this->cart_model->showdata7();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function gpu_galax()
+    {
+        $data['query'] = $this->cart_model->showdata8();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+
 }

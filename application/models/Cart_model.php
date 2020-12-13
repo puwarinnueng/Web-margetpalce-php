@@ -64,4 +64,106 @@ class Cart_model extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
+
+    //โชว์ข้อมูลmainboard msi
+    public function showdata2()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '2');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    //โชว์ข้อมูลmainboard aorus
+    public function showdata3()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '3');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    //โชว์ข้อมูลmainboard asrock
+    public function showdata4()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '4');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata5()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '5');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+    
+    public function showdata6()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '6');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata7()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '7');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata8()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '8');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
 }

@@ -195,7 +195,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/gpu_aorus'); ?>">AORUS RTX 2080 SUPER</a></div>
             <br><br><br>
             <h2 class="price">25,000.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/gpu_aorus'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -209,7 +209,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/mb_asrock'); ?>">LGA1200 ASROCK Z490 <br>TAICHI</a></div>
             <br><br>
             <h2 class="price">12,600.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/mb_asrock'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -244,7 +244,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/gpu_msi_2060'); ?>">MSI RTX 2060 SUPER <br>GAMING X</a></div>
             <br><br>
             <h2 class="price">14,000.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/gpu_msi_2060'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -272,7 +272,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/mb_msi'); ?>">LGA1200 MSI MEG Z490 GODLIKE</a></div>
             <br><br>
             <h2 class="price">25,900.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/mb_msi'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -309,7 +309,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/gpu_msi_2070'); ?>">MSI RTX 2070 SUPER <br>GAMING X TRIO</a></div>
             <br><br>
             <h2 class="price">19,000.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/gpu_msi_2070'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -320,10 +320,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <img src="<?php echo base_url('img/mb1.png'); ?>">
           </div>
           <div class="contentBx">
-            <div class="brand"><a href="<?php echo site_url(''); ?>">LGA1200 Z490 Rog XI Formula</a></div>
+            <div class="brand"><a href="<?php echo site_url('home/mb_asus'); ?>">LGA1200 Z490 Rog XI Formula</a></div>
             <br><br>
             <h2 class="price">20000.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/mb_asus'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>

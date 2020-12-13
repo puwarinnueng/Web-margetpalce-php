@@ -50,7 +50,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/mb_msi'); ?>">LGA1200 MSI MEG Z490 GODLIKE</a></div>
             <br><br>
             <h2 class="price">25,900.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/mb_msi'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/mb_aorus'); ?>">LGA1200 GIGABYTE Z490 AORUS XTREME</a></div>
             <br><br>
             <h2 class="price">24,900.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/mb_aorus'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/mb_asrock'); ?>">LGA1200 ASROCK Z490 <br>TAICHI</a></div>
             <br><br>
             <h2 class="price">12,600.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/mb_asrock'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
