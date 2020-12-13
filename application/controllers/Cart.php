@@ -142,5 +142,37 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
+    public function ram_kingston()
+    {
+        $data['query'] = $this->cart_model->showdata9();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function ram_gskill()
+    {
+        $data['query'] = $this->cart_model->showdata10();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function ram_corsair()
+    {
+        $data['query'] = $this->cart_model->showdata11();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
 
 }

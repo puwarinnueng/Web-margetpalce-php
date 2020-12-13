@@ -223,7 +223,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/ram_kingston'); ?>">32GB (16GBX2) DDR4 BUS2666 KINGSTON HYPERX FURY</a></div>
             <br><br>
             <h2 class="price">2,600.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/ram_kingston'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>
@@ -337,7 +337,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="brand"><a href="<?php echo site_url('home/ram_corsair'); ?>">16GB (8GBX2) BUS3600 CORSAIR VENGEANCE RGB PRO</a></div>
             <br><br>
             <h2 class="price">3,500.-</h2>
-            <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+            <a class="buy" href="<?php echo site_url('cart/ram_corsair'); ?>">เพิ่มใส่รถเข็น</a>
           </div>
         </div>
       </div>

@@ -166,4 +166,46 @@ class Cart_model extends CI_Model
         return $query->result();
     }
 
+    public function showdata9()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '9');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata10()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '10');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata11()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '11');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
 }
