@@ -66,10 +66,6 @@
                     </div>
                 </div>
 
-
-
-
-
                 <!-- <div class="col-md-7">
                     <h4 style="text-align:center;"> สมัครสมาชิก</h4>
                     <br>
