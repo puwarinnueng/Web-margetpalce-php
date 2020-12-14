@@ -25,7 +25,7 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
-   
+
 
     //add ข้อมูลสินค้าเข้า tbl_savecart
     public function data()
@@ -56,6 +56,14 @@ class Cart extends CI_Controller
         redirect('cart/showcart', 'refresh');
     }
 
+
+    //เพิ่ม slip เข้า tbl_savecard
+    public function add_slip()
+    {
+        $this->cart_model->add_slip();
+        redirect('cart/showfinal', 'refresh');
+    }
+
     //โชว์ข้อมูลสินค้าเริ่มต้น
     public function mb_asus()
     {
@@ -64,6 +72,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -75,6 +85,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -86,6 +98,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -97,6 +111,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -108,6 +124,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -119,6 +137,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -130,6 +150,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -141,6 +163,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -152,6 +176,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -163,6 +189,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -174,6 +202,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -185,6 +215,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -196,6 +228,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -207,6 +241,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -218,6 +254,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -229,6 +267,8 @@ class Cart extends CI_Controller
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/cart1_view', $data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -303,17 +343,22 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
- 
+
 
     //หน้าสรุป
     public function showfinal()
     {
+        $m_id = $_SESSION['m_id'];
+
         $data['query'] = $this->cart_model->showdata_final();
-        // $data['query2'] = $this->cart_model->showdata_all();
+        $data['query2'] = $this->cart_model->name_final($m_id);
+        $data['query3'] = $this->cart_model->by_bank();
+        $data['query4'] = $this->cart_model->slip();
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/final_view', $data);
         $this->load->view('footer');
         $this->load->view('js');
     }
+
 }

@@ -61,7 +61,7 @@
               <!-- <li class="divider"></li> -->
 
               <!-- <a href="<?php echo site_url('insertdata/showmember'); ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> แก้ไขข้อมูล</a> -->
-              <a href="<?php echo site_url('user/profile'); ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> แก้ไขโปรไฟล์</a>
+              <a href="<?php echo site_url('user/profile'); ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> โปรไฟล์ผู้ใช้งาน</a>
               <a href="<?php echo site_url('user/logout'); ?>" onclick="return confirm('ยืนยัน')" ;><i class="fa fa-sign-out" aria-hidden="true"></i> ออกจากระบบ</a>
             </div>
           </div>

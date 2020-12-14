@@ -32,37 +32,37 @@
                             <div class="col-sm-12 control-label"></div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment"  value="kasikornbank">
+                               <input type="checkbox" name="p_payment"  value="kasikornbank.jpg">
                                 กสิกร
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="scb">
+                               <input type="checkbox" name="p_payment" value="scb.jpg">
                                 ไทยพาณิชย์
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="krungsri">
+                               <input type="checkbox" name="p_payment" value="krungsri.jpg">
                                 กรุงศรี
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="bangkokbank">
+                               <input type="checkbox" name="p_payment" value="bangkokbank.jpg">
                                 กรุงเทพ
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="krungthai">
+                               <input type="checkbox" name="p_payment" value="krungthai.jpg">
                                 กรุงไทย
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="tmb">
+                               <input type="checkbox" name="p_payment" value="tmb.jpg">
                                 ทหารไทย
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="promptpay">
+                               <input type="checkbox" name="p_payment" value="promptpay.jpg">
                                 พร้อมเพย์
                             </div>
 
