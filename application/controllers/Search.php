@@ -29,6 +29,7 @@ class Search extends CI_Controller
         }
     }
 
+    //พอไม่พบสินค้า จะ redirect มาหน้านี้
     public function noresult()
     {
         $this->load->view('navbar');
@@ -40,4 +41,11 @@ class Search extends CI_Controller
         $this->load->view('card_buttom');
         $this->load->view('footer');
     }
+
+    public function search_product_detail() 
+    {
+        $productID = $_POST['pro_id'];
+        echo $productID;
+    }
+
 }
