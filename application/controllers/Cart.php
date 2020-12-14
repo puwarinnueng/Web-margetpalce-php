@@ -38,6 +38,7 @@ class Cart extends CI_Controller
     public function showcart()
     {
         $data['query'] = $this->cart_model->showdata();
+        $data['query2'] = $this->cart_model->showdata_all();
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/show_view', $data);

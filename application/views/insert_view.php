@@ -20,27 +20,27 @@
                                 <h2 class="title">สมัครสมาชิก ComStore</h2>
                                 <div class="input-field">
                                 <i class="far fa-id-card"></i>
-                                    <input type="text" name="m_name" placeholder="ชื่อ" />
+                                    <input type="text" name="m_name" required placeholder="ชื่อ" />
                                 </div>
                                 <div class="input-field">
                                 <i class="far fa-id-card"></i>
-                                    <input type="text" name="m_lname" placeholder="นามสกุล" />
+                                    <input type="text" name="m_lname" required placeholder="นามสกุล" />
                                 </div>
                                 <div class="input-field">
                                     <i class="fas fa-envelope"></i>
-                                    <input type="text" name="m_email" placeholder="Email" />
+                                    <input type="text" name="m_email" required placeholder="Email" />
                                 </div>
                                 <div class="input-field">
                                     <i class="fas fa-key"></i>
-                                    <input type="password" name="m_password" placeholder="รหัสผ่าน" />
+                                    <input type="password" name="m_password" required placeholder="รหัสผ่าน" />
                                 </div>
                                 <div class="input-field">
                                     <i class="fas fa-phone-alt"></i>
-                                    <input type="text" name="m_tel" placeholder="เบอร์โทรศัพท์" />
+                                    <input type="text" name="m_tel" required placeholder="เบอร์โทรศัพท์" />
                                 </div>
                                 <div class="input-field">
                                     <i class="fas fa-map-marker-alt"></i>
-                                    <input type="text" name="m_ads" placeholder="ที่อยู่" />
+                                    <input type="text" name="m_ads" required placeholder="ที่อยู่" />
                                 </div>
                                 <div class="update-img">
                                     <label for="myfile">เลือกรูปภาพ:</label><input type="file" name="m_img" accapt="image/*">

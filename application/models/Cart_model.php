@@ -44,6 +44,16 @@ class Cart_model extends CI_Model
         // ,count(p_price) as count
     }
 
+    //หน้ารถเข็น ราคารวม
+    public function showdata_all()
+    {
+        $this->db->select('sum(p_price) as c');
+        $this->db->from('tbl_savecart');
+        $query2 = $this->db->get();
+        return $query2->result();
+        // ,count(p_price) as count
+    }
+
     //ลบข้อมูล
     public function deldata($id)
     {
@@ -123,7 +133,7 @@ class Cart_model extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
-    
+
     public function showdata6()
     {
         $this->db->select('*');
@@ -277,5 +287,4 @@ class Cart_model extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
-
 }
