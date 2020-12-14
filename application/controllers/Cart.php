@@ -25,6 +25,8 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
+   
+
     //add ข้อมูลสินค้าเข้า tbl_savecart
     public function data()
     {
