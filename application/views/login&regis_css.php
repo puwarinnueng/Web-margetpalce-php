@@ -100,7 +100,6 @@
         text-align: center;
         line-height: 45px;
         color: #acacac;
-        transition: 0.5s;
         font-size: 16px;
         font-size: 1.1rem;
     }
@@ -232,5 +231,5 @@
     .update-img :hover {
         outline: none;
     }
-
 </style>
+
