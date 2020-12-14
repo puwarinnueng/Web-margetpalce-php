@@ -12,16 +12,10 @@ class User extends CI_Controller
     //โหลดหน้า login
     public function index()
     {
-        // print_r($_SESSION);
-        // $this->load->view('navbar');
-        // $this->load->view('css');
         $this->load->view('login_view');
         $this->load->view('Home_css');
         $this->load->view('login&regis_css');
-        // $this->load->view('social');
-        // $this->load->view('js');
-        // $this->load->view('card_buttom');
-        // $this->load->view('footer');
+
     }
 
     // public function check()
@@ -119,14 +113,8 @@ class User extends CI_Controller
     //ลืมรหัสผ่าน
     public function forgotpass()
     {
-        // $this->load->view('css');
         $this->load->view('forgotpass_view');
         $this->load->view('forgot_css');
-        // $this->load->view('Home_css');
-        // $this->load->view('social');
-        // $this->load->view('js');
-        // $this->load->view('card_buttom');
-        // $this->load->view('footer');
     }
 
     //query ข้อมูลจากemail ที่ลืมรหัสผ่าน
@@ -164,6 +152,8 @@ class User extends CI_Controller
         $this->load->view('css');
         $this->load->view('profile/profile_view', $data);
         $this->load->view('Home_css');
+        $this->load->view('profile/profile_css');
+        $this->load->view('card_buttom');
         $this->load->view('js');
         $this->load->view('footer');
     }
