@@ -92,6 +92,7 @@
         align-content: center;
         margin-top: 15%;
         margin-left: 25%;
+        position: absolute;
     }
 
     .table-forgot2 {

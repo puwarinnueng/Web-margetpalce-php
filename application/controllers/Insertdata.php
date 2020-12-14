@@ -20,13 +20,8 @@ class Insertdata extends CI_Controller
 
 
         // exit;
-        // $this->load->view('navbar');
-        // $this->load->view('css');
         $this->load->view('insert_view');
         $this->load->view('login&regis_css');
-        // $this->load->view('member_view',$data);
-        // $this->load->view('footer');
-        // $this->load->view('js');
     }
 
     //อ่าน table เพื่อแสดงออกมาแก้ไข
@@ -36,8 +31,6 @@ class Insertdata extends CI_Controller
 
         // print_r($data);
         // exit;
-
-
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('edit_view', $data);
