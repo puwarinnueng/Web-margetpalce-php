@@ -26,7 +26,6 @@
                    <h4 style="text-align:center;"> เลือกวิธีการชำระเงิน</h4>
                    <br>
                    <form action="<?php echo site_url('cart/payhome'); ?>" method="post">
-
                        <div class="form-group row">
                            <div class="col-sm-12 control-label"></div>
                            <div class="col-sm-12">
@@ -35,19 +34,20 @@
 
                            </div>
                        </div>
+                   </form>
 
+                   <form action="<?php echo site_url('cart/select_paybank'); ?>" method="post">
                        <div class="form-group row">
                            <div class="col-sm-12 control-label"></div>
                            <div class="col-sm-12">
 
-                               <button type="submit" value="home" name="" class="btn btn-primary">ชำระผ่านบัญชีธนคาร</button>
+                               <button type="submit" value="" name="" class="btn btn-primary">ชำระผ่านบัญชีธนาคาร</button>
 
                            </div>
                        </div>
-
-
-
                    </form>
+                   
+
                </div>
            </div>
        </div>

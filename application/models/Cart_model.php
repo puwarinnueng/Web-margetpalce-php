@@ -15,6 +15,9 @@ class Cart_model extends CI_Model
         return false;
     }
 
+ 
+
+
     //เพิ่มข้อมูลเข้า tbl_savecard
     public function addtocard()
     {

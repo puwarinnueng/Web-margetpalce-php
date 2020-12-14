@@ -1,8 +1,29 @@
+<div class="forms_container">
+    <div class="col-md-12">
+        <form action="<?php echo site_url('insertdata/adding'); ?>" method="post" class="sign-in-form" enctype="multipart/form-data" ;>
+            <h2 class="title">กรุณาอัปโหลดสลิปโอนเงิน</h2>
+            <div class="update-img">
+                <label for="myfile"> </label><input type="file" name="m_img" accapt="image/*">
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12 control-label"></div>
+                <div class="col-sm-12">
+                    <button type="submit" class="btn btn-primary">อัปโหลดสลิป</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
 <br><br>
+<br>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h4 style="text-align:center;"> สรุป</h4>
+            <h4 style="text-align:center;"> สรุปการสั่งซื้อ </h4>
             <table class="table table=bordered table=hover">
                 <!-- <caption>    kkk</caption> -->
                 <thead>
@@ -15,6 +36,7 @@
                         <th>ที่อยู่จัดส่ง</th>
                         <th>ขนส่งโดย</th>
                         <th>วิธีการชำระเงิน</th>
+                        <th>สลิปโอนเงิน</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -28,6 +50,9 @@
                             <td> <?php echo $rs->p_address; ?> </td>
                             <td> <?php echo $rs->p_tran; ?> </td>
                             <td> <?php echo $rs->p_payment; ?> </td>
+                            <td>
+                                <img src="<?php echo base_url('img'); ?>/<?php echo $rs->p_slip; ?>" width="50px">
+                            </td>
                             <!-- <td><a href="<?php echo site_url('cart/del/') . $rs->id; ?>" onclick="return confirm('ยืนยัน')">ลบสินค้า</td> -->
                         </tr>
                     <?php } ?>

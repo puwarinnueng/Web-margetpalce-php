@@ -25,6 +25,8 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
+   
+
     //add ข้อมูลสินค้าเข้า tbl_savecart
     public function data()
     {
@@ -282,7 +284,7 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
-    //ชำระปลายทาง
+    //เลือกวิธีชำระเงิน
     public function payhome()
     {
         //    print_r($_POST);
@@ -290,6 +292,18 @@ class Cart extends CI_Controller
         $this->cart_model->add_payment();
         redirect('cart/showfinal', 'refresh');
     }
+
+    //เลือกชำระผ่านธนาคาร
+    public function select_paybank()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/paybank_view');
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+ 
 
     //หน้าสรุป
     public function showfinal()
