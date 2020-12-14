@@ -25,6 +25,8 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
+   
+
     //add ข้อมูลสินค้าเข้า tbl_savecart
     public function data()
     {
@@ -77,7 +79,7 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
-        public function mb_aorus()
+    public function mb_aorus()
     {
         $data['query'] = $this->cart_model->showdata3();
 
@@ -231,4 +233,87 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
+
+    //โหลดหน้าformกรอกที่อยู่
+    public function address()
+    {
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/address_view');
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function add_address()
+    {
+        //   print_r($_POST);
+        //   exit;
+        $this->cart_model->add_ads();
+        redirect('cart/tran', 'refresh');
+    }
+
+
+
+    //เลือกขนส่ง
+    public function tran()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/tran_view');
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function addtran()
+    {
+        //   print_r($_POST);
+        //   exit;
+        $this->cart_model->add_tran();
+        redirect('cart/pay', 'refresh');
+    }
+
+
+    //เลือกวิธีการชำระเงิน
+    public function pay()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/pay_view');
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    //เลือกวิธีชำระเงิน
+    public function payhome()
+    {
+        //    print_r($_POST);
+        //   exit;
+        $this->cart_model->add_payment();
+        redirect('cart/showfinal', 'refresh');
+    }
+
+    //เลือกชำระผ่านธนาคาร
+    public function select_paybank()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/paybank_view');
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+ 
+
+    //หน้าสรุป
+    public function showfinal()
+    {
+        $data['query'] = $this->cart_model->showdata_final();
+        // $data['query2'] = $this->cart_model->showdata_all();
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/final_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
 }
