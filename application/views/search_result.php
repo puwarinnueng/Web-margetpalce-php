@@ -1,6 +1,9 @@
-<!-- หน้าแสดงข้อมูลหลังจากกรอก email แล้ว -->
-<br>
-<br>
+<!-- หน้าแสดงผลหลังจากที่กดพิมใส่ search box แล้วกด search -->
+<head>
+    <meta charset="utf-8">
+    <title>Com Store</title>
+    <link rel="stylesheet" href="Home_view.php">
+</head>
 
 <style>
     table {

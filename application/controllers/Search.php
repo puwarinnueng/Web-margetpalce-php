@@ -14,9 +14,17 @@ class Search extends CI_Controller
     {
         $query = $this->db->query("select * from tbl_cart where p_name='" . $_POST['searchs'] . "' or p_type='" . $_POST['searchs'] . "'");
         $row = $query->row_array();
+
         if (count($row) > 0) {
         $data['query'] = $this->cart_model->searching($_POST['searchs']);
+
+        $this->load->view('navbar');
+        $this->load->view('css');
         $this->load->view('search_result', $data);
+        $this->load->view('social');
+        $this->load->view('js');
+        $this->load->view('card_buttom');
+        $this->load->view('footer');
         } else {
         echo "fail";
         redirect('home/index');
