@@ -35,22 +35,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
     * {
       box-sizing: border-box;
     }
-
     .mySlides {
       display: none;
     }
-
     img {
       vertical-align: middle;
     }
-
     /* Slideshow container */
     .slideshow-container {
       max-width: 1000px;
       position: relative;
       margin: auto;
     }
-
     /* Caption text */
     .text {
       color: black;
@@ -61,7 +57,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
       width: 100%;
       text-align: center;
     }
-
     /* Number text (1/3 etc) */
     .numbertext {
       color: white;
@@ -70,34 +65,28 @@ defined('BASEPATH') or exit('No direct script access allowed');
       position: absolute;
       top: 0;
     }
-
     .fade {
       -webkit-animation-name: fade;
       -webkit-animation-duration: 4s;
       animation-name: fade;
       animation-duration: 4s;
     }
-
     @-webkit-keyframes fade {
       from {
         opacity: 4
       }
-
       to {
         opacity: 1
       }
     }
-
     @keyframes fade {
       from {
         opacity: 4
       }
-
       to {
         opacity: 1
       }
     }
-
     /* On smaller screens, decrease text size */
     @media only screen and (max-width: 300px) {
       .text {
