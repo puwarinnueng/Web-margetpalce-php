@@ -65,15 +65,5 @@ class Cart_model extends CI_Model
         return $query->result();
     }
 
-    //ค้นหาสินค้าใน table cart
-    public function searching($searchs)
-    {
-        $this->db->select('*');
-        $this->db->from('tbl_cart');
-        $this->db->like('p_name', $searchs);
-        $this->db->or_like('p_type', $searchs);
-        $query = $this->db->get();
-        $data = $query->result();
-        return $data;
-    }
+    
 }
