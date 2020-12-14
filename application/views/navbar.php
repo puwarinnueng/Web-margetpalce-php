@@ -23,9 +23,11 @@
         <div class="col-md-6">
           <div class="wrapper">
             <div class="box-Container">
-              <input type="text" class="box-input" placeholder="Search Anything You Want... ">
-              <input type="button" value="Search" class="close-btn">
+              <form action="<?php echo site_url('search/search_product'); ?>" method="post" class="form-hoizontal">
+              <input type="text" class="box-input" name="searchs"  placeholder="Search Anything You Want... ">
+              <input type="submit" value="Search"class="close-btn">
               <span><i class="fa fa-search"></i></span>
+              </form>
             </div>
           </div>
         </div>
