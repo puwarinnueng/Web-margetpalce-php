@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h4 style="text-align:center;"> สินค้าของคุณ</h4>
+            <h4 style="text-align:center;"> ตะกร้าสินค้าของคุณ</h4>
             <table class="table table=bordered table=hover">
                 <!-- <caption>    kkk</caption> -->
                 <thead>

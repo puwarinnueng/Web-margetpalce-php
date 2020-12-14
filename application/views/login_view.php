@@ -18,11 +18,11 @@
                             <h2 class="title">เข้าสู่ระบบ ComStore</h2>
                             <div class="input-field">
                                 <i class="fas fa-envelope"></i>
-                                <input type="text" name="m_email" placeholder="Email" />
+                                <input type="text" name="m_email" required placeholder="Email" />
                             </div>
                             <div class="input-field">
                                 <i class="fas fa-lock"></i>
-                                <input type="password" name="m_password" placeholder="Password" />
+                                <input type="password" name="m_password" required placeholder="Password" />
                             </div>
                             <input type="submit" value="เข้าสู่ระบบ" class="btn solid" />
                         </form>
