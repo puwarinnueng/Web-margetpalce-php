@@ -35,8 +35,6 @@ class Cart_model extends CI_Model
 
 
 
-
-
             //เพิ่มข้อมูลเข้าระบบปกติ
             $data = array(
                 // 'm_email' => $this->input->post('m_email'),
