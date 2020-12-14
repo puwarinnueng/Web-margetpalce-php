@@ -40,7 +40,7 @@
                     <div class="list_menu_profile">
                         <div class="list-profile">
                             <a href="<?php echo site_url('user/profile'); ?>"><i class="fas fa-user"></i> บัญชีของฉัน</a><br>
-                            <a href=""><i class="fas fa-file-invoice-dollar"></i> รายการสั่งซื้อ</a><br>
+                            <a href="<?php echo site_url('cart/showfinal'); ?>"><i class="fas fa-file-invoice-dollar"></i> รายการสั่งซื้อ</a><br>
                             <a href="<?php echo site_url('user/logout'); ?>"><i class="fas fa-sign-out-alt"></i> ออกจากระบบ</a>
                         </div>
                     </div>

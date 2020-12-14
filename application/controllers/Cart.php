@@ -316,12 +316,16 @@ class Cart extends CI_Controller
     //หน้าสรุป
     public function showfinal()
     {
+        $m_id = $_SESSION['m_id'];
+
         $data['query'] = $this->cart_model->showdata_final();
-        // $data['query2'] = $this->cart_model->showdata_all();
+        $data['query2'] = $this->cart_model->name_final($m_id);
+        // $data['query3'] = $this->cart_model->ads_final();
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/final_view', $data);
         $this->load->view('footer');
         $this->load->view('js');
     }
+
 }

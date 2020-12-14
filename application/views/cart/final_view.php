@@ -27,7 +27,10 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h4 style="text-align:center;"> สรุปการสั่งซื้อ </h4>
+            <br>
+            <br>
+            <br>
+            <h4 style="text-align:center;"> รายการสินค้าของคุณ </h4>
             <table class="table table=bordered table=hover">
                 <!-- <caption>    kkk</caption> -->
                 <thead>
@@ -53,7 +56,10 @@
                             <td> <?php echo $rs->p_price; ?> </td>
                             <td> <?php echo $rs->p_address; ?> </td>
                             <td> <?php echo $rs->p_tran; ?> </td>
-                            <td> <?php echo $rs->p_payment; ?> </td>
+               
+                            <td>
+                                <img src="<?php echo base_url('img'); ?>/<?php echo $rs->p_payment; ?>" width="50px">
+                            </td>
                             <td>
                                 <img src="<?php echo base_url('img'); ?>/<?php echo $rs->m_img; ?>" width="50px">
                             </td>
@@ -67,16 +73,39 @@
     </div>
 </div>
 
-<!-- <div class="container">
+<div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h4 style="text-align:center;"> ราคารวม</h4>
+            <h4 style="text-align:center;"> รายละเอียดจัดส่ง</h4>
 
-            <?php foreach ($query2 as $rs) {
+            <?php foreach ($query2 as $rb) {
 
                 echo '<b>';
-                echo $rs->c;
-                echo 'บาท';
+                echo 'ชื่อ......';
+                echo $rb->m_name;   
+                echo '<br>';
+                echo 'เบอร์โทร......';              
+                echo $rb->m_tel;   
+                echo '<br>';
+                echo 'อีเมล......';              
+                echo $rb->m_email;         
+                echo '</b>';
+            } ?>
+
+        </div>
+    </div>
+</div>
+<!-- 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h4 style="text-align:center;"> </h4>
+
+            <?php foreach ($query3 as $rc) {
+
+                echo '<b>';
+                echo 'ที่อยู่......';
+                echo $rb->p_address;      
                 echo '</b>';
             } ?>
 
@@ -84,24 +113,3 @@
     </div>
 </div> -->
 
-
-<!-- <div class="container">
-    <div class="row">
-
-
-        <div class="col-md-12">
-            <h4 style="text-align:center;"></h4>
-            <br>
-            <form action="<?php echo site_url('cart/address'); ?>" method="post";>
-
-                <div class="form-group row">
-                    <div class="col-sm-3 control-label"></div>
-                    <div class="col-sm-5">
-                        <button type="submit" class="btn btn-primary" onclick="return confirm('ยืนยันข้อมูล')">ชำระเงิน</button>
-                    </div>
-                </div>
-
-            </form>
-        </div>
-    </div>
-</div> -->

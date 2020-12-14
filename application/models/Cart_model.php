@@ -399,4 +399,37 @@ class Cart_model extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
+
+    //queryชื่อหน้า final
+    public function name_final($m_id)
+    {
+        // $this->db->select('*');
+        // $this->db->from('tbl_member');
+        // $this->db->where('m_id', $m_id);
+        // $query2 = $this->db->get();
+        // if ($query2->num_rows() > 0) {
+        //     $query2 = $query2->row();
+        //     return $query2;
+        // }
+        // return false;
+
+
+        $this->db->select('*');
+        $this->db->from('tbl_member');
+        $this->db->where('m_id', $m_id);
+        $query2 = $this->db->get();
+        return $query2->result();
+    }
+
+    public function ads_final()
+    {
+        $this->db->select('p_address');
+        $this->db->from('tbl_savecart');
+        // $this->db->where('m_id', $m_id);
+        $query3 = $this->db->get();
+        return $query3->result();
+        // limit = 1;
+    }
+
+
 }
