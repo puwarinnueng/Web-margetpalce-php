@@ -1,4 +1,7 @@
 <!-- หน้ายืนยันการแก้ไขข้อมูล user -->
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -88,67 +91,6 @@
                     </form>
                 </div>
             </div>
-
-
-
-
-            <!-- <div class="col-md-5">
-                <h4 style="text-align:center;"> แก้ไขข้อมูล</h4>
-                <form action="<?php echo site_url('insertdata/editdata'); ?>" method="post" class="form-hoizontal">
-
-                    <img src="<?php echo base_url('img'); ?>/<?php echo $rsedit->m_img; ?>" width="100px">
-                    <div class="form-group row">
-                        <div class="col-sm-2 control-label">อีเมล</div>
-                        <div class="col-sm-6">
-                            <input type="text" name="m_email" required class="form-control" value="<?php echo $rsedit->m_email; ?>">
-                        </div>
-                    </div>
-
-
-                    <div class="form-group row">
-                        <div class="col-sm-2 control-label">รหัสผ่าน</div>
-                        <div class="col-sm-6">
-                            <input type="text" name="m_password" required class="form-control" value="<?php echo $rsedit->m_password; ?>">
-                        </div>
-                    </div>
-
-                    <div class="form-group row">
-                        <div class="col-sm-2 control-label">ชื่อ</div>
-                        <div class="col-sm-6">
-                            <input type="text" name="m_name" required class="form-control" placeholder="ชื่อ" value="<?php echo $rsedit->m_name; ?>">
-                        </div>
-                    </div>
-
-                    <div class="form-group row">
-                        <div class="col-sm-2 control-label">นามสกุล</div>
-                        <div class="col-sm-6">
-                            <input type="text" name="m_lname" required class="form-control" placeholder="สกุล" value="<?php echo $rsedit->m_lname; ?>">
-                        </div>
-                    </div>
-
-                    <div class="form-group row">
-                        <div class="col-sm-2 control-label">เบอร์โทรศัพท์</div>
-                        <div class="col-sm-5">
-                            <input type="text" name="m_tel" required class="form-control" placeholder="เบอร์โทรศัพท์" value="<?php echo $rsedit->m_tel; ?>">
-                        </div>
-                    </div>
-
-                    <div class="form-group row">
-                        <div class="col-sm-2 control-label">ที่อยู่</div>
-                        <div class="col-sm-7">
-                            <input type="text" name="m_ads" required class="form-control" placeholder="ที่อยู่" value="<?php echo $rsedit->m_ads; ?>">
-                        </div>
-                    </div>
-
-                    <div class="form-group row">
-                        <div class="col-sm-2 control-label"></div>
-                        <div class="col-sm-5">
-                            <input type="hidden" name="m_id" value="<?php echo $rsedit->m_id; ?>">
-                            <button type="submit" class="btn btn-primary">ตกลง</button>
-                        </div>
-                    </div>
-                </form>
-            </div> -->
         </div>
     </div>
 </body>
