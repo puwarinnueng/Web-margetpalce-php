@@ -140,10 +140,6 @@ class Cart_model extends CI_Model
         return $query->result();
     }
 
-<<<<<<< HEAD
-    
-    
-=======
     //โชว์ข้อมูลmainboard msi
     public function showdata2()
     {
@@ -356,5 +352,4 @@ class Cart_model extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
->>>>>>> main
 }
