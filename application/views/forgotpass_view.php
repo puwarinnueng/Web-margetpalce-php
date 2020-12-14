@@ -17,7 +17,7 @@
                     <form action="<?php echo site_url('user/wantlogin'); ?>" method="post" class="form-hoizontal">
                         <div class="form-content">
                             <label for="email">Email : </label>
-                            <input type="text" name="m_email" placeholder="ระบุอีเมลของคุณ">
+                            <input type="text" name="m_email" required placeholder="ระบุอีเมลของคุณ">
                         </div>
                         <div class="form-content2">
                             <input type="submit" value="ยืนยัน E-mail ของคุณ" class="btn_forgot" />

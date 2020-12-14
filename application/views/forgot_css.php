@@ -60,7 +60,7 @@
         -webkit-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
     }
 
-    .btn_forgot:hover{
+    .btn_forgot:hover {
         background: #20b7d5;
     }
 
@@ -68,14 +68,65 @@
         margin-top: 3%;
     }
 
-    .btn_back{
+    .btn_back {
         border: none;
         outline: none;
         background: none;
 
     }
 
-    .btn_back:hover{
+    .btn_back:hover {
         color: #20b7d5;
+    }
+</style>
+
+<style>
+    .forgot2 {
+        width: 600px;
+        height: 400px;
+        background: #fff;
+        padding: 40px 80px;
+        border-radius: 5px;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        align-content: center;
+        margin-top: 15%;
+        margin-left: 25%;
+    }
+
+    .table-forgot2 {
+        text-align: left;
+        margin-top: 10%;
+        white-space: nowrap;
+        margin-left: 23%;
+    }
+
+    .table-forgot2 td,
+    th {
+        padding: 8px;
+    }
+
+    .table-forgot2 td:first-child {
+        width: 25%;
+        font-weight: 600;
+
+    }
+
+    .table-forgot2 td:nth-last-child() {
+        width: 100%;
+    }
+
+    .btn_back1 {
+        border: none;
+        width: 200px;
+        height: 50px;
+        padding: 3px;
+        border-radius: 55px;
+        background: #003559;
+        color: #fff;
+        outline: none;
+        z-index: 1;
+        -webkit-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+        margin-top: 10%;
     }
 </style>
