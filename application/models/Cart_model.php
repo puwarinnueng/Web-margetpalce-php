@@ -15,7 +15,51 @@ class Cart_model extends CI_Model
         return false;
     }
 
- 
+    //เพิ่ม ภาพ เข้า savecard
+    public function add_slip()
+    {
+        $config['upload_path'] = './img/';
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['max_size'] = '2000';
+        $config['max_width'] = '3000';
+        $config['max_height'] = '3000';
+        $config['encrypt_name'] = true;
+
+        $this->load->library('upload', $config);
+        if (!$this->upload->do_upload('m_img')) {
+            echo $this->upload->display_errors();
+        } else {
+            $data = $this->upload->data();
+
+            $filename = $data['file_name'];
+
+
+
+
+
+            //เพิ่มข้อมูลเข้าระบบปกติ
+            $data = array(
+                // 'm_email' => $this->input->post('m_email'),
+                // 'm_password' => $this->input->post('m_password'),
+                // 'm_name' => $this->input->post('m_name'),
+                // 'm_lname' => $this->input->post('m_lname'),
+                // 'm_tel' => $this->input->post('m_tel'),
+                // 'm_ads' => $this->input->post('m_ads'),
+                'm_img' => $filename
+            );
+
+            $query = $this->db->update('tbl_savecart', $data);
+            if ($query) {
+                echo 'add ok';
+            } else {
+                echo 'false';
+            }
+
+            // echo 'pre';
+            // print_r($_POST);
+            // echo '</pre>';
+        }
+    }
 
 
     //เพิ่มข้อมูลเข้า tbl_savecard

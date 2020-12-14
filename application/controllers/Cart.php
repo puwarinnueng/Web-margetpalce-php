@@ -25,7 +25,7 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
-   
+
 
     //add ข้อมูลสินค้าเข้า tbl_savecart
     public function data()
@@ -54,6 +54,14 @@ class Cart extends CI_Controller
         //   print_r($_POST);
         $this->cart_model->deldata($id);
         redirect('cart/showcart', 'refresh');
+    }
+
+
+    //เพิ่ม slip เข้า tbl_savecard
+    public function add_slip()
+    {
+        $this->cart_model->add_slip();
+        redirect('cart/showfinal', 'refresh');
     }
 
     //โชว์ข้อมูลสินค้าเริ่มต้น
@@ -303,7 +311,7 @@ class Cart extends CI_Controller
         $this->load->view('js');
     }
 
- 
+
 
     //หน้าสรุป
     public function showfinal()
