@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h4 style="text-align:center;"> ตะกร้าสินค้าของคุณ</h4>
+            <h4 style="text-align:center;"> สรุป</h4>
             <table class="table table=bordered table=hover">
                 <!-- <caption>    kkk</caption> -->
                 <thead>
@@ -12,6 +12,9 @@
                         <th>ประเภท</th>
                         <th>ชื่อสินค้า</th>
                         <th>ราคา</th>
+                        <th>ที่อยู่จัดส่ง</th>
+                        <th>ขนส่งโดย</th>
+                        <th>วิธีการชำระเงิน</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -22,7 +25,10 @@
                             <td> <?php echo $rs->p_type; ?> </td>
                             <td> <?php echo $rs->p_name; ?> </td>
                             <td> <?php echo $rs->p_price; ?> </td>
-                            <td><a href="<?php echo site_url('cart/del/') . $rs->id; ?>" onclick="return confirm('ยืนยัน')">ลบสินค้า</td>
+                            <td> <?php echo $rs->p_address; ?> </td>
+                            <td> <?php echo $rs->p_tran; ?> </td>
+                            <td> <?php echo $rs->p_payment; ?> </td>
+                            <!-- <td><a href="<?php echo site_url('cart/del/') . $rs->id; ?>" onclick="return confirm('ยืนยัน')">ลบสินค้า</td> -->
                         </tr>
                     <?php } ?>
                 </tbody>
@@ -32,7 +38,7 @@
     </div>
 </div>
 
-<div class="container">
+<!-- <div class="container">
     <div class="row">
         <div class="col-md-12">
             <h4 style="text-align:center;"> ราคารวม</h4>
@@ -47,10 +53,10 @@
 
         </div>
     </div>
-</div>
+</div> -->
 
 
-<div class="container">
+<!-- <div class="container">
     <div class="row">
 
 
@@ -69,4 +75,4 @@
             </form>
         </div>
     </div>
-</div>
+</div> -->

@@ -34,6 +34,58 @@ class Cart_model extends CI_Model
         } else echo 'false';
     }
 
+    //เพิ่มข้อมูลที่อยู่ tbl_savecard
+    public function add_ads()
+    {
+
+        $data = array(
+            'p_address' => $this->input->post('p_address'),
+
+        );
+
+        //   $this->db->where('p_user', $this->input->post('p_user'));
+
+        $query = $this->db->update('tbl_savecart', $data);
+        // if ($query) {
+        //     echo ' ok';
+        // } else echo 'false';
+    }
+
+    //เพิ่มข้อมูลขนส่ง tbl_savecard
+    public function add_tran()
+    {
+
+        $data = array(
+
+            'p_tran' => $this->input->post('p_tran'),
+
+
+        );
+
+        $query = $this->db->update('tbl_savecart', $data);
+        // if ($query) {
+        //     echo ' ok';
+        // } else echo 'false';
+    }
+
+     //เพิ่มวิธีชำระเงิน tbl_savecard
+     public function add_payment()
+     {
+ 
+         $data = array(
+ 
+             'p_payment' => $this->input->post('p_payment'),
+ 
+ 
+         );
+ 
+         $query = $this->db->update('tbl_savecart', $data);
+         if ($query) {
+             echo ' ok';
+         } else echo 'false';
+     }
+
+
     //หน้ารถเข็น
     public function showdata()
     {
@@ -53,6 +105,19 @@ class Cart_model extends CI_Model
         return $query2->result();
         // ,count(p_price) as count
     }
+
+     //หน้าสรุปสุดท้าย
+     public function showdata_final()
+     {
+         $this->db->select('*');
+         $this->db->from('tbl_savecart');
+         $query = $this->db->get();
+         return $query->result();
+         // ,count(p_price) as count
+     }
+
+
+
 
     //ลบข้อมูล
     public function deldata($id)
