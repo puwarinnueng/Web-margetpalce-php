@@ -1,7 +1,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 
+<!-- login -->
 <style>
     * {
         margin: 0;
@@ -29,7 +31,6 @@
         right: 48%;
         transform: translateY(-50%);
         background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
-        transition: 1.8s ease-in-out;
         border-radius: 50%;
         z-index: 6;
     }
@@ -48,7 +49,7 @@
         justify-content: center;
         flex-direction: column;
         padding: 0rem 5rem;
-        transition: all 0.2s 0.7s;
+        /* transition: all 0.2s 0.7s; */
         overflow: hidden;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -58,13 +59,13 @@
         z-index: 2;
     }
 
-    form.form-forgot{
+    form.form-forgot {
         z-index: 2;
         margin-top: 21%;
         margin-left: 50%;
     }
 
-    .forgot{
+    .forgot {
         border: none;
         background: none;
         font-size: 13px;
@@ -83,11 +84,11 @@
     }
 
     .input-field {
-        max-width: 380px;
+        max-width: 500px;
         width: 100%;
         background-color: #f0f0f0;
         margin: 10px 0;
-        height: 45px;
+        height: 43px;
         border-radius: 55px;
         display: grid;
         grid-template-columns: 15% 85%;
@@ -99,7 +100,6 @@
         text-align: center;
         line-height: 45px;
         color: #acacac;
-        transition: 0.5s;
         font-size: 16px;
         font-size: 1.1rem;
     }
@@ -130,7 +130,6 @@
         font-weight: 600;
         margin: 10px 0;
         cursor: pointer;
-        transition: 0.5s;
         margin-top: 8%;
     }
 
@@ -206,6 +205,31 @@
         font-weight: 600;
         font-size: 1rem;
     }
-
-  
 </style>
+
+<!-- register -->
+<style>
+    .regis {
+        position: absolute;
+        top: 48%;
+        transform: translate(-50%, -50%);
+        left: 80%;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 1fr;
+        z-index: 10;
+    }
+
+    .update-img {
+        margin-top: 5%;
+        outline: none;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+    }
+
+    .update-img :hover {
+        outline: none;
+    }
+</style>
+

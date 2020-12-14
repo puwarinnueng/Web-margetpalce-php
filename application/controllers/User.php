@@ -17,7 +17,7 @@ class User extends CI_Controller
         // $this->load->view('css');
         $this->load->view('login_view');
         $this->load->view('Home_css');
-        $this->load->view('login_css');
+        $this->load->view('login&regis_css');
         // $this->load->view('social');
         // $this->load->view('js');
         // $this->load->view('card_buttom');
@@ -119,13 +119,14 @@ class User extends CI_Controller
     //ลืมรหัสผ่าน
     public function forgotpass()
     {
-        $this->load->view('css');
+        // $this->load->view('css');
         $this->load->view('forgotpass_view');
-        $this->load->view('Home_css');
+        $this->load->view('forgot_css');
+        // $this->load->view('Home_css');
         // $this->load->view('social');
-        $this->load->view('js');
-        $this->load->view('card_buttom');
-        $this->load->view('footer');
+        // $this->load->view('js');
+        // $this->load->view('card_buttom');
+        // $this->load->view('footer');
     }
 
     //query ข้อมูลจากemail ที่ลืมรหัสผ่าน
@@ -136,11 +137,8 @@ class User extends CI_Controller
         $row = $query->row_array();
         if (count($row) > 0) {
             $data['query'] = $this->member_model->querylogin($_POST['m_email']);
-            $this->load->view('css');
-            $this->load->view('Home_css');
-            $this->load->view('js');
             $this->load->view('forgotok_view', $data);
-            $this->load->view('css');
+            $this->load->view('forgot_css');
         } else {
             echo "fail";
             // exit;
@@ -164,7 +162,7 @@ class User extends CI_Controller
         // exit;
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('profile/profile_view' ,$data);
+        $this->load->view('profile/profile_view', $data);
         $this->load->view('Home_css');
         $this->load->view('js');
         $this->load->view('footer');

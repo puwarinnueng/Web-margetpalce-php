@@ -1,48 +1,46 @@
 <!-- หน้าแสดงข้อมูลหลังจากกรอก email แล้ว -->
-<br>
-<br>
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h4 style="text-align:center;"> รายละเอียดบัญชีของคุณ กรุณานำไปกรอกที่หน้าเข้าสู่ระบบ เพื่อยืนยัน</h4>
-            <table class="table table=bordered table=hover">
-                <tbody>
-                    <?php foreach ($query as $rs) { ?>
-                        <tr>
-                            <div class="col-md-7">
-                                <h4 style="text-align:center;"></h4>
-                                <br>
-                                <form action="<?php echo site_url('user'); ?>" method="post" class="form-hoizontal">
+<!DOCTYPE html>
+<html lang="en">
 
-                                    <div align="center" class="form-group row">
-                                        <div class="col-sm-6 control-label">email</div>
-                                        <div class="col-sm-6">
-                                            <input type="text" name="m_email" required class="form-control" value="<?php echo $rs->m_email; ?>">
-                                        </div>
-                                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลืมรหัสผ่าน ? </title>
+</head>
 
-                                    <div align="center" class="form-group row">
-                                        <div class="col-sm-6 control-label">password</div>
-                                        <div class="col-sm-6">
-                                            <input type="text" name="m_password" required class="form-control" value="<?php echo $rs->m_password; ?>">
-                                        </div>
-                                    </div>
-
-                                    <div class="form-group row" align="center">
-                                        <div class="col-sm-2 control-label"></div>
-                                        <div class="col-sm-5">
-                                            <button type="submit" class="btn btn-primary">กลับหน้าเข้าสู่ระบบ </button>
-                                        </div>
-                                    </div>
-
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="forgot2">
+                    <h4> รายละเอียดบัญชีของคุณ กรุณานำไปกรอกที่หน้าเข้าสู่ระบบเพื่อยืนยัน</h4>
+                    <table class="table-forgot2">
+                        <colgroup span=“1” width=“500px”></colgroup>
+                        <tbody>
+                            <?php foreach ($query as $rs) { ?>
+                                <form action="<?php echo site_url('user'); ?>" method="post">
+                                    <tr>
+                                        <td><label>email : </label></td>
+                                        <td><?php echo $rs->m_email; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label>password : </label></td>
+                                        <td><?php echo $rs->m_password; ?></td>
+                                    </tr>
                                 </form>
-                            </div>
+                            <?php } ?>
 
-                        </tr>
-                    <?php } ?>
-                </tbody>
-            </table>
-
+                        </tbody>
+                    </table>
+                    <form action="<?php echo site_url('user'); ?>" method="post" class="form-hoizontal">
+                        <div class="form-content3">
+                            <input type="submit" value="กลับหน้าเข้าสู่ระบบ" class="btn_back1" />
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</body>
+
+</html>

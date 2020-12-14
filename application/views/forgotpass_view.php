@@ -1,41 +1,37 @@
 <!-- หน้ากรอกอีกเมลเพื่อขอดูรหัสที่ลืม -->
-<div class="container">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-7">
+<!DOCTYPE html>
+<html lang="en">
 
-            <br>
-            <br>
-            <h2 style="text-align:center;"> คุณลืมรหัสผ่านใช่หรือไม่?</h2>
-            <br>
-            <form action="<?php echo site_url('user/wantlogin'); ?>" method="post" class="form-hoizontal">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ลืมรหัสผ่าน ?</title>
+</head>
 
-                <div class="form-group row">
-                    <div class="col-sm-2 control-label">E-mail</div>
-                    <div class="col-sm-9">
-                        <input type="text" name="m_email" required class="form-control" placeholder="ระบุอีเมลของคุณ">
-                    </div>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="forgot">
+                <h3> คุณลืมรหัสผ่านใช่หรือไม่ ?</h3><br>
+                <div class="form-forgot-container">
+                    <form action="<?php echo site_url('user/wantlogin'); ?>" method="post" class="form-hoizontal">
+                        <div class="form-content">
+                            <label for="email">Email : </label>
+                            <input type="text" name="m_email" required placeholder="ระบุอีเมลของคุณ">
+                        </div>
+                        <div class="form-content2">
+                            <input type="submit" value="ยืนยัน E-mail ของคุณ" class="btn_forgot" />
+                        </div>
+                    </form>
+
+                    <form action="<?php echo site_url('user'); ?>" method="post" class="form-hoizontal">
+                        <div class="form-content3">
+                            <input type="submit" value="กลับหน้าเข้าสู่ระบบ" class="btn_back" />
+                        </div>
+                    </form>
                 </div>
-
-                <div class="form-group row">
-                    <div class="col-sm-2 control-label"></div>
-                    <div class="col-sm-5">
-                        <button type="submit" class="btn btn-primary">ยืนยัน E-mail ของคุณ</button>
-                    </div>
-                </div>
-
-            </form>
-
-            <form action="<?php echo site_url('user'); ?>" method="post" class="form-hoizontal">
-                <div class="form-group row">
-                    <div class="col-sm-2 control-label"></div>
-                    <div class="col-sm-5">
-                        <button type="submit" class="btn btn-primary">กลับหน้าเข้าสู่ระบบ</button>
-                    </div>
-                </div>
-
-            </form>
+            </div>
         </div>
-    </div>
-</div>
-<br>
+</body>
+
+</html>

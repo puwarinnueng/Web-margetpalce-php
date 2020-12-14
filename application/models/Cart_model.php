@@ -34,6 +34,58 @@ class Cart_model extends CI_Model
         } else echo 'false';
     }
 
+    //เพิ่มข้อมูลที่อยู่ tbl_savecard
+    public function add_ads()
+    {
+
+        $data = array(
+            'p_address' => $this->input->post('p_address'),
+
+        );
+
+        //   $this->db->where('p_user', $this->input->post('p_user'));
+
+        $query = $this->db->update('tbl_savecart', $data);
+        // if ($query) {
+        //     echo ' ok';
+        // } else echo 'false';
+    }
+
+    //เพิ่มข้อมูลขนส่ง tbl_savecard
+    public function add_tran()
+    {
+
+        $data = array(
+
+            'p_tran' => $this->input->post('p_tran'),
+
+
+        );
+
+        $query = $this->db->update('tbl_savecart', $data);
+        // if ($query) {
+        //     echo ' ok';
+        // } else echo 'false';
+    }
+
+     //เพิ่มวิธีชำระเงิน tbl_savecard
+     public function add_payment()
+     {
+ 
+         $data = array(
+ 
+             'p_payment' => $this->input->post('p_payment'),
+ 
+ 
+         );
+ 
+         $query = $this->db->update('tbl_savecart', $data);
+         if ($query) {
+             echo ' ok';
+         } else echo 'false';
+     }
+
+
     //หน้ารถเข็น
     public function showdata()
     {
@@ -43,6 +95,29 @@ class Cart_model extends CI_Model
         return $query->result();
         // ,count(p_price) as count
     }
+
+    //หน้ารถเข็น ราคารวม
+    public function showdata_all()
+    {
+        $this->db->select('sum(p_price) as c');
+        $this->db->from('tbl_savecart');
+        $query2 = $this->db->get();
+        return $query2->result();
+        // ,count(p_price) as count
+    }
+
+     //หน้าสรุปสุดท้าย
+     public function showdata_final()
+     {
+         $this->db->select('*');
+         $this->db->from('tbl_savecart');
+         $query = $this->db->get();
+         return $query->result();
+         // ,count(p_price) as count
+     }
+
+
+
 
     //ลบข้อมูล
     public function deldata($id)
@@ -65,6 +140,221 @@ class Cart_model extends CI_Model
         return $query->result();
     }
 
+<<<<<<< HEAD
     
     
+=======
+    //โชว์ข้อมูลmainboard msi
+    public function showdata2()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '2');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    //โชว์ข้อมูลmainboard aorus
+    public function showdata3()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '3');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    //โชว์ข้อมูลmainboard asrock
+    public function showdata4()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '4');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata5()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '5');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata6()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '6');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata7()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '7');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata8()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '8');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata9()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '9');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata10()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '10');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata11()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '11');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata12()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '12');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata13()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '13');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata14()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '14');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata15()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '15');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function showdata16()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_cart');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid');
+        // $this->db->join('tbl_position as p', 'm.pid=p.pid', 'left');
+        $this->db->where('p_id', '16');
+        // $this->db->where_in('m.pid',array('1','2'));
+        // $this->db->where('m.pid <= 2');
+        // $this->db->order_by('m.pid','desc');
+        $query = $this->db->get();
+        return $query->result();
+    }
+>>>>>>> main
 }

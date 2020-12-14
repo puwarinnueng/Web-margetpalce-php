@@ -29,7 +29,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <p class="availbilty">AVAILABILITY : In Stock</p>
             <br>
-            <button class="buttons_detail"><a href="<?php echo site_url(''); ?>"><i class="fa fa-shopping-cart" aria-hidden="true"></i> เพิ่มใส่รถเข็น </a></button>
+            <button class="buttons_detail"><a href="<?php echo site_url('cart/ram_gskill'); ?>"><i class="fa fa-shopping-cart" aria-hidden="true"></i> เพิ่มใส่รถเข็น </a></button>
           </div>
       </div>
 

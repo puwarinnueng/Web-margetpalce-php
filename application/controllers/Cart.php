@@ -9,18 +9,6 @@ class Cart extends CI_Controller
         $this->load->model('cart_model');
     }
 
-    //โชว์ข้อมูลสินค้าเริ่มต้น
-    public function mb_asus()
-    {
-        $data['query'] = $this->cart_model->showdata1();
-
-        $this->load->view('navbar');
-        $this->load->view('css');
-        $this->load->view('cart/cart1_view', $data);
-        $this->load->view('footer');
-        $this->load->view('js');
-    }
-
     //query ข้อมูลของสินค้ามาใส่ใน form
     public function show_data($p_id)
     {
@@ -50,6 +38,7 @@ class Cart extends CI_Controller
     public function showcart()
     {
         $data['query'] = $this->cart_model->showdata();
+        $data['query2'] = $this->cart_model->showdata_all();
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/show_view', $data);
@@ -63,5 +52,254 @@ class Cart extends CI_Controller
         //   print_r($_POST);
         $this->cart_model->deldata($id);
         redirect('cart/showcart', 'refresh');
+    }
+
+    //โชว์ข้อมูลสินค้าเริ่มต้น
+    public function mb_asus()
+    {
+        $data['query'] = $this->cart_model->showdata1();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function mb_msi()
+    {
+        $data['query'] = $this->cart_model->showdata2();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function mb_aorus()
+    {
+        $data['query'] = $this->cart_model->showdata3();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function mb_asrock()
+    {
+        $data['query'] = $this->cart_model->showdata4();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function gpu_msi_2060()
+    {
+        $data['query'] = $this->cart_model->showdata5();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function gpu_msi_2070()
+    {
+        $data['query'] = $this->cart_model->showdata6();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function gpu_aorus()
+    {
+        $data['query'] = $this->cart_model->showdata7();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function gpu_galax()
+    {
+        $data['query'] = $this->cart_model->showdata8();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function ram_kingston()
+    {
+        $data['query'] = $this->cart_model->showdata9();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function ram_gskill()
+    {
+        $data['query'] = $this->cart_model->showdata10();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function ram_corsair()
+    {
+        $data['query'] = $this->cart_model->showdata11();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function ram_thermal()
+    {
+        $data['query'] = $this->cart_model->showdata12();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function cpu_i3()
+    {
+        $data['query'] = $this->cart_model->showdata13();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function cpu_i5()
+    {
+        $data['query'] = $this->cart_model->showdata14();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function cpu_i7()
+    {
+        $data['query'] = $this->cart_model->showdata15();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function cpu_i9()
+    {
+        $data['query'] = $this->cart_model->showdata16();
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/cart1_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+
+    //โหลดหน้าformกรอกที่อยู่
+    public function address()
+    {
+
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/address_view');
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function add_address()
+    {
+        //   print_r($_POST);
+        //   exit;
+        $this->cart_model->add_ads();
+        redirect('cart/tran', 'refresh');
+    }
+
+
+
+    //เลือกขนส่ง
+    public function tran()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/tran_view');
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    public function addtran()
+    {
+        //   print_r($_POST);
+        //   exit;
+        $this->cart_model->add_tran();
+        redirect('cart/pay', 'refresh');
+    }
+
+
+    //เลือกวิธีการชำระเงิน
+    public function pay()
+    {
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/pay_view');
+        $this->load->view('footer');
+        $this->load->view('js');
+    }
+
+    //ชำระปลายทาง
+    public function payhome()
+    {
+        //    print_r($_POST);
+        //   exit;
+        $this->cart_model->add_payment();
+        redirect('cart/showfinal', 'refresh');
+    }
+
+    //หน้าสรุป
+    public function showfinal()
+    {
+        $data['query'] = $this->cart_model->showdata_final();
+        // $data['query2'] = $this->cart_model->showdata_all();
+        $this->load->view('navbar');
+        $this->load->view('css');
+        $this->load->view('cart/final_view', $data);
+        $this->load->view('footer');
+        $this->load->view('js');
     }
 }

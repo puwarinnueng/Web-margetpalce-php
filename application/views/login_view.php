@@ -5,7 +5,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <title>Login ComStore</title>
 </head>
 
@@ -19,11 +18,11 @@
                             <h2 class="title">เข้าสู่ระบบ ComStore</h2>
                             <div class="input-field">
                                 <i class="fas fa-envelope"></i>
-                                <input type="text" name="m_email" placeholder="Email" />
+                                <input type="text" name="m_email" required placeholder="Email" />
                             </div>
                             <div class="input-field">
                                 <i class="fas fa-lock"></i>
-                                <input type="password" name="m_password" placeholder="Password" />
+                                <input type="password" name="m_password" required placeholder="Password" />
                             </div>
                             <input type="submit" value="เข้าสู่ระบบ" class="btn solid" />
                         </form>

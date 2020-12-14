@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h4 style="text-align:center;"> ยืนยันการเลือกสินค้า</h4>
+                <h4 style="text-align:center;"> หน้ายืนยันการเลือกสินค้า</h4>
                 <table class="table table=bordered table=hover">
                     <!-- <caption>    kkk</caption> -->
                     <thead>
@@ -13,6 +13,7 @@
                             <th>ประเภท</th>
                             <th>ชื่อสินค้า</th>
                             <th>ราคา</th>
+                            <th>กรุณายืนยันการเลือกสินค้า</th>
 
                         </tr>
                     </thead>
