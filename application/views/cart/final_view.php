@@ -19,11 +19,41 @@
 </div>
 
 
+<div class="container">
+    <div class="row">
+        <div class="" align="center">
+            <br>
+            <br>
+            <br>
+            <h4 style="text-align:center;"> สลิปโอนเงินของคุณ </h4>
+            <table class="table table=bordered table=hover">
+                <!-- <caption>    kkk</caption> -->
+                <thead>
+                    <tr>
+                        <!-- <th>ธนาคาร</th> -->
+                   
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($query4 as $rd) { ?>
+                        <tr>
+                            <!-- <td> <?php echo $rc->id; ?> </td> -->
+                                      
+                            <td>
+                                <img src="<?php echo base_url('img'); ?>/<?php echo $rd->m_img; ?>" width="50px">
+                            </td>
+                           
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
 
 
 
-<br><br>
-<br>
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -95,21 +125,38 @@
         </div>
     </div>
 </div>
-<!-- 
+
+
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <h4 style="text-align:center;"> </h4>
-
-            <?php foreach ($query3 as $rc) {
-
-                echo '<b>';
-                echo 'ที่อยู่......';
-                echo $rb->p_address;      
-                echo '</b>';
-            } ?>
+        <div class="" align="center">
+            <br>
+            <br>
+            <br>
+            <h4 style="text-align:center;"> คุณชำระเงินด้วย </h4>
+            <table class="table table=bordered table=hover">
+                <!-- <caption>    kkk</caption> -->
+                <thead>
+                    <tr>
+                        <!-- <th>ธนาคาร</th> -->
+                   
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($query3 as $rc) { ?>
+                        <tr>
+                            <!-- <td> <?php echo $rc->id; ?> </td> -->
+                                      
+                            <td>
+                                <img src="<?php echo base_url('img'); ?>/<?php echo $rc->p_payment; ?>" width="50px">
+                            </td>
+                           
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
 
         </div>
     </div>
-</div> -->
+</div>
 

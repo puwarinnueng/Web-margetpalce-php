@@ -320,7 +320,8 @@ class Cart extends CI_Controller
 
         $data['query'] = $this->cart_model->showdata_final();
         $data['query2'] = $this->cart_model->name_final($m_id);
-        // $data['query3'] = $this->cart_model->ads_final();
+        $data['query3'] = $this->cart_model->by_bank();
+        $data['query4'] = $this->cart_model->slip();
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/final_view', $data);
