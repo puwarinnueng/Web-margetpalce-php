@@ -54,7 +54,7 @@
    <div class="container">
        <div class="row">
            <div class="col-md-12">
-               <h4 style="text-align:center;"> ชื่อ</h4>
+               <h4 style="text-align:center;"> รายละเอียด</h4>
 
                <?php foreach ($query2 as $rs) {
 

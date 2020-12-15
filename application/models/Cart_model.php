@@ -419,6 +419,17 @@ class Cart_model extends CI_Model
         return $query2->result();
     }
 
+       //ที่อยู่ในรายละเอียด
+       public function address_more()
+       {
+       
+           $this->db->select('*,count(p_id) as count');
+           $this->db->from('tbl_savecart');
+        //    $this->db->where('m_id', $m_id);
+           $query3 = $this->db->get();
+           return $query3->result();
+       }
+
     public function by_bank()
     {
         $this->db->select('*,count(p_id) as p');

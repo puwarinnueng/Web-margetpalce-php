@@ -301,9 +301,13 @@ class Cart extends CI_Controller
     //เลือกขนส่ง
     public function tran()
     {
+        $m_id = $_SESSION['m_id'];
+
+        $data['query2'] = $this->cart_model->name_final($m_id);
+        $data['query3'] = $this->cart_model->address_more($m_id);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('cart/tran_view');
+        $this->load->view('cart/tran_view' , $data);
         $this->load->view('footer');
         $this->load->view('js');
     }

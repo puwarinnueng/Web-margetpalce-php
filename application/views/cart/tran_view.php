@@ -55,4 +55,51 @@
         </div>
     </body>
 
+    <div class="container">
+       <div class="row">
+           <div class="col-md-12">
+               <h4 style="text-align:center;"> รายละเอียด</h4>
+
+               <?php foreach ($query2 as $rs) {
+
+                    echo '<b>';
+                    echo 'ชื่อ.....';
+                    echo $rs->m_name;
+                    echo '</b>';
+                    echo '<br>';
+                    echo '<b>';
+                    echo 'อีเมล.....';
+                    echo $rs->m_email;
+                    echo '</b>';
+                    echo '<br>';
+                    echo '<b>';
+                    echo 'เบอร์โทร.....';
+                    echo $rs->m_tel;
+                    echo '</b>';
+                    
+                } ?>
+
+           </div>
+       </div>
+   </div>
+
+   <div class="container">
+       <div class="row">
+           <div class="col-md-12">
+               <h4 style="text-align:center;"> </h4>
+
+               <?php foreach ($query3 as $r3) {
+
+                    echo '<b>';
+                    echo 'ที่อยู่.....';
+                    echo $r3->p_address;
+                    echo '</b>';
+                  
+                    
+                } ?>
+
+           </div>
+       </div>
+   </div>
+
     </html>
