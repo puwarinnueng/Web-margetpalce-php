@@ -450,4 +450,16 @@ class Cart_model extends CI_Model
     }
 
 
+    //โชว์ชื่อหน้า
+    public function show_name($m_id)
+    {
+
+        $this->db->select('*');
+        $this->db->from('tbl_member');
+        $this->db->where('m_id', $m_id);
+        $query2 = $this->db->get();
+        return $query2->result();
+    }
+
+
 }

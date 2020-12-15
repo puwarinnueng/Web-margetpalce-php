@@ -279,9 +279,11 @@ class Cart extends CI_Controller
     public function address()
     {
 
+        $m_id = $_SESSION['m_id'];
+        $data['query2'] = $this->cart_model->name_final($m_id);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('cart/address_view');
+        $this->load->view('cart/address_view' ,$data);
         $this->load->view('footer');
         $this->load->view('js');
     }
