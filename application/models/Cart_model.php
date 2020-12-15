@@ -433,7 +433,7 @@ class Cart_model extends CI_Model
     public function address_final()
     {
 
-        $this->db->select('*,count(p_id) as count');
+        $this->db->select('*,sum(p_price) as count');
         $this->db->from('tbl_savecart');
         //    $this->db->where('m_id', $m_id);
         $query5 = $this->db->get();
