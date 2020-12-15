@@ -324,9 +324,14 @@ class Cart extends CI_Controller
     //เลือกวิธีการชำระเงิน
     public function pay()
     {
+
+        $m_id = $_SESSION['m_id'];
+
+        $data['query2'] = $this->cart_model->name_final($m_id);
+        $data['query3'] = $this->cart_model->address_more($m_id);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('cart/pay_view');
+        $this->load->view('cart/pay_view' ,$data);
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -343,9 +348,15 @@ class Cart extends CI_Controller
     //เลือกชำระผ่านธนาคาร
     public function select_paybank()
     {
+
+        
+        $m_id = $_SESSION['m_id'];
+
+        $data['query2'] = $this->cart_model->name_final($m_id);
+        $data['query3'] = $this->cart_model->address_more($m_id);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('cart/paybank_view');
+        $this->load->view('cart/paybank_view',$data);
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -361,6 +372,7 @@ class Cart extends CI_Controller
         $data['query2'] = $this->cart_model->name_final($m_id);
         $data['query3'] = $this->cart_model->by_bank();
         $data['query4'] = $this->cart_model->slip();
+        $data['query5'] = $this->cart_model->address_final();
         $this->load->view('navbar');
         $this->load->view('css');
         $this->load->view('cart/final_view', $data);

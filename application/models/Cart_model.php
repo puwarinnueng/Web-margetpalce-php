@@ -113,22 +113,22 @@ class Cart_model extends CI_Model
         // } else echo 'false';
     }
 
-     //เพิ่มวิธีชำระเงิน tbl_savecard
-     public function add_payment()
-     {
- 
-         $data = array(
- 
-             'p_payment' => $this->input->post('p_payment'),
- 
- 
-         );
- 
-         $query = $this->db->update('tbl_savecart', $data);
-         if ($query) {
-             echo ' ok';
-         } else echo 'false';
-     }
+    //เพิ่มวิธีชำระเงิน tbl_savecard
+    public function add_payment()
+    {
+
+        $data = array(
+
+            'p_payment' => $this->input->post('p_payment'),
+
+
+        );
+
+        $query = $this->db->update('tbl_savecart', $data);
+        if ($query) {
+            echo ' ok';
+        } else echo 'false';
+    }
 
 
     //หน้ารถเข็น
@@ -151,15 +151,15 @@ class Cart_model extends CI_Model
         // ,count(p_price) as count
     }
 
-     //หน้าสรุปสุดท้าย
-     public function showdata_final()
-     {
-         $this->db->select('*');
-         $this->db->from('tbl_savecart');
-         $query = $this->db->get();
-         return $query->result();
-         // ,count(p_price) as count
-     }
+    //หน้าสรุปสุดท้าย
+    public function showdata_final()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_savecart');
+        $query = $this->db->get();
+        return $query->result();
+        // ,count(p_price) as count
+    }
 
 
 
@@ -419,16 +419,26 @@ class Cart_model extends CI_Model
         return $query2->result();
     }
 
-       //ที่อยู่ในรายละเอียด
-       public function address_more()
-       {
-       
-           $this->db->select('*,count(p_id) as count');
-           $this->db->from('tbl_savecart');
+    //ที่อยู่ในรายละเอียด
+    public function address_more()
+    {
+
+        $this->db->select('*,count(p_id) as count');
+        $this->db->from('tbl_savecart');
         //    $this->db->where('m_id', $m_id);
-           $query3 = $this->db->get();
-           return $query3->result();
-       }
+        $query3 = $this->db->get();
+        return $query3->result();
+    }
+
+    public function address_final()
+    {
+
+        $this->db->select('*,count(p_id) as count');
+        $this->db->from('tbl_savecart');
+        //    $this->db->where('m_id', $m_id);
+        $query5 = $this->db->get();
+        return $query5->result();
+    }
 
     public function by_bank()
     {
@@ -471,6 +481,4 @@ class Cart_model extends CI_Model
         $query2 = $this->db->get();
         return $query2->result();
     }
-
-
 }

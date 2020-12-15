@@ -60,6 +60,27 @@
         </div>
     </div>
 </div>
+<div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 style="text-align:center;"> </h4>
+
+                <?php foreach ($query5 as $r3) {
+
+                    echo '<b>';
+                    echo 'ที่อยู่.....';
+                    echo $r3->p_address;
+                    echo '</b>';
+                    echo '<br>';
+                    echo '<b>';
+                    echo 'ขนส่งโดย.....';
+                    echo $r3->p_tran;
+                    echo '</b>';
+                } ?>
+
+            </div>
+        </div>
+    </div>
 
 
 

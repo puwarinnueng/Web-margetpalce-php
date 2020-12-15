@@ -32,37 +32,37 @@
                             <div class="col-sm-12 control-label"></div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment"  value="kasikornbank.jpg">
+                                <input type="checkbox" name="p_payment" value="kasikornbank.jpg">
                                 กสิกร
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="scb.jpg">
+                                <input type="checkbox" name="p_payment" value="scb.jpg">
                                 ไทยพาณิชย์
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="krungsri.jpg">
+                                <input type="checkbox" name="p_payment" value="krungsri.jpg">
                                 กรุงศรี
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="bangkokbank.jpg">
+                                <input type="checkbox" name="p_payment" value="bangkokbank.jpg">
                                 กรุงเทพ
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="krungthai.jpg">
+                                <input type="checkbox" name="p_payment" value="krungthai.jpg">
                                 กรุงไทย
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="tmb.jpg">
+                                <input type="checkbox" name="p_payment" value="tmb.jpg">
                                 ทหารไทย
                             </div>
 
                             <div class="col-sm-12">
-                               <input type="checkbox" name="p_payment" value="promptpay.jpg">
+                                <input type="checkbox" name="p_payment" value="promptpay.jpg">
                                 พร้อมเพย์
                             </div>
 
@@ -80,5 +80,54 @@
             </div>
         </div>
     </body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 style="text-align:center;"> รายละเอียด</h4>
+
+                <?php foreach ($query2 as $rs) {
+
+                    echo '<b>';
+                    echo 'ชื่อ.....';
+                    echo $rs->m_name;
+                    echo '</b>';
+                    echo '<br>';
+                    echo '<b>';
+                    echo 'อีเมล.....';
+                    echo $rs->m_email;
+                    echo '</b>';
+                    echo '<br>';
+                    echo '<b>';
+                    echo 'เบอร์โทร.....';
+                    echo $rs->m_tel;
+                    echo '</b>';
+                } ?>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 style="text-align:center;"> </h4>
+
+                <?php foreach ($query3 as $r3) {
+
+                    echo '<b>';
+                    echo 'ที่อยู่.....';
+                    echo $r3->p_address;
+                    echo '</b>';
+                    echo '<br>';
+                    echo '<b>';
+                    echo 'ขนส่งโดย.....';
+                    echo $r3->p_tran;
+                    echo '</b>';
+                } ?>
+
+            </div>
+        </div>
+    </div>
 
     </html>
