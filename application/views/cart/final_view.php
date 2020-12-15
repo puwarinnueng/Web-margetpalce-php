@@ -101,8 +101,8 @@
                         <th>ประเภท</th>
                         <th>ชื่อสินค้า</th>
                         <th>ราคา</th>
-                        <th>ที่อยู่จัดส่ง</th>
-                        <th>ขนส่งโดย</th>
+                        <!-- <th>ที่อยู่จัดส่ง</th>
+                        <th>ขนส่งโดย</th> -->
                         <!-- <th>วิธีการชำระเงิน</th>
                         <th>สลิปโอนเงิน</th> -->
                     </tr>
@@ -115,8 +115,8 @@
                             <td> <?php echo $rs->p_type; ?> </td>
                             <td> <?php echo $rs->p_name; ?> </td>
                             <td> <?php echo $rs->p_price; ?> </td>
-                            <td> <?php echo $rs->p_address; ?> </td>
-                            <td> <?php echo $rs->p_tran; ?> </td>
+                            <!-- <td> <?php echo $rs->p_address; ?> </td>
+                            <td> <?php echo $rs->p_tran; ?> </td> -->
 
                             <!-- <td>
                                 <img src="<?php echo base_url('img'); ?>/<?php echo $rs->p_payment; ?>" width="50px">
