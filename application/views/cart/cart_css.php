@@ -41,20 +41,17 @@
         margin-top: 5%;
     }
 
-    .table_confirm_select th,
-    td {
-        border-bottom: 2px solid #003559;
-    }
-
     .table_confirm_select th {
         font-size: 16px;
         font-weight: 600;
         padding: 10px 20px;
+        border-bottom: 2px solid #003559;
     }
 
     .frist_row td {
         height: 100px;
         padding: 10px 0;
+        border-bottom: 2px solid #003559;
     }
 
     .table_confirm_select td img {
@@ -69,7 +66,7 @@
     }
 
     .second_row td {
-        padding: 20px 0;
+        padding: 50px 0px;
     }
 
     .confirm {
@@ -107,37 +104,85 @@
     .confirm_select_2 {
         margin-top: 40px;
         padding: 10px 250px;
-        border: 2px solid black;
     }
-    .form_confirm_select_2{
-        border: 2px solid black;
-        margin-top: 5%;
 
+    .form_confirm_select_2 {
+        border: 3px solid #003559;
+        margin-top: 5%;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
     }
-    .confirm_select_2 h1{
+
+    .confirm_select_2 h1 {
         font-weight: bold;
         color: #003559;
     }
-    .img_confirm img{
+
+    .img_confirm img {
         width: 150px;
         height: 150px;
         margin-top: 5%;
     }
 
-    .form_confirm input{
-        font-size: 16px;
-        margin-left: 3%;
+    .table_confirm_2 {
+        border-collapse: collapse;
+        width: 100%;
+        margin-left: 25%;
     }
 
-    .form_confirm label{
-        font-size: 16px;
+    .all_table {
+        padding: 10px 100px;
+    }
+
+    .table_confirm_2 input {
+        width: 180px;
+        padding: 0 20px;
+        line-height: 30px;
+        font-size: 14px;
+        outline: none;
+        border: none;
 
     }
-    .form_confirm{
+
+    .table_confirm_2 label {
+        line-height: 50px;
+        font-size: 16px;
+    }
+
+    .table-btn {
+        border-collapse: collapse;
+        width: 100%;
         margin-top: 5%;
+        text-align: center;
+        margin-bottom: 5%;
     }
 
-    .all{
-        line-height: 5px;
+    .back_home1 {
+        color: #20b7d5;
+        font-size: 16px;
+        border: 3px solid #20b7d5;
+        padding: 10px 20px;
+        border-radius: 55px;
+    }
+
+    .back_home1:hover {
+        text-decoration: none;
+        color: #ff9d47;
+        border: 3px solid #ff9d47;
+    }
+
+    .addtocart1 {
+        color: #fff;
+        background: #20b7d5;
+        font-size: 16px;
+        padding: 13px 20px;
+        border-radius: 55px;
+        border: none;
+        font-weight: 700;
+    }
+
+    .addtocart1:hover {
+        text-decoration: none;
+        background: #ff9d47;
+        color: #fff;
     }
 </style>

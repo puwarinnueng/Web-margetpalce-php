@@ -49,12 +49,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </table>
 
 
-
-
-
-
-
-
                     <!-- <h4 style="text-align:center;"> หน้ายืนยันการเลือกสินค้า</h4>
                 <table class="table table=bordered table=hover">
                     <thead>
