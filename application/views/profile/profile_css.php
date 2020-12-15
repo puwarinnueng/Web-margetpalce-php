@@ -162,4 +162,10 @@
         text-decoration: none;
     }
 
+    .address:active{
+        outline: none;
+        text-decoration: none;
+        border: none;
+    }
+
 </style>

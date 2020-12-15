@@ -20,7 +20,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <table class="table_confirm_select">
                         <thead>
                             <tr>
-                                <th>เลขที่สินค้า</th>
+                                <th>รหัสสินค้า</th>
                                 <th>รูปสินค้า</th>
                                 <th>ประเภท</th>
                                 <th>ชื่อสินค้า</th>

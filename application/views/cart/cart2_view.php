@@ -1,4 +1,7 @@
   <!-- หน้ายืนยันการแก้ไขข้อมูล user -->
+  <?php
+    defined('BASEPATH') or exit('No direct script access allowed');
+    ?>
   <!DOCTYPE html>
   <html lang="en">
 
@@ -49,7 +52,7 @@
                                       <tr>
                                           <input type="hidden" name="p_id" value="<?php echo $rsedit->p_id; ?>">
                                           <td><a href="<?php echo site_url('home/index') ?>" class="back_home1"><i class="fa fa-chevron-left" aria-hidden="true"></i> กลับหน้าแรก</a></td>
-                                          <td ><button type="submit" class="addtocart1">เพิ่มเข้ารถเข็น <i class="fa fa-chevron-right" aria-hidden="true"></i></button></td>
+                                          <td><button type="submit" class="addtocart1">เพิ่มเข้ารถเข็น <i class="fa fa-chevron-right" aria-hidden="true"></i></button></td>
                                       </tr>
                                   </table>
                               </div>

@@ -44,7 +44,9 @@ class Cart extends CI_Controller
         $data['query2'] = $this->cart_model->showdata_all();
         $this->load->view('navbar');
         $this->load->view('css');
+        $this->load->view('cart/cart_css');
         $this->load->view('cart/show_view', $data);
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }

@@ -186,3 +186,139 @@
         color: #fff;
     }
 </style>
+
+<!-- หน้ารถเข็น -->
+<style>
+    .cart_show_order {
+        /* border: 3px solid #003559; */
+        margin-top: 5%;
+        margin-left: 12%;
+        margin-bottom: 20%;
+    }
+
+    .cart_show_order h1 {
+        text-align: left;
+        font-weight: bold;
+        color: #003559;
+    }
+
+    .style11 {
+        border-top: 2px solid #ff9d47;
+        width: 100%;
+        /* margin-left: 14%; */
+    }
+
+
+    .table_show_order {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 8%;
+    }
+
+    .table_show_order th {
+        border-bottom: 2px solid #003559;
+        padding: 5px 0px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .table_show_order td {
+        /* border: 1px solid #003559; */
+        border-bottom: 2px solid #dddddd;
+        padding: 15px 0px;
+        font-size: 14px;
+    }
+
+    .fas {
+        color: #003559;
+    }
+
+    .fas:hover {
+        color: #ff9d47;
+    }
+
+    .result_order {
+        border: 3px solid #ff9d47;
+        margin-top: 30%;
+        padding: 15px;
+        padding-bottom: 30px;
+    }
+
+    .result_order h3 {
+        margin-top: 5%;
+        font-weight: 600;
+    }
+
+    .sum_result1 {
+        padding-top: 15px;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .sum_result1 label {
+        font-size: 14px;
+        font-weight: 300;
+        padding-right: 90px;
+    }
+
+
+    .sum_result_bold {
+        font-size: 18px;
+        font-weight: 600;
+        color: red;
+        padding-top: 15px;
+        text-align: left;
+    }
+
+    .sum_result_bold label {
+        font-size: 18px;
+        font-weight: 600;
+        color: red;
+        padding-right: 40px;
+
+    }
+
+    .sum_result p {
+        text-align: right;
+    }
+
+    .btn_buy {
+        margin-top: 15%;
+        padding: 12px 20px;
+        width: 150px;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+        border-radius: 55px;
+        background: #003559;
+        color: #fff;
+        outline: none;
+    }
+
+    .btn_buy:hover {
+        background: #20b7d5;
+        outline: none;
+    }
+
+    .btn_buy:visited {
+        outline: none;
+    }
+
+    .btn_buy_product a {
+        padding: 12px 35px;
+        width: 200px;
+        font-size: 14px;
+        border: none;
+        border-radius: 55px;
+        color: #003559;
+        background: #dddddd;
+
+    }
+
+    .btn_buy_product a:hover {
+        background: #b9d6f2;
+        text-decoration: none;
+        outline: none;
+    }
+</style>
