@@ -26,8 +26,7 @@
             <br>
             <br>
             <h4 style="text-align:center;"> สลิปโอนเงินของคุณ </h4>
-            <table class="table table=bordered table=hover">
-                <!-- <caption>    kkk</caption> -->
+            <table class="">
                 <thead>
                     <tr>
                         <!-- <th>ธนาคาร</th> -->
@@ -135,7 +134,6 @@
             <br>
             <h4 style="text-align:center;"> คุณชำระเงินด้วย </h4>
             <table class="table table=bordered table=hover">
-                <!-- <caption>    kkk</caption> -->
                 <thead>
                     <tr>
                         <!-- <th>ธนาคาร</th> -->
