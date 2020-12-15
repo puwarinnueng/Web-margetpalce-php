@@ -3,6 +3,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
+<!-- cart_view1 -->
 <style>
     hr.style1 {
         border-top: 2px solid #ff9d47;
@@ -98,5 +99,45 @@
         text-decoration: none;
         color: #ff9d47;
         border: 3px solid #ff9d47;
+    }
+</style>
+
+<!-- cart_view2 -->
+<style>
+    .confirm_select_2 {
+        margin-top: 40px;
+        padding: 10px 250px;
+        border: 2px solid black;
+    }
+    .form_confirm_select_2{
+        border: 2px solid black;
+        margin-top: 5%;
+
+    }
+    .confirm_select_2 h1{
+        font-weight: bold;
+        color: #003559;
+    }
+    .img_confirm img{
+        width: 150px;
+        height: 150px;
+        margin-top: 5%;
+    }
+
+    .form_confirm input{
+        font-size: 16px;
+        margin-left: 3%;
+    }
+
+    .form_confirm label{
+        font-size: 16px;
+
+    }
+    .form_confirm{
+        margin-top: 5%;
+    }
+
+    .all{
+        line-height: 5px;
     }
 </style>

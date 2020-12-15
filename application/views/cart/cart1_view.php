@@ -7,7 +7,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ยืนยันการเลือกสินค้า</title>
+    <title>แสดงรายละเอียดการเลือกสินค้า</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="row">
             <div class="col-md-12">
                 <div class="confirm_select">
-                    <h1>หน้ายืนยันการเลือกสินค้า</h1>
+                    <h1>แสดงรายละเอียดการเลือกสินค้า</h1>
                     <hr class="style1">
                     <table class="table_confirm_select">
                         <thead>
