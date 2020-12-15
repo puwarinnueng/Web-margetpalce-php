@@ -30,7 +30,7 @@
                            <div class="col-sm-12 control-label"></div>
                            <div class="col-sm-12">
 
-                               <button type="submit" value="cash_on_delivery" name="p_payment" class="btn btn-primary">ชำระเงินปลายทาง</button>
+                               <button type="submit" value="p_payment.png" name="p_payment" class="btn btn-primary">ชำระเงินปลายทาง</button>
 
                            </div>
                        </div>
