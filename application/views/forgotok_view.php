@@ -20,11 +20,13 @@
                             <?php foreach ($query as $rs) { ?>
                                 <form action="<?php echo site_url('user'); ?>" method="post">
                                     <tr>
-                                        <td><label>email : </label></td>
+                                        <td><label>email</label></td>
+                                        <td><label> : </label></td>
                                         <td><?php echo $rs->m_email; ?></td>
                                     </tr>
                                     <tr>
-                                        <td><label>password : </label></td>
+                                        <td><label>password</label></td>
+                                        <td><label> : </label></td>
                                         <td><?php echo $rs->m_password; ?></td>
                                     </tr>
                                 </form>
