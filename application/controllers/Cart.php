@@ -285,7 +285,9 @@ class Cart extends CI_Controller
         $data['query2'] = $this->cart_model->name_final($m_id);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('cart/address_view' ,$data);
+        $this->load->view('cart/cart_css');
+        $this->load->view('cart/address_view', $data);
+        $this->load->view('card_buttom');
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -309,7 +311,7 @@ class Cart extends CI_Controller
         $data['query3'] = $this->cart_model->address_more($m_id);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('cart/tran_view' , $data);
+        $this->load->view('cart/tran_view', $data);
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -333,7 +335,7 @@ class Cart extends CI_Controller
         $data['query3'] = $this->cart_model->address_more($m_id);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('cart/pay_view' ,$data);
+        $this->load->view('cart/pay_view', $data);
         $this->load->view('footer');
         $this->load->view('js');
     }
@@ -351,14 +353,14 @@ class Cart extends CI_Controller
     public function select_paybank()
     {
 
-        
+
         $m_id = $_SESSION['m_id'];
 
         $data['query2'] = $this->cart_model->name_final($m_id);
         $data['query3'] = $this->cart_model->address_more($m_id);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('cart/paybank_view',$data);
+        $this->load->view('cart/paybank_view', $data);
         $this->load->view('footer');
         $this->load->view('js');
     }
