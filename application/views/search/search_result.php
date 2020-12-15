@@ -76,16 +76,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
         z-index: 1;
     }
 
-    .card-product .contentBx .brand a {
+    .card-product .contentBx .brand input {
         font-size: 18px;
         font-weight: bold;
         color: #fff;
         height: auto;
         text-transform: uppercase;
-
+        padding: 0;
+        border: none;
+        background: none;
     }
 
-    .card-product .contentBx .brand a:hover {
+    .card-product .contentBx .brand input:hover {
         color: #003559;
         font-weight: bold;
         text-decoration: none;
@@ -117,9 +119,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
         margin: auto;
     }
 
+    .card-product .contentBx .buy input{
+        border: none;
+        background: #f6f6f6;
+    }
+
     .card-product:hover .contentBx .buy {
         top: 0px;
         opacity: 1;
+    }
+
+    .card-product:hover .contentBx .buy input{
+        border: none;
+        background: #f6f6f6;
     }
 </style>
 
@@ -131,19 +143,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="container">
         <div class="row">
             <?php foreach ($query as $rs) { ?>
+            <form action="<?php echo site_url('search/search_product_detail'); ?>" method="post" >
             <div class="col-md-3">
                 <div class="card-product">
                     <div class="imgBx">
                         <img src="<?php echo base_url('img'); ?>/<?php echo $rs->p_img; ?>"></a>
                     </div>
                     <div class="contentBx">
-                        <div class="brand"><a>Brand: <?php echo $rs->p_name; ?></div>
+                        <div class="brand">
+                            <input type="hidden" name="prod_id" value="<?php echo $rs->p_id; ?>"></input>
+                            <input type="submit"  value="<?php echo $rs->p_name; ?>"></input>
+                        </div>
                         <br><br>
                         <h2 class="price"><?php echo $rs->p_price; ?>-</h2>
-                        <a class="buy" href="<?php echo site_url(''); ?>">เพิ่มใส่รถเข็น</a>
+                        <div class="buy">
+                            <input type="hidden" name="prod_id" value="<?php echo $rs->p_id; ?>"></input>
+                            <input type="submit" value="เพิ่มใส่รถเข็น" formaction="<?php echo site_url('search/search_product_cart'); ?>"></input>
+                        </div>
                     </div>
                 </div>
             </div>
+            </form>
             <?php } ?>
         </div>
     </div>
