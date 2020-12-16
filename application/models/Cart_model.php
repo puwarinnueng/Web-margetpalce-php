@@ -125,9 +125,9 @@ class Cart_model extends CI_Model
         );
 
         $query = $this->db->update('tbl_savecart', $data);
-        if ($query) {
-            echo ' ok';
-        } else echo 'false';
+        // if ($query) {
+        //     echo ' ok';
+        // } else echo 'false';
     }
 
 
