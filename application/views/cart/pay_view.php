@@ -83,7 +83,7 @@
                                        </td>
                                    </tr>
                                </table>
-                               <p>บริการจัดส่ง</p>
+                               <p>บริการจัดส่งโดย</p>
                                <table class="table_content_sum3">
                                    <tr>
                                        <td><?php foreach ($query3 as $r3) {

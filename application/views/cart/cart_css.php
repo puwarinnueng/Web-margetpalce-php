@@ -564,3 +564,54 @@
         font-size: 12px;
     }
 </style>
+
+<!-- paybank_view -->
+<style>
+    .form_select_bank {
+        border: 2px solid #003559;
+        padding: 0px 20px;
+        margin-top: 5%;
+        height: 430px;
+    }
+
+    .table_select_bank {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .table_select_bank td{
+        /* border: 2px solid #003559; */
+        padding: 20px 0;
+    }
+
+    .table_select_bank img{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5%;
+    }
+
+    .table-btn-paybank{
+        width: 330px;
+        text-align: center;
+        margin-top: 13%;
+        margin-left: 43%;
+    }
+
+    .table-btn-paybank a {
+        padding: 12px 35px;
+        width: 200px;
+        font-size: 14px;
+        border: none;
+        border-radius: 55px;
+        color: #003559;
+        background: #dddddd;
+    }
+
+    .table-btn-paybank a:hover {
+        background: #b9d6f2;
+        text-decoration: none;
+        outline: none;
+    }
+</style>
