@@ -12,7 +12,7 @@ class Search extends CI_Controller
     //query ข้อมูลของสินค้าโดยเอา Search ที่ได้จาก Search Box ไปใส่ใน where ใช้ or เทียบกับคอลัม p_name และ p_type
     public function search_product()
     {
-        $query = $this->db->query("select * from tbl_cart where p_name='" . $_POST['searchs'] . "' or p_type='" . $_POST['searchs'] . "'");
+        $query = $this->db->query("select * from tbl_cart where p_name like '%" . $_POST['searchs'] . "%' or p_type like '%" . $_POST['searchs'] . "%'");
         $row = $query->row_array();
         if (count($row) > 0) {
             $data['query'] = $this->cart_model->searching($_POST['searchs']);
