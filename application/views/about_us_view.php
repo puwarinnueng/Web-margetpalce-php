@@ -13,7 +13,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <head>
     <meta charset="utf-8">
-    <title>com</title>
+    <title>About Us | Com Store</title>
     <link rel="stylesheet" href="Home_view.php">
 
 </head>
@@ -29,10 +29,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <br>
             <h1><b>COM STORE </b></h1>
             <br>
-            <p>เราคือผู้จัดจำหน่ายคอมพิวเตอร์ และอุปกรณ์ไอทีชั้นนำของประเทศไทย <br>ที่มีประสบการณ์ให้บริการมากกว่า <b>4</b> ปี </p>
+            <p>เราคือผู้จัดจำหน่ายคอมพิวเตอร์ <br>และอุปกรณ์ไอทีชั้นนำของประเทศไทย <br>ที่มีประสบการณ์ให้บริการมากกว่า <b>4</b> ปี </p>
         </div>
         <div class="blog2">
-            <div class="logo_icon">
+            <div class="the_icon">
                 <img src="<?php echo base_url('img/cpu2.png'); ?>">
             </div>
         </div>
@@ -44,8 +44,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <p>ทางร้านเราใส่ใจในรายละเอียด <br>และคุณภาพในการบริการอย่างมาก <br>เพื่อตอบสนองความต้องการของลูกค้า <br>และความเปลี่ยนแปลงของเทคโนโลยี</p>
         </div>
         <div class="blog4">
-            <div class="quality_icon">
-                <img src="<?php echo base_url('img/quality_icon.png'); ?>">
+            <div class="the_icon">
+                <img src="<?php echo base_url('img/certifie_icon.png'); ?>">
             </div>
         </div>
     </div>
@@ -53,11 +53,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="container-fluid">
         <div class="blog5">
         <br><br>
-            <p>ลูกค้าสามารถสั่งสินค้าออนไลน์ และชำระเงิน<br>ผ่านทาง E-Banking ได้ผ่านหลากหลายธนาคาร อาทิ เช่น ธนาคารกรุงศรี</p>
+            <p>ลูกค้าสามารถสั่งสินค้าออนไลน์ และชำระเงิน<br>ผ่านทาง E-Banking ได้ผ่านหลากหลายธนาคาร <br>อาทิ เช่น ธนาคารกรุงศรี</p>
         </div>
         <div class="blog6">
-            <div class="banking_icon">
-                <img src="<?php echo base_url('img/banking_icon.png'); ?>">
+            <div class="the_icon">
+                <img src="<?php echo base_url('img/online_bank_icon.png'); ?>">
             </div>
         </div>
     </div>
@@ -65,11 +65,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="container-fluid">
         <div class="blog7">
         <br><br>
-            <p>รับบริการส่งสินค้าของท่านอย่างรวดเร็ว ด้วยบริการจากบริษัทขนส่งชั้นนำของประเทศอย่าง Kerry และ DHL</p>
+            <p>รับบริการส่งสินค้าของท่านอย่างรวดเร็ว <br> ด้วยบริการจากบริษัทขนส่งชั้นนำของประเทศอย่าง Kerry และ DHL</p>
         </div>
         <div class="blog8">
-            <div class="deliver_icon">
-                <img src="<?php echo base_url('img/deliver_icon.png'); ?>">
+            <div class="the_icon">
+                <img src="<?php echo base_url('img/deliver_truck_icon.png'); ?>">
             </div>
         </div>
     </div>
@@ -92,6 +92,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     .container-fluid {
         width: 74%;
         height: 50%;
+        display: table;
     }
 
     .blog1 {
@@ -154,32 +155,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
         float: left;
     }
 
-    .logo_icon img {
-        width: 85%;
-        height: 85%;
-        margin-top: auto;
-        margin-right: auto;
+    .the_icon {
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
     }
 
-    .quality_icon img {
-        width: 85%;
-        height: 85%;
-        margin-top: auto;
-        margin-right: auto;
+    .the_icon img {
+        max-width: 70%;
+        height: auto;
     }
 
-
-    .banking_icon img {
-        width: 70%;
-        height: 100%;
-        margin-top: auto;
-        margin-right: auto;
-    }
-
-    .deliver_icon img {
-        width: 80%;
-        height: 100%;
-        margin-top: auto;
-        margin-right: auto;
-    }
+    
 </style>

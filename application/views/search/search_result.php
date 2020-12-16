@@ -77,14 +77,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
     }
 
     .card-product .contentBx .brand input {
-        font-size: 18px;
+        font-size: 12px;
         font-weight: bold;
         color: #fff;
         height: auto;
         text-transform: uppercase;
-        padding: 0;
+        padding: 0; 
         border: none;
         background: none;
+        word-wrap: break-word;
+        white-space:pre-wrap;
+        margin-top: auto;
     }
 
     .card-product .contentBx .brand input:hover {
@@ -95,7 +98,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     .card-product .contentBx .price {
         color: #003559;
-        font-size: 15px;
+        font-size: 22px;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 1px;
