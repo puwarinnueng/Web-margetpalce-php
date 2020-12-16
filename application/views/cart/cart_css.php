@@ -300,10 +300,12 @@
     .btn_buy:hover {
         background: #20b7d5;
         outline: none;
+        border: none;
     }
 
     .btn_buy:visited {
         outline: none;
+        border: none;
     }
 
     .btn_buy_product a {
@@ -321,6 +323,7 @@
         background: #b9d6f2;
         text-decoration: none;
         outline: none;
+        border: none;
     }
 </style>
 
@@ -403,9 +406,8 @@
     .sum_result2 p {
         font-size: 15px;
         font-weight: 600;
-        padding: 5px 0px;
         text-align: left;
-        margin-top: 5%;
+        margin-top: 7%;
         /* color: #ff9d47; */
     }
 
@@ -465,12 +467,100 @@
         font-size: 12px;
     }
 
-    .table_content_sum2 td{
-        word-wrap:break-word
-        
+    .table_content_sum2 td {
+        word-wrap: break-word
     }
 
-    .table_content_sum2 label{
+    .table_content_sum2 label {
         text-align: left;
+    }
+</style>
+
+<!-- pay_view -->
+<style>
+    .form_show_payment {
+        border: 2px solid #003559;
+        padding: 0px 80px;
+        margin-top: 5%;
+        height: 320px;
+    }
+
+    .table_show_payment {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .btn_show_COD {
+        padding: 15px 20px;
+        border-radius: 10px;
+        background: #20b7d5;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+    }
+
+    .btn_show_COD:hover {
+        background: #ff9d47;
+        border: none;
+        outline: none;
+    }
+
+    .btn_show_COD .fas {
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .btn_show_cash {
+        padding: 15px 20px;
+        border-radius: 10px;
+        background: #20b7d5;
+        color: #fff;
+        border: none;
+        font-size: 14px;
+    }
+
+    .btn_show_cash:hover {
+        background: #ff9d47;
+        border: none;
+        outline: none;
+    }
+
+    .btn_show_cash .fas {
+        color: #fff;
+        padding-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .table-btn-trans {
+        width: 330px;
+        text-align: center;
+        margin-top: 30%;
+        margin-left: 55%;
+    }
+
+    .table-btn-trans a {
+        padding: 12px 35px;
+        width: 200px;
+        font-size: 14px;
+        border: none;
+        border-radius: 55px;
+        color: #003559;
+        background: #dddddd;
+    }
+
+    .table-btn-trans a:hover {
+        background: #b9d6f2;
+        text-decoration: none;
+        outline: none;
+    }
+
+    .table_content_sum3 {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+        font-size: 12px;
     }
 </style>
