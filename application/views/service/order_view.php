@@ -28,31 +28,89 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="container">
     <div class="buying_step">
         <div class="step1"><br>
-            <h2 class="step_head"><b>ขั้นตอนที่ 1</b></h2>
+            <h1 class="step_head"><b>ขั้นตอนที่ 1</b></h1>
             <br>
-            <h3>เมื่อพบสินค้าที่ตัดสินใจจะซื้อแล้ว ให้กดที่ปุ่ม "เพิ่มใส่รถเข็น" โดยสินค้าจะถูกนำเข้าไปอยู่ในรถเข็นสินค้า</h3>
+            <h2>ที่เมนูด้านซ้ายมือ สินค้าจะแบ่งตามหมวดหมู่ มีให้เลือกอย่างหลากหลาย" </h2>
             <br>
             <img src="<?php echo base_url('img/buying_step1.jpg'); ?>">
-            <br><br><br><br>
+            <br><br><br><br>         
         </div>
 
-        <div class="step2">
-            <h2 class="step_head"><b>ขั้นตอนที่ 2</b></h2>
+        <div class="step2"><br>
+            <h1 class="step_head"><b>ขั้นตอนที่ 2</b></h1>
             <br>
-            <h3>เมื่อเพิ่มสินค้าทีต้องการซื้อเข้าในรถเข็นแล้ว สามารถกดเข้ามาดูรถเข็นเพื่อดูรายการสินค้าได้</h3>
+            <h2>เมื่อพบสินค้าที่ตัดสินใจจะซื้อแล้ว ให้กดที่ปุ่ม "เพิ่มใส่รถเข็น" </h2>
             <br>
             <img src="<?php echo base_url('img/buying_step2.jpg'); ?>">
-            <br><br><br><br>
+            <br><br><br><br>         
         </div>
 
         <div class="step3">
-            <h2 class="step_head"><b>ขั้นตอนที่ 3</b></h2>
-            <br>
-            <h3>หากเลือกสินค้าที่ต้องการจะซื้อครบแล้ว ให้กดที่ปุ่ม "ดำเนินการสั่งซื้อ" เพื่อดำเนินการต่อ แต่ถ้าหากยังต้องการ</h3>
+            <h1 class="step_head"><b>ขั้นตอนที่ 3</b></h1>
+            <h2>หลังจากนั้นจะพบหน้าแสดงรายละเอียดการเลือกสินค้า หากตัดสินใจเลือกสินค้านี้ ก็สามารถกดที่ปุ่ม "ยืนยันการเลือกสินค้า" 
+                <br>แต่ถ้าต้องการดูสินค้าอื่นแทน ก็สามารถกด "กลับหน้าแรก" เพื่อกลับไปเลือกสินค้าต่อได้เลย
+            </h2>
             <br>
             <img src="<?php echo base_url('img/buying_step3.jpg'); ?>">
             <br><br><br><br>
         </div>
+
+        <div class="step3">
+            <h1 class="step_head"><b>ขั้นตอนที่ 4</b></h1>
+            <br>
+            <h2>หลังจากยืนยันการเลือกสินค้า จะพบหน้าการยืนยันสินค้าเข้ารถเข็น สามารถกดที่ปุ่ม "เพิ่มเข้ารถเข็น"
+                แล้วสินค้าจะเข้าไปอยู่ในรถเข็น <br>แต่ถ้ายังต้องการดูสินค้าอื่นแทน ก็สามารถกด "กลับหน้าแรก" เพื่อกลับไปเลือกสินค้าต่อได้เหมือนเดิม
+            </h2>
+            <br>
+            <img src="<?php echo base_url('img/buying_step4.jpg'); ?>">
+            <br><br><br><br>
+        </div>
+
+        <div class="step5">
+            <h1 class="step_head"><b>ขั้นตอนที่ 5</b></h1>
+            <br>
+            <h2>จากนั้นสินค้าที่เลือกก็จะมาอยู่ที่หน้ารถเข็นสินค้า หากจะทำการสั่งซื้อ ก็สามารถกดที่ปุ่ม "ดำเนินการสั่งซื้อ"
+                <br>โดยรายการสินค้าที่เลือก พร้อมราคาจะอยู่ที่ขวามือของจอ
+                <br>หากต้องการเลือกสินค้าต่อ ก็สามารถกดที่ปุ่ม "เลือกสินค้าต่อ" ซึ่งจะพากลับไปที่หน้าหลัก
+            </h2>
+            <br>
+            <img src="<?php echo base_url('img/buying_step5_1.jpg'); ?>">
+            <br><br><br><br>
+
+            <h2>สามารถเข้าดูรถเข็นได้ ด้วยการกดที่ไอคอนรถเข็นที่มุมบนของจอ</h2>
+            <br>
+            <img src="<?php echo base_url('img/buying_step5_2.jpg'); ?>">
+            <br><br><br><br>
+        </div>
+
+        <div class="step6">
+            <h1 class="step_head"><b>ขั้นตอนที่ 6</b></h1>
+            <br>
+            <h2>กรอกที่อยู่ทางไปรษณีย์ที่ต้องการให้ทางจัดส่งสินค้าไปให้ แล้วก็กดปุ่ม "ดำเนินการต่อ"</h2>
+            <br>
+            <img src="<?php echo base_url('img/buying_step6.jpg'); ?>">
+            <br><br><br><br>
+        </div>
+
+        <div class="step7">
+            <h1 class="step_head"><b>ขั้นตอนที่ 7</b></h1>
+            <br>
+            <h2>เลือกบริษัทผู้จัดส่งที่ต้องการ ระหว่าง Kerry กับ DHL แล้วก็กดปุ่ม "ดำเนินการต่อ"</h2>
+            <br>
+            <img src="<?php echo base_url('img/buying_step7.jpg'); ?>">
+            <br><br><br><br>
+        </div>
+
+        <div class="step8">
+            <h1 class="step_head"><b>ขั้นตอนที่ 8</b></h1>
+            <br>
+            <h2>เลือกวิธีการชำระเงินระหว่าง ชำระเงินปลายทาง หรือผ่านบัญชีธนาคาร โดยจะมีรายละเอียดติดต่อและจัดส่งปรากฎอยู่ด้านล่าง</h2>
+            <br>
+            <img src="<?php echo base_url('img/buying_step8.jpg'); ?>">
+            <br><br><br><br>
+        </div>
+
+        
 
     </div>
     </div>
@@ -76,10 +134,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
     img {
         max-width: 85%;
         height: auto;
-        box-shadow: 10px 10px 5px #ccc;
-        -moz-box-shadow: 10px 10px 5px #ccc;
-        -webkit-box-shadow: 10px 10px 5px #ccc;
-        -khtml-box-shadow: 10px 10px 5px #ccc;
+        box-shadow: 10px 10px 5px #0D2137;
+        -moz-box-shadow: 10px 10px 5px #0D2137;
+        -webkit-box-shadow: 10px 10px 5px #0D2137;
+        -khtml-box-shadow: 10px 10px 5px #0D2137;
     }
     
     .buying_step {
