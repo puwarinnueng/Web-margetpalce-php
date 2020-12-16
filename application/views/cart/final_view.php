@@ -76,6 +76,11 @@
                     echo 'ขนส่งโดย.....';
                     echo $r3->p_tran;
                     echo '</b>';
+                    echo '<br>';
+                    echo '<b>';
+                    echo 'ราคารวม.....';
+                    echo $r3->count;
+                    echo '</b>';
                 } ?>
 
             </div>
@@ -97,7 +102,7 @@
                 <thead>
                     <tr>
                         <th>ไอดีสินค้า</th>
-                        <th>เลขที่สินค้า</th>
+                        <!-- <th>เลขที่สินค้า</th> -->
                         <th>ประเภท</th>
                         <th>ชื่อสินค้า</th>
                         <th>ราคา</th>
@@ -111,7 +116,7 @@
                     <?php foreach ($query as $rs) { ?>
                         <tr>
                             <td> <?php echo $rs->id; ?> </td>
-                            <td> <?php echo $rs->p_id; ?> </td>
+                            <!-- <td> <?php echo $rs->p_id; ?> </td> -->
                             <td> <?php echo $rs->p_type; ?> </td>
                             <td> <?php echo $rs->p_name; ?> </td>
                             <td> <?php echo $rs->p_price; ?> </td>
