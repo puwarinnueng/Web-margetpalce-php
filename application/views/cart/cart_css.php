@@ -324,7 +324,7 @@
     }
 </style>
 
-<!-- กรอกที่อยู่ -->
+<!-- address_view -->
 <style>
     .show_address {
         /* border: 3px solid #003559; */
@@ -406,19 +406,71 @@
         padding: 5px 0px;
         text-align: left;
         margin-top: 5%;
+        /* color: #ff9d47; */
     }
 
     .table_content_sum {
         border-collapse: collapse;
         width: 100%;
+        table-layout: fixed;
+    }
+
+    .table_content_sum label {
+        font-weight: 300;
     }
 
     .table_content_sum td {
         /* border: 3px solid #003559; */
         font-size: 12px;
+        word-wrap: break-word;
     }
 
-    .result_order hr{
+    .result_order hr {
         border-top: 2px solid #dddddd;
+    }
+</style>
+
+<!-- tran_view -->
+<style>
+    .form_show_trans {
+        border: 2px solid #003559;
+        padding: 0px 30px;
+        margin-top: 5%;
+        height: 350px;
+
+    }
+
+    .transparant {
+        /* border: 3px solid #003559; */
+        height: 220px;
+        text-align: left;
+        padding: 0px 20px;
+    }
+
+    .transparant_kerry img {
+        width: 110px;
+        height: 100px;
+        padding-left: 10px;
+    }
+
+    .transparant_dhl img {
+        width: 120px;
+        height: 80px;
+    }
+
+    .table_content_sum2 {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+        font-size: 12px;
+    }
+
+    .table_content_sum2 td{
+        word-wrap:break-word
+        
+    }
+
+    .table_content_sum2 label{
+        text-align: left;
     }
 </style>

@@ -17,8 +17,8 @@ class Home extends CI_Controller
         // print_r($_SESSION);
         $this->load->view('navbar');
         $this->load->view('css');
-        $this->load->view('home_view');
         $this->load->view('Home_css');
+        $this->load->view('home_view');
         $this->load->view('social');
         $this->load->view('js');
         $this->load->view('card_buttom');
