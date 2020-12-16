@@ -104,13 +104,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="step8">
             <h1 class="step_head"><b>ขั้นตอนที่ 8</b></h1>
             <br>
-            <h2>เลือกวิธีการชำระเงินระหว่าง ชำระเงินปลายทาง หรือผ่านบัญชีธนาคาร โดยจะมีรายละเอียดติดต่อและจัดส่งปรากฎอยู่ด้านล่าง</h2>
+            <h2>เลือกวิธีการชำระเงินระหว่าง ชำระเงินปลายทาง หรือผ่านบัญชีธนาคาร โดยจะมีรายละเอียดติดต่อและจัดส่งปรากฎอยู่ด้านข้างจอ</h2>
             <br>
             <img src="<?php echo base_url('img/buying_step8.jpg'); ?>">
             <br><br><br><br>
         </div>
-
         
+        <h2><a href="<?php echo site_url('home/how_payment'); ?>">ดูวิธีการชำระเงินและแจ้งชำระเงิน</a></h2><br><br>
 
     </div>
     </div>
