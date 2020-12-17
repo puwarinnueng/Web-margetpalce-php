@@ -30,7 +30,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <br>
         <h2>หลังจากยืนยันการสั่งซื้อสินค้าแล้ว ก็เลือกระหว่างชำระเงินปลาย หรือชำระผ่านบัญชีธนาคาร</h2>
         <br>
-        <img src="<?php echo base_url('img/buying_step8.jpg'); ?>">
+        <img src="<?php echo base_url('img/buy_step8.png'); ?>">
         <br><br><br>
         <h3><a href="<?php echo site_url('home/how_order'); ?>">ดูวิธีการสั่งซื้อสินค้าออนไลน์</a></h3><br><br>
 
@@ -41,12 +41,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <br> และกดปุ่ม "ตกลงการสั่งซื้อ"
             </h2>
             <br>
-            <img src="<?php echo base_url('img/payment_bank1.jpg'); ?>">
+            <img src="<?php echo base_url('img/how_to_pay1.png'); ?>">
             <br><br><br><br>
 
             <h2>จากนั้นจะขึ้นหน้าสรุปคำสั่งซื้อทั้งหมด ให้ [1] แนบสลิปโอนเงินให้เรียบร้อย <br>จากนั้นจึงกดปุ่ม [2] "อัปโหลดสลิป"</h2>
             <br>
-            <img src="<?php echo base_url('img/payment_bank1.jpg'); ?>">
+            <img src="<?php echo base_url('img/how_to_pay2.png'); ?>">
+            <br><br><br><br>
+            <img src="<?php echo base_url('img/how_to_pay3.png'); ?>">
             <br><br><br><br>
         </div>
 
@@ -55,7 +57,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <h2>หากเลือกชำระเงินปลายทาง จะถูกนำมาที่หน้าสรุปคำสั่งซื้อเลย <br>โดยให้กดปุ่ม "อัปโหลดสลิป" <b>โดยที่ไม่ต้องแนบสลิปมาด้วย</b></h2>
             <br>
-            <img src="<?php echo base_url('img/payment_bank1.jpg'); ?>">
+            <img src="<?php echo base_url('img/how_to_pay4.png'); ?>">
             <br><br><br><br>
         </div>
 
@@ -75,17 +77,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
         align-content: center;
         font-family: 'Prompt', sans-serif;
     }
+    
+    .how_to_pay {
+        background-color: #E0EAF5;
+    }
 
-    img {
+    .how_to_pay img {
         max-width: 85%;
         height: auto;
         box-shadow: 10px 10px 5px #0D2137;
         -moz-box-shadow: 10px 10px 5px #0D2137;
         -webkit-box-shadow: 10px 10px 5px #0D2137;
         -khtml-box-shadow: 10px 10px 5px #0D2137;
-    }
-    
-    .how_to_pay {
-        background-color: #E0EAF5;
     }
 </style>
