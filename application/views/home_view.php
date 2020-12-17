@@ -114,17 +114,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
           </div>
           <div class="slide slide_2">
             <div class="slide-content">
-              <img src="<?php echo base_url('img/img2.jpg'); ?>">
+              <img src="<?php echo base_url('img/slide2.gif'); ?>">
             </div>
           </div>
           <div class="slide slide_3">
             <div class="slide-content">
-              <img src="<?php echo base_url('img/img3.jpg'); ?>">
+              <img src="<?php echo base_url('img/slide3.png'); ?>">
             </div>
           </div>
           <div class="slide slide_4">
             <div class="slide-content">
-              <img src="<?php echo base_url('img/img4.jpg'); ?>">
+              <img src="<?php echo base_url('img/slide4.gif'); ?>">
             </div>
           </div>
         </div>
