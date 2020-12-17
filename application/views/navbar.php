@@ -38,7 +38,7 @@
             <table>
               <tr>
                 <td><a href="<?php echo site_url('cart/showcart'); ?>" class="add_to_cart"><i class="fa fa-shopping-cart"></i></a></td>
-                <!-- รถเข็น -->
+                
               </tr>
               <tr>
                 <!-- <td><a href="https://www.google.com/" class="add_to_cart_txt">รถเข็น</a></td> -->

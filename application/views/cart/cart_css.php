@@ -581,18 +581,18 @@
         margin-top: 5%;
     }
 
-    .table_select_bank td{
+    .table_select_bank td {
         /* border: 2px solid #003559; */
         padding: 20px 0;
     }
 
-    .table_select_bank img{
+    .table_select_bank img {
         width: 60px;
         height: 60px;
         margin-bottom: 5%;
     }
 
-    .table-btn-paybank{
+    .table-btn-paybank {
         width: 330px;
         text-align: center;
         margin-top: 13%;
@@ -613,5 +613,181 @@
         background: #b9d6f2;
         text-decoration: none;
         outline: none;
+    }
+</style>
+
+<!-- final_view -->
+<style>
+    .head_final_view {
+        /* border: 3px solid #003559; */
+        margin-top: 5%;
+        margin-left: 12%;
+        margin-bottom: 5%;
+    }
+
+    .head_final_view h1 {
+        text-align: left;
+        font-weight: bold;
+        color: #003559;
+        padding-top: 10px;
+    }
+
+    .content-show-product {
+        border: 2px solid #003559;
+        padding: 30px 50px;
+        text-align: center;
+        margin-left: 8%;
+        margin-right: 8%;
+        /* margin: auto; */
+    }
+
+    .content-show-product h3 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .table_product {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 3%;
+        table-layout: fixed;
+    }
+
+    .table_product th {
+        border-top: 3px solid #003559;
+        border-bottom: 3px solid #003559;
+        padding: 5px 0px;
+        font-size: 14px;
+    }
+
+    .table_product td {
+        font-size: 14px;
+        font-weight: 300;
+        /* border: 2px solid #003559; */
+        line-height: 40px;
+        word-wrap: break-word;
+    }
+    .tr_count td{
+        border-bottom: 1px solid #003559;
+        border-top: 1px solid #003559;
+        font-size: 16px;
+        font-weight: 700;
+        color: red;
+    }
+
+    .content-show-user {
+        border: 2px solid #003559;
+        margin-left: 16.5%;
+        margin-bottom: 2%;
+        padding: 15px 50px;
+        width: 460px;
+    }
+
+    .content-show-user h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .table-show-user {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 3%;
+        table-layout: fixed;
+    }
+
+    .table-show-user td{
+        /* border: 2px solid #003559; */
+        word-wrap: break-word;
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .content-show-tran{
+        border: 2px solid #003559;
+        margin-right: 16.5%;
+        margin-bottom: 2%;
+        padding: 15px 50px;
+        /* height: 230px; */
+        /* width: 460px; */
+    }
+
+    .content-show-tran h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .table-show-tran {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 3%;
+        table-layout: fixed;
+    }
+
+    .table-show-tran td{
+        /* border: 2px solid #003559; */
+        word-wrap: break-word;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .table-show-tran img{
+        /* border: 2px solid #003559; */
+        text-align: center;
+        width: 235px;
+        height: 150px;
+    }
+
+    .content-upload-img{
+        border: 2px solid #003559;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 1%;
+        padding: 25px 100px;
+
+    }
+
+    .table-upload-img{
+        /* border-collapse: collapse; */
+        width: 70%;
+        text-align: center;
+        margin-left: 15%;
+        margin-top: 5%;
+        
+    }
+    .content-upload-img h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .table-upload-img td{
+        /* border: 2px solid #003559; */
+    }
+
+    .table-upload-img img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .select-img{
+        width: 100px;
+        margin-left: 15%;
+        outline: none;
+        border: none;
+    }
+
+    .select-img:hover{
+        outline: none;
+        border: none;
+    }
+
+    .upload{
+        padding: 12px;
+        border-radius: 55px;
+        border: none;
+        background: #20b7d5;
+        color: #fff;
+    }
+
+    .upload:hover{
+        background: #ff9d47;
     }
 </style>
