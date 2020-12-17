@@ -109,7 +109,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="inner">
           <div class="slide slide_1">
             <div class="slide-content">
-              <img src="<?php echo base_url('img/img1.jpg'); ?>">
+              <img src="<?php echo base_url('img/slide1.png'); ?>">
             </div>
           </div>
           <div class="slide slide_2">
