@@ -381,3 +381,16 @@
 
 
 </style>
+
+<!-- รูปโลโก้ -->
+
+<style>
+    .img_logo img{
+        width: 200px;
+        height: 80px;
+        /* border: 1px solid white; */
+        margin-left: 25%;
+        margin-bottom: 8%;
+        margin-top: -8%;
+    }
+</style>

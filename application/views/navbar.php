@@ -14,9 +14,11 @@
       <!-- LOGO -->
       <div class="row row1">
         <div class="col-md-3">
-          <a href="<?php echo site_url('home'); ?>">
-            <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="20%">
-          </a>
+          <div class="img_logo">
+            <a href="<?php echo site_url('home'); ?>">
+              <img src="<?php echo base_url('img/logo.gif'); ?>">
+            </a>
+          </div>
         </div>
 
         <!-- Search Box -->
@@ -24,9 +26,9 @@
           <div class="wrapper">
             <div class="box-Container">
               <form action="<?php echo site_url('search/search_product'); ?>" method="post" class="form-hoizontal">
-              <input type="text" class="box-input" name="searchs"  placeholder="Search Anything You Want... ">
-              <input type="submit" value="Search"class="close-btn">
-              <span><i class="fa fa-search"></i></span>
+                <input type="text" class="box-input" name="searchs" placeholder="Search Anything You Want... ">
+                <input type="submit" value="Search" class="close-btn">
+                <span><i class="fa fa-search"></i></span>
               </form>
             </div>
           </div>
@@ -38,7 +40,7 @@
             <table>
               <tr>
                 <td><a href="<?php echo site_url('cart/showcart'); ?>" class="add_to_cart"><i class="fa fa-shopping-cart"></i></a></td>
-                
+
               </tr>
               <tr>
                 <!-- <td><a href="https://www.google.com/" class="add_to_cart_txt">รถเข็น</a></td> -->

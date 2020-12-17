@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
           <div align="center">
             <a>
-              <img src="<?php echo base_url('img/menu1.jpg'); ?>" width="25%">
+              <img src="<?php echo base_url('img/logo.gif'); ?>" width="60%">
               <br>
               <p1>
                 <br>
