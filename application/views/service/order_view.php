@@ -32,7 +32,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <h2>ที่เมนูด้านซ้ายมือ สินค้าจะแบ่งตามหมวดหมู่ มีให้เลือกอย่างหลากหลาย </h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step1.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step1.png'); ?>">
             <br><br><br><br>         
         </div>
 
@@ -41,7 +41,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <h2>เมื่อพบสินค้าที่ตัดสินใจจะซื้อแล้ว ให้กดที่ปุ่ม "เพิ่มใส่รถเข็น" </h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step2.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step2.png'); ?>">
             <br><br><br><br>         
         </div>
 
@@ -51,7 +51,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <br>แต่ถ้าต้องการดูสินค้าอื่นแทน ก็สามารถกด [2] "กลับหน้าแรก" เพื่อกลับไปเลือกสินค้าต่อได้เลย
             </h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step3.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step3.png'); ?>">
             <br><br><br><br>
         </div>
 
@@ -62,7 +62,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 แล้วสินค้าจะเข้าไปอยู่ในรถเข็น <br>แต่ถ้ายังต้องการดูสินค้าอื่นแทน ก็สามารถกด [2] "กลับหน้าแรก" เพื่อกลับไปเลือกสินค้าต่อได้เหมือนเดิม
             </h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step4.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step4.png'); ?>">
             <br><br><br><br>
         </div>
 
@@ -74,12 +74,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <br>หากต้องการเลือกสินค้าต่อ ก็สามารถกดที่ปุ่ม [2] "เลือกสินค้าต่อ" ซึ่งจะพากลับไปที่หน้าหลัก
             </h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step5_1.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step5_1.png'); ?>">
             <br><br><br><br>
 
             <h2>สามารถเข้าดูรถเข็นได้ ด้วยการกดที่ไอคอนรถเข็นที่มุมบนของจอ</h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step5_2.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step5_2.png'); ?>">
             <br><br><br><br>
         </div>
 
@@ -88,7 +88,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <h2>กรอกที่อยู่ทางไปรษณีย์ที่ต้องการให้ทางจัดส่งสินค้าไปให้ แล้วก็กดปุ่ม "ดำเนินการต่อ"</h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step6.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step6.png'); ?>">
             <br><br><br><br>
         </div>
 
@@ -97,7 +97,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <h2>เลือกบริษัทผู้จัดส่งที่ต้องการ ระหว่าง Kerry กับ DHL แล้วก็กดปุ่ม "ดำเนินการต่อ"</h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step7.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step7.png'); ?>">
             <br><br><br><br>
         </div>
 
@@ -106,7 +106,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <br>
             <h2>เลือกวิธีการชำระเงินระหว่าง ชำระเงินปลายทาง หรือผ่านบัญชีธนาคาร โดยจะมีรายละเอียดติดต่อและจัดส่งปรากฎอยู่ด้านข้างจอ</h2>
             <br>
-            <img src="<?php echo base_url('img/buying_step8.jpg'); ?>">
+            <img src="<?php echo base_url('img/buy_step8.png'); ?>">
             <br><br><br><br>
         </div>
         
@@ -130,17 +130,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
         align-content: center;
         font-family: 'Prompt', sans-serif;
     }
+    
+    .buying_step {
+        background-color: #E0EAF5;
+    }
 
-    img {
+    .buying_step img {
         max-width: 85%;
         height: auto;
         box-shadow: 10px 10px 5px #0D2137;
         -moz-box-shadow: 10px 10px 5px #0D2137;
         -webkit-box-shadow: 10px 10px 5px #0D2137;
         -khtml-box-shadow: 10px 10px 5px #0D2137;
-    }
-    
-    .buying_step {
-        background-color: #E0EAF5;
     }
 </style>
