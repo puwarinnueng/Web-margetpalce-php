@@ -11,6 +11,7 @@
         width: 1080px;
         max-width: 100%;
         text-align: center;
+        /* border: 1px solid red; */
     }
 
     #slider input[type=radio] {
@@ -23,9 +24,8 @@
     }
 
     #slides {
-        padding: 10px;
         height: 360px;
-        border: 3px solid #ccc;
+        /* border: 3px solid #ccc; */
         background: #fff;
         position: relative;
         z-index: 1;
