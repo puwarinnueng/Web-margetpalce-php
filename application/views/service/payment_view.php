@@ -28,7 +28,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="container">
     <div class="how_to_pay">
         <br>
-        <h2>หลังจากยืนยันการสั่งซื้อสินค้าแล้ว ก็เลือกระหว่างชำระเงินปลาย หรือชำระผ่านบัญชีธนาคาร</h2>
+        <h2>หลังจากยืนยันการสั่งซื้อสินค้าแล้ว ก็เลือกระหว่างชำระเงินปลายทาง หรือชำระผ่านบัญชีธนาคาร</h2>
         <br>
         <img src="<?php echo base_url('img/buy_step8.png'); ?>">
         <br><br><br>
