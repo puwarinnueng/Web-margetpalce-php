@@ -41,7 +41,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <br> และกดปุ่ม "ตกลงการสั่งซื้อ"
             </h2>
             <br>
-            <img src="<?php echo base_url('img/how_to_pay1.png'); ?>">
+            <img src="<?php echo base_url('img/how_to_pay01.png'); ?>">
             <br><br><br><br>
 
             <h2>จากนั้นจะขึ้นหน้าสรุปคำสั่งซื้อทั้งหมด ให้ [1] แนบสลิปโอนเงินให้เรียบร้อย <br>จากนั้นจึงกดปุ่ม [2] "อัปโหลดสลิป"</h2>
